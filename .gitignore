@@ -1,0 +1,18 @@
+# ARIS 运行产物(不跟踪会话/中间态;数据与论文照常跟踪)
+.aris/runs/
+.aris/traces/
+.aris/reviewer-tmp/
+.aris/compute/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+build/
+
+# 系统
+.DS_Store
+*~
