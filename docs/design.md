@@ -1,13 +1,13 @@
-# Fusion-Bench 架构设计(SWE-bench 风格)
+# Physical-AI-Fusion 架构设计(SWE-bench 风格)
 
 > 状态:v0.1 草案(2026-08-27)
 > 目标:易用性 = SWE-bench;领域 = AI-for-Physics,侧重 ICF。
 
 ## 1. 对标分析:SWE-bench 做对了什么
 
-| 特性 | SWE-bench 做法 | Fusion-Bench 对应设计 |
+| 特性 | SWE-bench 做法 | Physical-AI-Fusion 对应设计 |
 |---|---|---|
-| 一条命令评测 | `python -m swebench.harness.run_evaluation --predictions_path preds.json` | `fusion-bench evaluate --predictions preds.jsonl` |
+| 一条命令评测 | `python -m swebench.harness.run_evaluation --predictions_path preds.json` | `physical-ai-fusion evaluate --predictions preds.jsonl` |
 | 数据格式 | 每实例一条 JSON(instance_id, problem_statement, patch, test_patch) | 每题一行 JSONL(task_id, topic, question, answer, grading, metadata) |
 | 可复现环境 | 每实例 Docker 镜像 + conda spec | 代码题:每 topic 一个 Docker 镜像;非代码题无需环境 |
 | 确定性评分 | FAIL_TO_PASS/PASS_TO_PASS 单测 | 数值题容差带;代码题单测;推导题固定 judge(模型+prompt 版本锁定) |
@@ -68,9 +68,9 @@ simulation/             计算物理题:FLASH/AMR、数值格式、验证算例 
 
 ```
 harness/
-  fusion_bench/
+  physical_ai_fusion/
     __init__.py
-    cli.py            # fusion-bench evaluate/inspect/stats
+    cli.py            # physical-ai-fusion evaluate/inspect/stats
     grader/
       numeric.py      # 容差带评分
       code.py         # 容器内单测
@@ -82,7 +82,7 @@ harness/
 Dockerfile            # 单容器运行全部评测
 ```
 
-- **安装**:`pip install -e harness/` 或 `docker run fusion-bench`。
+- **安装**:`pip install -e harness/` 或 `docker run physical-ai-fusion`。
 - **预测格式**:`{"task_id": "...", "response": "..."}` 一行一条,与 SWE-bench 的 preds 完全同构。
 - **输出**:`results.json`(总分 + 分 topic + 分难度 + per-task 明细)。
 

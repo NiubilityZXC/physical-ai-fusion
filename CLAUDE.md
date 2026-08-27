@@ -1,4 +1,4 @@
-# Fusion-Bench:面向核聚变的物理 AI Benchmark(NeurIPS 论文项目)
+# Physical-AI-Fusion:物理 AI × 核聚变 Benchmark(NeurIPS 论文项目)
 
 ## 项目目标
 

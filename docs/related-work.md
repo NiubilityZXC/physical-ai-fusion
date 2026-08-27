@@ -1,7 +1,7 @@
 # 相关工作与空白定位(v0.1,2026-08-27 第一轮调研)
 
 > 结论先行:**"通用物理 benchmark 多、聚变专属 benchmark 刚出现但全是知识问答型、ICF 定量计算/代码型 benchmark 是空白"** —— 这正是我们的位置。
-> ⚠️ **命名冲突**:PKU-XLab 已有 [FusionBench](https://github.com/PKU-XLab/FusionBench)(知识问答型),我们的仓库名 `fusion-bench` 与之撞名,建议改名(候选:**ICF-Bench**,突出惯性约束聚变侧重)。
+> ⚠️ ~~命名冲突~~ **已解决(2026-08-27)**:PKU-XLab 已有 [FusionBench](https://github.com/PKU-XLab/FusionBench)(知识问答型),为避免撞名,本项目已更名为 **Physical-AI-Fusion**(仓库:github.com/NiubilityZXC/physical-ai-fusion),强调"物理 AI"大领域定位 + 聚变纵深。
 
 ## 1. 通用科学/物理 Benchmark(格式可借鉴,聚变题≈0)
 
