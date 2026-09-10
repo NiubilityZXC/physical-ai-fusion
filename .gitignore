@@ -16,3 +16,6 @@ build/
 # 系统
 .DS_Store
 *~
+
+# 大型分析快照(保留在本地,不入库)
+docs/survey/*.json
