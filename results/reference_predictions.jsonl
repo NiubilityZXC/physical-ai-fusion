@@ -1,0 +1,106 @@
+{"task_id": "fusion-engineering-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "fusion-engineering-0002", "response": "分析过程若干……Final answer: 28.01 kg"}
+{"task_id": "fusion-engineering-0003", "response": "经过分析,正确选项是 A"}
+{"task_id": "fusion-engineering-0004", "response": "分析过程若干……Final answer: 0.975 1"}
+{"task_id": "fusion-engineering-0005", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "fusion-engineering-0006", "response": "分析过程若干……Final answer: 1.1177e+07 J/m^3"}
+{"task_id": "icf-diagnostics-0001", "response": "分析过程若干……Final answer: 2.485e+06 J"}
+{"task_id": "icf-diagnostics-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-diagnostics-0003", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-diagnostics-0004", "response": "分析过程若干……Final answer: 8.3236e-10 m"}
+{"task_id": "icf-diagnostics-0005", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-eos-opacity-0001", "response": "分析过程若干……Final answer: 0.0337 1"}
+{"task_id": "icf-eos-opacity-0002", "response": "分析过程若干……Final answer: 10.1716 1"}
+{"task_id": "icf-eos-opacity-0003", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-eos-opacity-0004", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-eos-opacity-0005", "response": "分析过程若干……Final answer: 5.7277 1"}
+{"task_id": "icf-eos-opacity-0006", "response": "分析过程若干……Final answer: 1.6623e-09 m"}
+{"task_id": "icf-eos-opacity-0007", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-eos-opacity-0008", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-ignition-gain-0001", "response": "分析过程若干……Final answer: 1.54 1"}
+{"task_id": "icf-ignition-gain-0002", "response": "分析过程若干……Final answer: 4.13 1"}
+{"task_id": "icf-ignition-gain-0003", "response": "分析过程若干……Final answer: 1.117e+18 1"}
+{"task_id": "icf-ignition-gain-0004", "response": "分析过程若干……Final answer: 1.5 s"}
+{"task_id": "icf-ignition-gain-0005", "response": "分析过程若干……Final answer: 2.18e+31 m^-3"}
+{"task_id": "icf-ignition-gain-0006", "response": "分析过程若干……Final answer: 20 %"}
+{"task_id": "icf-ignition-gain-0007", "response": "分析过程若干……Final answer: 67.8 MJ"}
+{"task_id": "icf-ignition-gain-0008", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "icf-implosion-0001", "response": "分析过程若干……Final answer: 22 1"}
+{"task_id": "icf-implosion-0002", "response": "分析过程若干……Final answer: 0.3 g/cm^2"}
+{"task_id": "icf-implosion-0003", "response": "分析过程若干……Final answer: 100000 1"}
+{"task_id": "icf-implosion-0004", "response": "分析过程若干……Final answer: 0.06125 MJ/cm"}
+{"task_id": "icf-implosion-0005", "response": "经过分析,正确选项是 A, B, D"}
+{"task_id": "icf-implosion-0006", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-implosion-0007", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-lpi-0001", "response": "分析过程若干……Final answer: 8.9283e+21 cm^-3"}
+{"task_id": "icf-lpi-0002", "response": "分析过程若干……Final answer: 9.9018e+20 cm^-3"}
+{"task_id": "icf-lpi-0003", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "icf-lpi-0004", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-lpi-0005", "response": "分析过程若干……Final answer: 1.7841e+15 rad/s"}
+{"task_id": "icf-lpi-0006", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-lpi-0007", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-rad-hydro-0001", "response": "分析过程若干……Final answer: 8.331e+18 W/m^2"}
+{"task_id": "icf-rad-hydro-0002", "response": "分析过程若干……Final answer: 3.7058e+10 Pa"}
+{"task_id": "icf-rad-hydro-0003", "response": "分析过程若干……Final answer: 115470 m/s"}
+{"task_id": "icf-rad-hydro-0004", "response": "分析过程若干……Final answer: 567890 K"}
+{"task_id": "icf-rad-hydro-0005", "response": "经过分析,正确选项是 A, B, D"}
+{"task_id": "icf-rad-hydro-0006", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-rad-hydro-0007", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-rad-hydro-0008", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-rt-rm-instability-0001", "response": "分析过程若干……Final answer: 1.014e+09 s^-1"}
+{"task_id": "icf-rt-rm-instability-0002", "response": "分析过程若干……Final answer: 0.6 1"}
+{"task_id": "icf-rt-rm-instability-0003", "response": "分析过程若干……Final answer: 2.64e+08 s^-1"}
+{"task_id": "icf-rt-rm-instability-0004", "response": "分析过程若干……Final answer: 1.029e+07 cm/s"}
+{"task_id": "icf-rt-rm-instability-0005", "response": "分析过程若干……Final answer: 10.2 μm"}
+{"task_id": "icf-rt-rm-instability-0006", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "icf-rt-rm-instability-0007", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-target-design-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-target-design-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-target-design-0003", "response": "分析过程若干……Final answer: 184500 J"}
+{"task_id": "icf-target-design-0004", "response": "经过分析,正确选项是 A, B"}
+{"task_id": "icf-target-design-0005", "response": "分析过程若干……Final answer: 0.2471 mg"}
+{"task_id": "mcf-0001", "response": "分析过程若干……Final answer: 10 1"}
+{"task_id": "mcf-0002", "response": "分析过程若干……Final answer: 3.9623 %"}
+{"task_id": "mcf-0003", "response": "分析过程若干……Final answer: 1.1937 1e20 m^-3"}
+{"task_id": "mcf-0004", "response": "分析过程若干……Final answer: 3.262 s"}
+{"task_id": "mcf-0005", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "mcf-0006", "response": "经过分析,正确选项是 A"}
+{"task_id": "mcf-0007", "response": "分析过程若干……Final answer: 7.311e+06 m/s"}
+{"task_id": "mcf-0008", "response": "分析过程若干……Final answer: 0.02867 1"}
+{"task_id": "mcf-0009", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "mcf-0010", "response": "分析过程若干……Final answer: 0.0003553 kg"}
+{"task_id": "mcf-0011", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "mcf-0012", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "mcf-0013", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "plasma-basic-0001", "response": "分析过程若干……Final answer: 2.3509e-06 cm"}
+{"task_id": "plasma-basic-0002", "response": "分析过程若干……Final answer: 89780 GHz"}
+{"task_id": "plasma-basic-0003", "response": "分析过程若干……Final answer: 148.4 GHz"}
+{"task_id": "plasma-basic-0004", "response": "分析过程若干……Final answer: 7.88 1"}
+{"task_id": "plasma-basic-0005", "response": "分析过程若干……Final answer: 8.18e+06 m/s"}
+{"task_id": "plasma-basic-0006", "response": "分析过程若干……Final answer: 1.326e+07 m/s"}
+{"task_id": "plasma-basic-0007", "response": "分析过程若干……Final answer: 218900 m/s"}
+{"task_id": "plasma-basic-0008", "response": "分析过程若干……Final answer: 0.0477 mm"}
+{"task_id": "plasma-basic-0009", "response": "经过分析,正确选项是 A, C"}
+{"task_id": "plasma-basic-0010", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "plasma-basic-0011", "response": "分析过程若干……Final answer: 2.87 %"}
+{"task_id": "plasma-basic-0012", "response": "分析过程若干……Final answer: 1.049e-09 Ω·m"}
+{"task_id": "simulation-0001", "response": "分析过程若干……Final answer: 0.010906 m"}
+{"task_id": "simulation-0002", "response": "分析过程若干……Final answer: 1.9154e-13 s"}
+{"task_id": "simulation-0003", "response": "分析过程若干……Final answer: 1.0179e-10 s"}
+{"task_id": "simulation-0004", "response": "经过分析,正确选项是 A, B, C, D"}
+{"task_id": "simulation-0005", "response": "经过分析,正确选项是 A"}
+{"task_id": "simulation-0006", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "simulation-0007", "response": "分析过程若干……Final answer: 0.0019922 m"}
+{"task_id": "zpinch-0001", "response": "分析过程若干……Final answer: 1.7894e+07 cm/s"}
+{"task_id": "zpinch-0002", "response": "分析过程若干……Final answer: 0.6 MJ/cm"}
+{"task_id": "zpinch-0003", "response": "分析过程若干……Final answer: 179010 A"}
+{"task_id": "zpinch-0004", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "zpinch-0005", "response": "分析过程若干……Final answer: 300 T"}
+{"task_id": "zpinch-0006", "response": "分析过程若干……Final answer: 3.581e+10 Pa"}
+{"task_id": "zpinch-0007", "response": "分析过程若干……Final answer: 500000 J"}
+{"task_id": "zpinch-0008", "response": "分析过程若干……Final answer: 1e+06 rad/s"}
+{"task_id": "zpinch-0009", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "zpinch-0010", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "zpinch-0011", "response": "分析过程若干……Final answer: 4.869 1"}
+{"task_id": "zpinch-0012", "response": "经过分析,正确选项是 A, B, D"}
+{"task_id": "zpinch-0013", "response": "(推导题,judge 模块 v1.1 前跳过)"}

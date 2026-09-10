@@ -1,0 +1,1030 @@
+[
+  {
+    "id": "1504.01831",
+    "title": "Fuel Target Implosion in Ion beam Inertial Confinement Fusion",
+    "authors": [
+      "Shigeo Kawata"
+    ],
+    "abstract": "The numerical results for the fuel target implosion are presented in order to clarify the target physics in ion beam inertial fusion. The numerical analyses are performed for a direct-driven ion beam target. In the paper the following issues are studied: the beam obliquely incidence on the target surface, the plasma effect on the beam-stopping power, the beam particle energy, the beam time duration, the target radius, the beam input energy and the non-uniformity effect on the fuel target performance. In this paper the beam ions are protons.",
+    "published": "2015-04-08",
+    "updated": "2015-04-08",
+    "categories": [
+      "physics.plasm-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1504.01831.pdf",
+    "abs_url": "https://arxiv.org/abs/1504.01831"
+  },
+  {
+    "id": "2302.04024",
+    "title": "InMyFace: Inertial and Mechanomyography-Based Sensor Fusion for Wearable Facial Activity Recognition",
+    "authors": [
+      "Hymalai Bello",
+      "Luis Alfredo Sanchez Marin",
+      "Sungho Suh",
+      "Bo Zhou",
+      "Paul Lukowicz"
+    ],
+    "abstract": "Recognizing facial activity is a well-understood (but non-trivial) computer vision problem. However, reliable solutions require a camera with a good view of the face, which is often unavailable in wearable settings. Furthermore, in wearable applications, where systems accompany users throughout their daily activities, a permanently running camera can be problematic for privacy (and legal) reasons. This work presents an alternative solution based on the fusion of wearable inertial sensors, planar pressure sensors, and acoustic mechanomyography (muscle sounds). The sensors were placed unobtrusively in a sports cap to monitor facial muscle activities related to facial expressions. We present our integrated wearable sensor system, describe data fusion and analysis methods, and evaluate the system in an experiment with thirteen subjects from different cultural backgrounds (eight countries) and both sexes (six women and seven men). In a one-model-per-user scheme and using a late fusion approach, the system yielded an average F1 score of 85.00% for the case where all sensing modalities are combined. With a cross-user validation and a one-model-for-all-user scheme, an F1 score of 79.00% was obtained for thirteen participants (six females and seven males). Moreover, in a hybrid fusion (cross-user) approach and six classes, an average F1 score of 82.00% was obtained for eight users. The results are competitive with state-of-the-art non-camera-based solutions for a cross-user study. In addition, our unique set of participants demonstrates the inclusiveness and generalizability of the approach.",
+    "published": "2023-02-08",
+    "updated": "2023-02-08",
+    "categories": [
+      "cs.LG",
+      "eess.SP"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2302.04024.pdf",
+    "abs_url": "https://arxiv.org/abs/2302.04024"
+  },
+  {
+    "id": "1803.03323",
+    "title": "Magnetized Plasma Target for Plasma-Jet-Driven Magneto-Inertial Fusion",
+    "authors": [
+      "Scott C. Hsu",
+      "Samuel J. Langendorf"
+    ],
+    "abstract": "We identify the desired characteristics and parameters of a beta>1 magnetized plasma, possibly with highly tangled, open field lines, that could be a suitable target to be compressed to fusion conditions by a spherically imploding plasma liner [S. C. Hsu et al., IEEE Trans. Plasma Sci. 40, 1287 (2012)] formed by merging hypersonic plasma jets. This concept is known as plasma-jet-driven magneto-inertial fusion (PJMIF). We set requirements on the target and liner such that (a) compressional heating dominates over thermal transport in the target, and (b) magnetic amplification due to compression dominates over dissipation over the entire implosion. We also evaluate the requirements to avoid drift-instability-induced anomalous transport and current-driven anomalous resistivity in the target. Next, we describe possible approaches to create such a magnetized, beta>1 plasma target. Finally, assuming such a target can be created, we evaluate the feasibility of a proof-of-concept experiment using presently achievable plasma jets to demonstrate target compressional heating at a plasma-liner kinetic energy of <~ 100 kJ (a few hundred times below that needed in a PJMIF reactor).",
+    "published": "2018-03-08",
+    "updated": "2018-05-27",
+    "categories": [
+      "physics.plasm-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1803.03323.pdf",
+    "abs_url": "https://arxiv.org/abs/1803.03323"
+  },
+  {
+    "id": "2508.05264",
+    "title": "SGDFuse: SAM-Guided Diffusion Model for High-Fidelity Infrared and Visible Image Fusion",
+    "authors": [
+      "Xiaoyang Zhang",
+      "jinjiang Li",
+      "Guodong Fan",
+      "Yakun Ju",
+      "Linwei Fan",
+      "Jun Liu",
+      "Alex C. Kot"
+    ],
+    "abstract": "Infrared and visible image fusion (IVIF) is essential for integrating thermal saliency with textural details to support downstream perception. However, most existing approaches suffer from \"semantic blindness,\" leading to the erroneous suppression of thermal targets and the introduction of visual artifacts. To address this, we propose SAM-Guided Diffusion Fusion Network (SGDFuse), a novel Semantic-Guided Generation (SGG) framework that reframes IVIF as a semantically-steered generative task rather than simplistic pixel mapping. Our method uniquely couples high-level semantic priors from the Segment Anything Model (SAM) with the high-fidelity generative power of a conditional diffusion model. We employ a deliberate two-stage strategy to decouple multimodal alignment from iterative refinement: Stage I establishes a robust structural foundation via preliminary fusion, while Stage II utilizes dual-modality semantic masks as spatial anchors to guide the diffusion process toward a semantically coherent, high-fidelity reconstruction. Comprehensive experiments demonstrate that SGDFuse not only delivers state-of-the-art image quality but also enhances downstream task performance, confirming its effectiveness as a new Methodological Framework for semantically aware image fusion. The code is available at https://github.com/boshizhang123/SGDFuse.",
+    "published": "2025-08-07",
+    "updated": "2026-03-21",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2508.05264.pdf",
+    "abs_url": "https://arxiv.org/abs/2508.05264"
+  },
+  {
+    "id": "physics/0512271",
+    "title": "How much laser power can propagate through fusion plasma?",
+    "authors": [
+      "Pavel M. Lushnikov",
+      "Harvey A. Rose"
+    ],
+    "abstract": "Propagation of intense laser beams is crucial for inertial confinement fusion, which requires precise beam control to achieve the compression and heating necessary to ignite the fusion reaction. The National Ignition Facility (NIF), where fusion will be attempted, is now under construction. Control of intense beam propagation may be ruined by laser beam self-focusing. We have identified the maximum laser beam power that can propagate through fusion plasma without significant self-focusing and have found excellent agreement with recent experimental data, and suggest a way to increase that maximum by appropriate choice of plasma composition with implication for NIF designs. Our theory also leads to the prediction of anti-correlation between beam spray and backscatter and suggests the indirect control of backscatter through manipulation of plasma ionization state or acoustic damping.",
+    "published": "2005-12-30",
+    "updated": "2006-03-28",
+    "categories": [
+      "physics.plasm-ph",
+      "nlin.CD",
+      "nlin.PS",
+      "physics.optics"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/physics/0512271.pdf",
+    "abs_url": "https://arxiv.org/abs/physics/0512271"
+  },
+  {
+    "id": "1907.09921",
+    "title": "Retrospective of the ARPA-E ALPHA fusion program",
+    "authors": [
+      "C. L. Nehl",
+      "R. J. Umstattd",
+      "W. R. Regan",
+      "S. C. Hsu",
+      "P. B. McGrath"
+    ],
+    "abstract": "This paper provides a retrospective of the ALPHA (Accelerating Low-cost Plasma Heating and Assembly) fusion program of the Advanced Research Projects Agency-Energy (ARPA-E) of the U.S. Department of Energy. ALPHA's objective was to catalyze research and development efforts to enable substantially lower-cost pathways to economical fusion power. To do this in a targeted, focused program, ALPHA focused on advancing the science and technology of pulsed, intermediate-density fusion approaches, including magneto-inertial fusion and Z-pinch variants, that have the potential to scale to commercially viable fusion power plants. The paper includes a discussion of the origins and framing of the ALPHA program, a summary of project status and outcomes, a description of associated technology-transition activities, and thoughts on a potential follow-on ARPA-E fusion program.",
+    "published": "2019-07-23",
+    "updated": "2019-09-26",
+    "categories": [
+      "physics.plasm-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1907.09921.pdf",
+    "abs_url": "https://arxiv.org/abs/1907.09921"
+  },
+  {
+    "id": "2603.25777",
+    "title": "Challenges and opportunities for AI to help deliver fusion energy",
+    "authors": [
+      "Adriano Agnello",
+      "Helen Brooks",
+      "Cyd Cowley",
+      "Iulia Georgescu",
+      "Alex Higginbottom",
+      "Richard Pearson",
+      "Tara Shears",
+      "Melanie Windridge"
+    ],
+    "abstract": "There is great potential for the application of AI tools in fusion research, and substantial worldwide benefit if fusion power is realised. However, using AI comes with its own challenges, many of which can be mitigated if responsible and robust methodologies are built into existing approaches. To do that requires close, long-term collaborations between fusion domain experts and AI developers and awareness of the fact that not all problems in fusion research are best tackled with AI tools. In April 2025, experts from academia, industry, UKAEA and STFC discussed how AI can be used to advance R&D in fusion energy at the first edition of The Economist FusionFest event. This Perspective is an expanded and updated summary of the round table discussion, providing more context and examples.",
+    "published": "2026-03-26",
+    "updated": "2026-05-11",
+    "categories": [
+      "physics.plasm-ph",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2603.25777.pdf",
+    "abs_url": "https://arxiv.org/abs/2603.25777"
+  },
+  {
+    "id": "1003.1598",
+    "title": "Information Fusion in the Immune System",
+    "authors": [
+      "Jamie Twycross",
+      "Uwe Aickelin"
+    ],
+    "abstract": "Biologically-inspired methods such as evolutionary algorithms and neural networks are proving useful in the field of information fusion. Artificial Immune Systems (AISs) are a biologically-inspired approach which take inspiration from the biological immune system. Interestingly, recent research has show how AISs which use multi-level information sources as input data can be used to build effective algorithms for real time computer intrusion detection. This research is based on biological information fusion mechanisms used by the human immune system and as such might be of interest to the information fusion community. The aim of this paper is to present a summary of some of the biological information fusion mechanisms seen in the human immune system, and of how these mechanisms have been implemented as AISs",
+    "published": "2010-03-08",
+    "updated": "2010-03-08",
+    "categories": [
+      "cs.AI",
+      "cs.NE"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1003.1598.pdf",
+    "abs_url": "https://arxiv.org/abs/1003.1598"
+  }
+]
+[
+  {
+    "id": "2306.04338",
+    "title": "Changing Data Sources in the Age of Machine Learning for Official Statistics",
+    "authors": [
+      "Cedric De Boom",
+      "Michael Reusens"
+    ],
+    "abstract": "Data science has become increasingly essential for the production of official statistics, as it enables the automated collection, processing, and analysis of large amounts of data. With such data science practices in place, it enables more timely, more insightful and more flexible reporting. However, the quality and integrity of data-science-driven statistics rely on the accuracy and reliability of the data sources and the machine learning techniques that support them. In particular, changes in data sources are inevitable to occur and pose significant risks that are crucial to address in the context of machine learning for official statistics.   This paper gives an overview of the main risks, liabilities, and uncertainties associated with changing data sources in the context of machine learning for official statistics. We provide a checklist of the most prevalent origins and causes of changing data sources; not only on a technical level but also regarding ownership, ethics, regulation, and public perception. Next, we highlight the repercussions of changing data sources on statistical reporting. These include technical effects such as concept drift, bias, availability, validity, accuracy and completeness, but also the neutrality and potential discontinuation of the statistical offering. We offer a few important precautionary measures, such as enhancing robustness in both data sourcing and statistical techniques, and thorough monitoring. In doing so, machine learning-based official statistics can maintain integrity, reliability, consistency, and relevance in policy-making, decision-making, and public discourse.",
+    "published": "2023-06-07",
+    "updated": "2023-06-07",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2306.04338.pdf",
+    "abs_url": "https://arxiv.org/abs/2306.04338"
+  },
+  {
+    "id": "2006.16189",
+    "title": "DOME: Recommendations for supervised machine learning validation in biology",
+    "authors": [
+      "Ian Walsh",
+      "Dmytro Fishman",
+      "Dario Garcia-Gasulla",
+      "Tiina Titma",
+      "Gianluca Pollastri",
+      "The ELIXIR Machine Learning focus group",
+      "Jen Harrow",
+      "Fotis E. Psomopoulos",
+      "Silvio C. E. Tosatto"
+    ],
+    "abstract": "Modern biology frequently relies on machine learning to provide predictions and improve decision processes. There have been recent calls for more scrutiny on machine learning performance and possible limitations. Here we present a set of community-wide recommendations aiming to help establish standards of supervised machine learning validation in biology. Adopting a structured methods description for machine learning based on data, optimization, model, evaluation (DOME) will aim to help both reviewers and readers to better understand and assess the performance and limitations of a method or outcome. The recommendations are formulated as questions to anyone wishing to pursue implementation of a machine learning algorithm. Answers to these questions can be easily included in the supplementary material of published papers.",
+    "published": "2020-06-25",
+    "updated": "2021-01-07",
+    "categories": [
+      "q-bio.OT",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2006.16189.pdf",
+    "abs_url": "https://arxiv.org/abs/2006.16189"
+  },
+  {
+    "id": "1905.04749",
+    "title": "A Benchmark Study of Machine Learning Models for Online Fake News Detection",
+    "authors": [
+      "Junaed Younus Khan",
+      "Md. Tawkat Islam Khondaker",
+      "Sadia Afroz",
+      "Gias Uddin",
+      "Anindya Iqbal"
+    ],
+    "abstract": "The proliferation of fake news and its propagation on social media has become a major concern due to its ability to create devastating impacts. Different machine learning approaches have been suggested to detect fake news. However, most of those focused on a specific type of news (such as political) which leads us to the question of dataset-bias of the models used. In this research, we conducted a benchmark study to assess the performance of different applicable machine learning approaches on three different datasets where we accumulated the largest and most diversified one. We explored a number of advanced pre-trained language models for fake news detection along with the traditional and deep learning ones and compared their performances from different aspects for the first time to the best of our knowledge. We find that BERT and similar pre-trained models perform the best for fake news detection, especially with very small dataset. Hence, these models are significantly better option for languages with limited electronic contents, i.e., training data. We also carried out several analysis based on the models' performance, article's topic, article's length, and discussed different lessons learned from them. We believe that this benchmark study will help the research community to explore further and news sites/blogs to select the most appropriate fake news detection method.",
+    "published": "2019-05-12",
+    "updated": "2021-03-26",
+    "categories": [
+      "cs.CL",
+      "cs.IR",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1905.04749.pdf",
+    "abs_url": "https://arxiv.org/abs/1905.04749"
+  },
+  {
+    "id": "2201.12150",
+    "title": "Learning Curves for Decision Making in Supervised Machine Learning: A Survey",
+    "authors": [
+      "Felix Mohr",
+      "Jan N. van Rijn"
+    ],
+    "abstract": "Learning curves are a concept from social sciences that has been adopted in the context of machine learning to assess the performance of a learning algorithm with respect to a certain resource, e.g., the number of training examples or the number of training iterations. Learning curves have important applications in several machine learning contexts, most notably in data acquisition, early stopping of model training, and model selection. For instance, learning curves can be used to model the performance of the combination of an algorithm and its hyperparameter configuration, providing insights into their potential suitability at an early stage and often expediting the algorithm selection process. Various learning curve models have been proposed to use learning curves for decision making. Some of these models answer the binary decision question of whether a given algorithm at a certain budget will outperform a certain reference performance, whereas more complex models predict the entire learning curve of an algorithm. We contribute a framework that categorises learning curve approaches using three criteria: the decision-making situation they address, the intrinsic learning curve question they answer and the type of resources they use. We survey papers from the literature and classify them into this framework.",
+    "published": "2022-01-28",
+    "updated": "2025-01-28",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2201.12150.pdf",
+    "abs_url": "https://arxiv.org/abs/2201.12150"
+  },
+  {
+    "id": "2302.08893",
+    "title": "Active learning for data streams: a survey",
+    "authors": [
+      "Davide Cacciarelli",
+      "Murat Kulahci"
+    ],
+    "abstract": "Online active learning is a paradigm in machine learning that aims to select the most informative data points to label from a data stream. The problem of minimizing the cost associated with collecting labeled observations has gained a lot of attention in recent years, particularly in real-world applications where data is only available in an unlabeled form. Annotating each observation can be time-consuming and costly, making it difficult to obtain large amounts of labeled data. To overcome this issue, many active learning strategies have been proposed in the last decades, aiming to select the most informative observations for labeling in order to improve the performance of machine learning models. These approaches can be broadly divided into two categories: static pool-based and stream-based active learning. Pool-based active learning involves selecting a subset of observations from a closed pool of unlabeled data, and it has been the focus of many surveys and literature reviews. However, the growing availability of data streams has led to an increase in the number of approaches that focus on online active learning, which involves continuously selecting and labeling observations as they arrive in a stream. This work aims to provide an overview of the most recently proposed approaches for selecting the most informative observations from data streams in real time. We review the various techniques that have been proposed and discuss their strengths and limitations, as well as the challenges and opportunities that exist in this area of research.",
+    "published": "2023-02-17",
+    "updated": "2023-11-29",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "stat.ME"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2302.08893.pdf",
+    "abs_url": "https://arxiv.org/abs/2302.08893"
+  },
+  {
+    "id": "2304.02381",
+    "title": "Physics-Inspired Interpretability Of Machine Learning Models",
+    "authors": [
+      "Maximilian P Niroomand",
+      "David J Wales"
+    ],
+    "abstract": "The ability to explain decisions made by machine learning models remains one of the most significant hurdles towards widespread adoption of AI in highly sensitive areas such as medicine, cybersecurity or autonomous driving. Great interest exists in understanding which features of the input data prompt model decision making. In this contribution, we propose a novel approach to identify relevant features of the input data, inspired by methods from the energy landscapes field, developed in the physical sciences. By identifying conserved weights within groups of minima of the loss landscapes, we can identify the drivers of model decision making. Analogues to this idea exist in the molecular sciences, where coordinate invariants or order parameters are employed to identify critical features of a molecule. However, no such approach exists for machine learning loss landscapes. We will demonstrate the applicability of energy landscape methods to machine learning models and give examples, both synthetic and from the real world, for how these methods can help to make models more interpretable.",
+    "published": "2023-04-05",
+    "updated": "2024-12-15",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2304.02381.pdf",
+    "abs_url": "https://arxiv.org/abs/2304.02381"
+  },
+  {
+    "id": "2602.11092",
+    "title": "MerLin: A Discovery Engine for Photonic and Hybrid Quantum Machine Learning",
+    "authors": [
+      "Cassandre Notton",
+      "Benjamin Stott",
+      "Philippe Schoeb",
+      "Anthony Walsh",
+      "Grégoire Leboucher",
+      "Vincent Espitalier",
+      "Vassilis Apostolou",
+      "Louis-Félix Vigneux",
+      "Alexia Salavrakos",
+      "Jean Senellart"
+    ],
+    "abstract": "Identifying where quantum models may offer practical benefits in near term quantum machine learning (QML) requires moving beyond isolated algorithmic proposals toward systematic and empirical exploration across models, datasets, and hardware constraints. We introduce MerLin, an open-source framework designed as a discovery engine for photonic and hybrid quantum machine learning. MerLin integrates optimized strong simulation of linear optical circuits into standard PyTorch and scikit learn workflows, enabling end-to-end differentiable training of quantum layers.   MerLin is designed around systematic benchmarking and reproducibility. As an initial contribution, we reproduce eighteen state-of-the-art photonic and hybrid QML works spanning kernel methods, reservoir computing, convolutional and recurrent architectures, generative models, and modern training paradigms. These reproductions are released as reusable, modular experiments that can be directly extended and adapted, establishing a shared experimental baseline consistent with empirical benchmarking methodologies widely adopted in modern artificial intelligence.   By embedding photonic quantum models within established machine learning ecosystems, MerLin allows practitioners to leverage existing tooling for ablation studies, cross-modality comparisons, and hybrid classical-quantum workflows. The framework already implements hardware-aware features, allowing tests on available quantum hardware while enabling exploration beyond its current capabilities, positioning MerLin as a forward-looking co-design tool linking algorithms, benchmarks, and hardware.",
+    "published": "2026-02-11",
+    "updated": "2026-04-17",
+    "categories": [
+      "cs.LG",
+      "cs.PL",
+      "quant-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2602.11092.pdf",
+    "abs_url": "https://arxiv.org/abs/2602.11092"
+  },
+  {
+    "id": "2303.15563",
+    "title": "Privacy-preserving machine learning for healthcare: open challenges and future perspectives",
+    "authors": [
+      "Alejandro Guerra-Manzanares",
+      "L. Julian Lechuga Lopez",
+      "Michail Maniatakos",
+      "Farah E. Shamout"
+    ],
+    "abstract": "Machine Learning (ML) has recently shown tremendous success in modeling various healthcare prediction tasks, ranging from disease diagnosis and prognosis to patient treatment. Due to the sensitive nature of medical data, privacy must be considered along the entire ML pipeline, from model training to inference. In this paper, we conduct a review of recent literature concerning Privacy-Preserving Machine Learning (PPML) for healthcare. We primarily focus on privacy-preserving training and inference-as-a-service, and perform a comprehensive review of existing trends, identify challenges, and discuss opportunities for future research directions. The aim of this review is to guide the development of private and efficient ML models in healthcare, with the prospects of translating research efforts into real-world settings.",
+    "published": "2023-03-27",
+    "updated": "2023-03-27",
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2303.15563.pdf",
+    "abs_url": "https://arxiv.org/abs/2303.15563"
+  }
+]
+[
+  {
+    "id": "2403.12271",
+    "title": "Rayleigh Taylor Instability in Multiple Finite-Thickness Fluid Layers",
+    "authors": [
+      "Prashant Sharma"
+    ],
+    "abstract": "We develop a general transfer-matrix formalism for determining the growth rate of the Rayleigh-Taylor instability in a fluid system with spatially varying density and viscosity. We use this formalism to analytically and numerically treat the case of a stratified heterogeneous fluid. We introduce the inviscid-flow approximation in our transfer-matrix formalism to find analytic solutions in the limit of uniform kinematic viscosity for a stratified heterogeneous fluid. We discuss the applicability of these results and the no-acceleration approximation that also yields analytical solutions in the large viscosity limit.",
+    "published": "2024-03-18",
+    "updated": "2025-02-17",
+    "categories": [
+      "physics.flu-dyn",
+      "physics.geo-ph",
+      "physics.plasm-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2403.12271.pdf",
+    "abs_url": "https://arxiv.org/abs/2403.12271"
+  },
+  {
+    "id": "2306.11113",
+    "title": "Learn to Accumulate Evidence from All Training Samples: Theory and Practice",
+    "authors": [
+      "Deep Pandey",
+      "Qi Yu"
+    ],
+    "abstract": "Evidential deep learning, built upon belief theory and subjective logic, offers a principled and computationally efficient way to turn a deterministic neural network uncertainty-aware. The resultant evidential models can quantify fine-grained uncertainty using the learned evidence. To ensure theoretically sound evidential models, the evidence needs to be non-negative, which requires special activation functions for model training and inference. This constraint often leads to inferior predictive performance compared to standard softmax models, making it challenging to extend them to many large-scale datasets. To unveil the real cause of this undesired behavior, we theoretically investigate evidential models and identify a fundamental limitation that explains the inferior performance: existing evidential activation functions create zero evidence regions, which prevent the model to learn from training samples falling into such regions. A deeper analysis of evidential activation functions based on our theoretical underpinning inspires the design of a novel regularizer that effectively alleviates this fundamental limitation. Extensive experiments over many challenging real-world datasets and settings confirm our theoretical findings and demonstrate the effectiveness of our proposed approach.",
+    "published": "2023-06-19",
+    "updated": "2023-06-24",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2306.11113.pdf",
+    "abs_url": "https://arxiv.org/abs/2306.11113"
+  },
+  {
+    "id": "2105.04026",
+    "title": "The Modern Mathematics of Deep Learning",
+    "authors": [
+      "Julius Berner",
+      "Philipp Grohs",
+      "Gitta Kutyniok",
+      "Philipp Petersen"
+    ],
+    "abstract": "We describe the new field of mathematical analysis of deep learning. This field emerged around a list of research questions that were not answered within the classical framework of learning theory. These questions concern: the outstanding generalization power of overparametrized neural networks, the role of depth in deep architectures, the apparent absence of the curse of dimensionality, the surprisingly successful optimization performance despite the non-convexity of the problem, understanding what features are learned, why deep architectures perform exceptionally well in physical problems, and which fine aspects of an architecture affect the behavior of a learning task in which way. We present an overview of modern approaches that yield partial answers to these questions. For selected approaches, we describe the main ideas in more detail.",
+    "published": "2021-05-09",
+    "updated": "2023-02-08",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2105.04026.pdf",
+    "abs_url": "https://arxiv.org/abs/2105.04026"
+  },
+  {
+    "id": "2301.00942",
+    "title": "Deep Learning and Computational Physics (Lecture Notes)",
+    "authors": [
+      "Deep Ray",
+      "Orazio Pinti",
+      "Assad A. Oberai"
+    ],
+    "abstract": "These notes were compiled as lecture notes for a course developed and taught at the University of the Southern California. They should be accessible to a typical engineering graduate student with a strong background in Applied Mathematics.   The main objective of these notes is to introduce a student who is familiar with concepts in linear algebra and partial differential equations to select topics in deep learning. These lecture notes exploit the strong connections between deep learning algorithms and the more conventional techniques of computational physics to achieve two goals. First, they use concepts from computational physics to develop an understanding of deep learning algorithms. Not surprisingly, many concepts in deep learning can be connected to similar concepts in computational physics, and one can utilize this connection to better understand these algorithms. Second, several novel deep learning algorithms can be used to solve challenging problems in computational physics. Thus, they offer someone who is interested in modeling a physical phenomena with a complementary set of tools.",
+    "published": "2023-01-03",
+    "updated": "2023-01-03",
+    "categories": [
+      "cs.LG",
+      "math-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2301.00942.pdf",
+    "abs_url": "https://arxiv.org/abs/2301.00942"
+  },
+  {
+    "id": "2603.29261",
+    "title": "Monodense Deep Neural Model for Determining Item Price Elasticity",
+    "authors": [
+      "Lakshya Garg",
+      "Sai Yaswanth",
+      "Deep Narayan Mishra",
+      "Karthik Kumaran",
+      "Anupriya Sharma",
+      "Mayank Uniyal"
+    ],
+    "abstract": "Item Price Elasticity is used to quantify the responsiveness of consumer demand to changes in item prices, enabling businesses to create pricing strategies and optimize revenue management. Sectors such as store retail, e-commerce, and consumer goods rely on elasticity information derived from historical sales and pricing data. This elasticity provides an understanding of purchasing behavior across different items, consumer discount sensitivity, and demand elastic departments. This information is particularly valuable for competitive markets and resource-constrained businesses decision making which aims to maximize profitability and market share. Price elasticity also uncovers historical shifts in consumer responsiveness over time. In this paper, we model item-level price elasticity using large-scale transactional datasets, by proposing a novel elasticity estimation framework which has the capability to work in an absence of treatment control setting. We test this framework by using Machine learning based algorithms listed below, including our newly proposed Monodense deep neural network.   (1) Monodense-DL network -- Hybrid neural network architecture combining embedding, dense, and Monodense layers (2) DML -- Double machine learning setting using regression models (3) LGBM -- Light Gradient Boosting Model   We evaluate our model on multi-category retail data spanning millions of transactions using a back testing framework. Experimental results demonstrate the superiority of our proposed neural network model within the framework compared to other prevalent ML based methods listed above.",
+    "published": "2026-03-31",
+    "updated": "2026-03-31",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2603.29261.pdf",
+    "abs_url": "https://arxiv.org/abs/2603.29261"
+  },
+  {
+    "id": "1711.00146",
+    "title": "A multitask deep learning model for real-time deployment in embedded systems",
+    "authors": [
+      "Miquel Martí",
+      "Atsuto Maki"
+    ],
+    "abstract": "We propose an approach to Multitask Learning (MTL) to make deep learning models faster and lighter for applications in which multiple tasks need to be solved simultaneously, which is particularly useful in embedded, real-time systems. We develop a multitask model for both Object Detection and Semantic Segmentation and analyze the challenges that appear during its training. Our multitask network is 1.6x faster, lighter and uses less memory than deploying the single-task models in parallel. We conclude that MTL has the potential to give superior performance in exchange of a more complex training process that introduces challenges not present in single-task models.",
+    "published": "2017-10-31",
+    "updated": "2017-10-31",
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1711.00146.pdf",
+    "abs_url": "https://arxiv.org/abs/1711.00146"
+  },
+  {
+    "id": "1903.03040",
+    "title": "Deep learning observables in computational fluid dynamics",
+    "authors": [
+      "Kjetil O. Lye",
+      "Siddhartha Mishra",
+      "Deep Ray"
+    ],
+    "abstract": "Many large scale problems in computational fluid dynamics such as uncertainty quantification, Bayesian inversion, data assimilation and PDE constrained optimization are considered very challenging computationally as they require a large number of expensive (forward) numerical solutions of the corresponding PDEs. We propose a machine learning algorithm, based on deep artificial neural networks, that predicts the underlying \\emph{input parameters to observable} map from a few training samples (computed realizations of this map). By a judicious combination of theoretical arguments and empirical observations, we find suitable network architectures and training hyperparameters that result in robust and efficient neural network approximations of the parameters to observable map. Numerical experiments are presented to demonstrate low prediction errors for the trained network networks, even when the network has been trained with a few samples, at a computational cost which is several orders of magnitude lower than the underlying PDE solver.   Moreover, we combine the proposed deep learning algorithm with Monte Carlo (MC) and Quasi-Monte Carlo (QMC) methods to efficiently compute uncertainty propagation for nonlinear PDEs. Under the assumption that the underlying neural networks generalize well, we prove that the deep learning MC and QMC algorithms are guaranteed to be faster than the baseline (quasi-) Monte Carlo methods. Numerical experiments demonstrating one to two orders of magnitude speed up over baseline QMC and MC algorithms, for the intricate problem of computing probability distributions of the observable, are also presented.",
+    "published": "2019-03-07",
+    "updated": "2019-12-16",
+    "categories": [
+      "physics.comp-ph",
+      "cs.LG",
+      "math.NA",
+      "physics.flu-dyn",
+      "stat.ML"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1903.03040.pdf",
+    "abs_url": "https://arxiv.org/abs/1903.03040"
+  },
+  {
+    "id": "2012.06469",
+    "title": "DILIE: Deep Internal Learning for Image Enhancement",
+    "authors": [
+      "Indra Deep Mastan",
+      "Shanmuganathan Raman"
+    ],
+    "abstract": "We consider the generic deep image enhancement problem where an input image is transformed into a perceptually better-looking image. Recent methods for image enhancement consider the problem by performing style transfer and image restoration. The methods mostly fall into two categories: training data-based and training data-independent (deep internal learning methods). We perform image enhancement in the deep internal learning framework. Our Deep Internal Learning for Image Enhancement framework enhances content features and style features and uses contextual content loss for preserving image context in the enhanced image. We show results on both hazy and noisy image enhancement. To validate the results, we use structure similarity and perceptual error, which is efficient in measuring the unrealistic deformation present in the images. We show that the proposed framework outperforms the relevant state-of-the-art works for image enhancement.",
+    "published": "2020-12-11",
+    "updated": "2020-12-11",
+    "categories": [
+      "cs.CV"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2012.06469.pdf",
+    "abs_url": "https://arxiv.org/abs/2012.06469"
+  }
+]
+[
+  {
+    "id": "1609.04846",
+    "title": "A Tutorial about Random Neural Networks in Supervised Learning",
+    "authors": [
+      "Sebastián Basterrech",
+      "Gerardo Rubino"
+    ],
+    "abstract": "Random Neural Networks (RNNs) are a class of Neural Networks (NNs) that can also be seen as a specific type of queuing network. They have been successfully used in several domains during the last 25 years, as queuing networks to analyze the performance of resource sharing in many engineering areas, as learning tools and in combinatorial optimization, where they are seen as neural systems, and also as models of neurological aspects of living beings. In this article we focus on their learning capabilities, and more specifically, we present a practical guide for using the RNN to solve supervised learning problems. We give a general description of these models using almost indistinctly the terminology of Queuing Theory and the neural one. We present the standard learning procedures used by RNNs, adapted from similar well-established improvements in the standard NN field. We describe in particular a set of learning algorithms covering techniques based on the use of first order and, then, of second order derivatives. We also discuss some issues related to these objects and present new perspectives about their use in supervised learning problems. The tutorial describes their most relevant applications, and also provides a large bibliography.",
+    "published": "2016-09-15",
+    "updated": "2016-09-15",
+    "categories": [
+      "cs.NE"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1609.04846.pdf",
+    "abs_url": "https://arxiv.org/abs/1609.04846"
+  },
+  {
+    "id": "1408.0323",
+    "title": "Laboratory plasma physics experiments using merging supersonic plasma jets",
+    "authors": [
+      "S. C. Hsu",
+      "A. L. Moser",
+      "E. C. Merritt",
+      "C. S. Adams",
+      "J. P. Dunn",
+      "S. Brockington",
+      "A. Case",
+      "M. Gilmore",
+      "A. G. Lynn",
+      "S. J. Messer",
+      "F. D. Witherspoon"
+    ],
+    "abstract": "We describe a laboratory plasma physics experiment at Los Alamos National Laboratory that uses two merging supersonic plasma jets formed and launched by pulsed-power-driven rail guns. The jets can be formed using any atomic species or mixture available in a compressed-gas bottle and have the following nominal initial parameters at the railgun nozzle exit: $n_e\\approx n_i \\sim 10^{16}$ cm$^{-3}$, $T_e \\approx T_i \\approx 1.4$ eV, $V_{\\rm jet}\\approx 30$-100 km/s, mean charge $\\bar{Z}\\approx 1$, sonic Mach number $M_s\\equiv V_{\\rm jet}/C_s>10$, jet diameter $=5$ cm, and jet length $\\approx 20$ cm. Experiments to date have focused on the study of merging-jet dynamics and the shocks that form as a result of the interaction, in both collisional and collisionless regimes with respect to the inter-jet classical ion mean free path, and with and without an applied magnetic field. However, many other studies are also possible, as discussed in this paper.",
+    "published": "2014-08-01",
+    "updated": "2015-04-21",
+    "categories": [
+      "physics.plasm-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1408.0323.pdf",
+    "abs_url": "https://arxiv.org/abs/1408.0323"
+  },
+  {
+    "id": "2202.00406",
+    "title": "Attosecond dispersion as a diagnostics tool for solid-density laser-generated plasmas",
+    "authors": [
+      "Andréas Sundström",
+      "István Pusztai",
+      "Per Eng-Johnsson",
+      "Tünde Fülöp"
+    ],
+    "abstract": "Extreme-ultraviolet pulses can propagate through ionised solid-density targets, unlike optical pulses and, thus, have the potential to probe the interior of such plasmas on sub-femtosecond timescales. We present a synthetic diagnostic method for solid-density laser-generated plasmas based on the dispersion of an extreme-ultraviolet attosecond probe pulse, in a pump--probe scheme. We demonstrate the theoretical feasibility of this approach through calculating the dispersion of an extreme-ultraviolet probe pulse propagating through a laser-generated plasma. The plasma dynamics is calculated using a particle-in-cell simulation, whereas the dispersion of the probe is calculated with an external pseudo-spectral wave solver, allowing for high accuracy when calculating the dispersion. The application of this method is illustrated on thin-film plastic and aluminium targets irradiated by a high-intensity pump pulse. By comparing the dispersion of the probe pulse at different delays relative to the pump pulse, it is possible to follow the evolution of the plasma as it disintegrates. The high-frequency end of the dispersion provides information on the line-integrated electron density, whereas lower frequencies are more affected by the highest density encountered along the path of the probe. In addition, the presence of thin-film interference could be used to study the evolution of the plasma surface.",
+    "published": "2022-02-01",
+    "updated": "2022-04-26",
+    "categories": [
+      "physics.plasm-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2202.00406.pdf",
+    "abs_url": "https://arxiv.org/abs/2202.00406"
+  },
+  {
+    "id": "2102.12513",
+    "title": "General dispersion properties of magnetized plasmas with drifting bi-Kappa distributions. DIS-K: DIspersion Solver for Kappa plasmas",
+    "authors": [
+      "R. A. López",
+      "S. M. Shaaban",
+      "M. Lazar"
+    ],
+    "abstract": "Space plasmas are known to be out of (local) thermodynamic equilibrium, as observations show direct or indirect evidences of non-thermal velocity distributions of plasma particles. Prominent are the anisotropies relative to the magnetic field, anisotropic temperatures, field-aligned beams or drifting populations, but also, the suprathermal populations enhancing the high-energy tails of the observed distributions. Drifting bi-Kappa distribution functions can provide a good representation of these features and enable for a kinetic fundamental description of the dispersion and stability of these collision-poor plasmas, where particle-particle collisions are rare but wave-particle interactions appears to play a dominant role in the dynamic. In the present paper we derive the full set of components of the dispersion tensor for magnetized plasma populations modeled by drifting bi-Kappa distributions. A new solver called DIS-K (DIspersion Solver for Kappa plasmas) is proposed to solve numerically the dispersion relations of high complexity. The solver is validated by comparing to the damped and unstable wave solutions obtained with other codes, operating in the limits of drifting Maxwellian and non-drifting Kappa models. These new theoretical tools enable more realistic characterizations, both analytical and numerical, of wave fluctuations and instabilities in complex kinetic configurations measured in-situ in space plasmas.",
+    "published": "2021-02-24",
+    "updated": "2021-05-06",
+    "categories": [
+      "physics.plasm-ph",
+      "physics.space-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2102.12513.pdf",
+    "abs_url": "https://arxiv.org/abs/2102.12513"
+  },
+  {
+    "id": "1905.02953",
+    "title": "ViDA: a Vlasov-DArwin solver for plasma physics at electron scales",
+    "authors": [
+      "Oreste Pezzi",
+      "Giulia Cozzani",
+      "Francesco Califano",
+      "Francesco Valentini",
+      "Massimiliano Guarrasi",
+      "Enrico Camporeale",
+      "Gianfranco Brunetti",
+      "Alessandro Retinò",
+      "Pierluigi Veltri"
+    ],
+    "abstract": "We present a Vlasov-DArwin numerical code (ViDA) specifically designed to address plasma physics problems, where small-scale high accuracy is requested even during the non linear regime to guarantee a clean description of the plasma dynamics at fine spatial scales. The algorithm provides a low-noise description of proton and electron kinetic dynamics, by splitting in time the multi-advection Vlasov equation in phase space. Maxwell equations for the electric and magnetic fields are reorganized according to Darwin approximation to remove light waves. Several numerical tests show that ViDA successfully reproduces the propagation of linear and nonlinear waves and captures the physics of magnetic reconnection. We also discuss preliminary tests of the parallelization algorithm efficiency, performed at CINECA on the Marconi-KNL cluster. ViDA will allow to run Eulerian simulations of a non-relativistic fully-kinetic collisionless plasma and it is expected to provide relevant insights on important problems of plasma astrophysics such as, for instance, the development of the turbulent cascade at electron scales and the structure and dynamics of electron-scale magnetic reconnection, such as the electron diffusion region.",
+    "published": "2019-05-08",
+    "updated": "2019-10-24",
+    "categories": [
+      "physics.plasm-ph",
+      "astro-ph.SR",
+      "physics.space-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1905.02953.pdf",
+    "abs_url": "https://arxiv.org/abs/1905.02953"
+  },
+  {
+    "id": "2111.00196",
+    "title": "Wave-particle interactions in quantum plasmas",
+    "authors": [
+      "Amar P. Misra",
+      "Gert Brodin"
+    ],
+    "abstract": "Wave-particle interaction (WPI) is one of the most fundamental processes in plasma physics in which one most prominent example is the Landau damping. Owing to its excellent energy-exchange mechanism, the WPI has gained increasing interest not only from theoretical points of view but also its many important applications including plasma heating and plasma acceleration. In this review work, we present theoretical backgrounds of linear and nonlinear wave-particle interactions in quantum plasmas. Specifically, we focus on the wave-particle interactions for homogeneous plasma waves (i.e., waves with infinite extent rather than a localized pulse) as well as for propagating electrostatic waves in the weak and strong quantum regimes to demonstrate the modifications of several classical features including those associated with resonant and trapped particles. Finally, the future perspectives of WPI in quantum plasmas are presented.",
+    "published": "2021-10-30",
+    "updated": "2022-01-09",
+    "categories": [
+      "physics.plasm-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2111.00196.pdf",
+    "abs_url": "https://arxiv.org/abs/2111.00196"
+  },
+  {
+    "id": "1804.07299",
+    "title": "Electron beam-plasma interaction and electron-acoustic solitary waves in a plasma with suprathermal electrons",
+    "authors": [
+      "Ashkbiz Danehkar"
+    ],
+    "abstract": "Suprathermal electrons and inertial drifting electrons, so called electron beam, are crucial to the nonlinear dynamics of electrostatic solitary waves observed in several astrophysical plasmas. In this paper, the propagation of electron-acoustic solitary waves is investigated in a collisionless, unmagnetized plasma consisting of cool inertial background electrons, hot suprathermal electrons (modeled by a $κ$-type distribution), and stationary ions. The plasma is penetrated by a cool electron beam component. A linear dispersion relation is derived to describe small-amplitude wave structures that shows a weak dependence of the phase speed on the electron beam velocity and density. A (Sagdeev-type) pseudopotential approach is employed to obtain the existence domain of large-amplitude solitary waves, and investigate how their nonlinear structures depend on the kinematic and physical properties of the electron beam and the suprathermality (described by $κ$) of the hot electrons. The results indicate that the electron beam can largely alter the electron-acoustic solitary waves, but can only produce negative polarity solitary waves in this model. While the electron beam co-propagates with the solitary waves, the soliton existence domain (Mach number range) becomes narrower (nearly down to nil) with increasing the beam speed and the beam-to-hot electron temperature ratio, and decreasing the beam-to-cool electron density ratio in high suprathermality (low $κ$). It is found that the electric potential amplitude largely declines with increasing the beam speed and the beam-to-cool electron density ratio for co-propagating solitary waves, but is slightly decreased by raising the beam-to-hot electron temperature ratio.",
+    "published": "2018-04-18",
+    "updated": "2018-04-18",
+    "categories": [
+      "physics.plasm-ph",
+      "astro-ph.HE"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1804.07299.pdf",
+    "abs_url": "https://arxiv.org/abs/1804.07299"
+  },
+  {
+    "id": "1508.05650",
+    "title": "Wavelet transforms and their applications to MHD and plasma turbulence: a review",
+    "authors": [
+      "Marie Farge",
+      "Kai Schneider"
+    ],
+    "abstract": "Wavelet analysis and compression tools are reviewed and different applications to study MHD and plasma turbulence are presented. We introduce the continuous and the orthogonal wavelet transform and detail several statistical diagnostics based on the wavelet coefficients. We then show how to extract coherent structures out of fully developed turbulent flows using wavelet-based denoising. Finally some multiscale numerical simulation schemes using wavelets are described. Several examples for analyzing, compressing and computing one, two and three dimensional turbulent MHD or plasma flows are presented.",
+    "published": "2015-08-23",
+    "updated": "2015-08-23",
+    "categories": [
+      "physics.plasm-ph",
+      "nlin.AO",
+      "physics.comp-ph",
+      "physics.data-an",
+      "physics.flu-dyn"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1508.05650.pdf",
+    "abs_url": "https://arxiv.org/abs/1508.05650"
+  }
+]
+[
+  {
+    "id": "1110.4864",
+    "title": "Mathematical Physics : Problems and Solutions of The Students Training Contest Olympiad in Mathematical and Theoretical Physics (May 21st - 24th, 2010)",
+    "authors": [
+      "G. S. Beloglazov",
+      "A. L. Bobrick",
+      "S. V. Chervon",
+      "B. V. Danilyuk",
+      "M. V. Dolgopolov",
+      "M. G. Ivanov",
+      "O. G. Panina",
+      "E. Yu. Petrova",
+      "I. N. Rodionova",
+      "E. N. Rykova",
+      "M. Y. Shalaginov",
+      "I. S. Tsirova",
+      "I. V. Volovich",
+      "A. P. Zubarev"
+    ],
+    "abstract": "The present issue of the series <<Modern Problems in Mathematical Physics>> represents the Proceedings of the Students Training Contest Olympiad in Mathematical and Theoretical Physics and includes the statements and the solutions of the problems offered to the participants. The contest Olympiad was held on May 21st-24th, 2010 by Scientific Research Laboratory of Mathematical Physics of Samara State University, Steklov Mathematical Institute of Russia's Academy of Sciences, and Moscow Institute of Physics and Technology (State University) in cooperation.   The present Proceedings is intended to be used by the students of physical and mechanical-mathematical departments of the universities, who are interested in acquiring a deeper knowledge of the methods of mathematical and theoretical physics, and could be also useful for the persons involved in teaching mathematical and theoretical physics.",
+    "published": "2011-10-21",
+    "updated": "2011-10-25",
+    "categories": [
+      "math-ph",
+      "physics.ed-ph",
+      "physics.pop-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1110.4864.pdf",
+    "abs_url": "https://arxiv.org/abs/1110.4864"
+  },
+  {
+    "id": "1910.11775",
+    "title": "Physics Briefing Book",
+    "authors": [
+      " European Strategy for Particle Physics Preparatory Group"
+    ],
+    "abstract": "The European Particle Physics Strategy Update (EPPSU) process takes a bottom-up approach, whereby the community is first invited to submit proposals (also called inputs) for projects that it would like to see realised in the near-term, mid-term and longer-term future. National inputs as well as inputs from National Laboratories are also an important element of the process. All these inputs are then reviewed by the Physics Preparatory Group (PPG), whose role is to organize a Symposium around the submitted ideas and to prepare a community discussion on the importance and merits of the various proposals. The results of these discussions are then concisely summarised in this Briefing Book, prepared by the Conveners, assisted by Scientific Secretaries, and with further contributions provided by the Contributors listed on the title page. This constitutes the basis for the considerations of the European Strategy Group (ESG), consisting of scientific delegates from CERN Member States, Associate Member States, directors of major European laboratories, representatives of various European organizations as well as invitees from outside the European Community. The ESG has the mission to formulate the European Strategy Update for the consideration and approval of the CERN Council.",
+    "published": "2019-10-25",
+    "updated": "2020-01-10",
+    "categories": [
+      "hep-ex",
+      "hep-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1910.11775.pdf",
+    "abs_url": "https://arxiv.org/abs/1910.11775"
+  },
+  {
+    "id": "hep-ex/9605011",
+    "title": "Physics and Technology of the Next Linear Collider: A Report Submitted to Snowmass '96",
+    "authors": [
+      " NLC ZDR Design Group",
+      " NLC Physics Working Group",
+      "S. Kuhlman"
+    ],
+    "abstract": "We present the current expectations for the design and physics program of an e+e- linear collider of center of mass energy 500 GeV -- 1 TeV. We review the experiments that would be carried out at this facility and demonstrate its key role in exploring physics beyond the Standard Model over the full range of theoretical possibilities. We then show the feasibility of constructing this machine, by reviewing the current status of linear collider technology and by presenting a precis of our `zeroth-order' design.",
+    "published": "1996-05-30",
+    "updated": "1996-05-30",
+    "categories": [
+      "hep-ex",
+      "hep-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/hep-ex/9605011.pdf",
+    "abs_url": "https://arxiv.org/abs/hep-ex/9605011"
+  },
+  {
+    "id": "2606.05868",
+    "title": "YouZhi: Towards High-Concurrency Financial LLMs via Adaptive GQA-to-MLA Transition",
+    "authors": [
+      " PSBC LLM Team",
+      " Huawei LLM Team",
+      "Ruihan Long",
+      "Junjie Wu",
+      "Tianan Zhang",
+      "Duo Zhang",
+      "Yaozong Wu",
+      "Jinbin Fu",
+      "Chang Liu",
+      "Zhentao Tang",
+      "Wenshuang Yang",
+      "Xin Wang",
+      "Zhihao Song",
+      "Ning Huang",
+      "Wenjing Xu",
+      "Shuai Zong",
+      "Shupei Sun",
+      "Sen Wang",
+      "Jing Hu",
+      "Bin Wang",
+      "Xinyu Wang",
+      "Junkui Ju",
+      "Zequn Ding",
+      "Jie Ran",
+      "Man Luo",
+      "Shixiong Kai",
+      "Linkai Hou",
+      "Kaichao Liang",
+      "Hu Zhao",
+      "Yang Zhao",
+      "Shucheng Lin",
+      "Wei Yu",
+      "Chenghan Jiang",
+      "Jingjing Ding",
+      "Jiahui Zhang",
+      "Tian Jin",
+      "Yuhang Zhang",
+      "Dong Guo",
+      "Wei Sun",
+      "Jun Xie",
+      "Jianwei Li",
+      "Lei Cao",
+      "Pei Li",
+      "Jiabin Li",
+      "Jia Yuan",
+      "Rui Yuan",
+      "Jing Zhu",
+      "Mingxuan Yuan",
+      "Zhangcheng Lv",
+      "Xin Jiang",
+      "Xiuhong Fei",
+      "Xiaozhe Ren",
+      "Yulong Li",
+      "Zhipeng Zhang",
+      "Hang Wang",
+      "Zhaohui Xu",
+      "Rui Zhao",
+      "Yibo He",
+      "Xinzhuang Niu"
+    ],
+    "abstract": "Large language models (LLMs) drive significant financial innovations, yet their high-concurrency deployment is severely bottlenecked by KV cache memory overhead, which inflates infrastructure costs and throttles scalability. To address this, we propose YouZhi-LLM, a highly efficient financial LLM empowered by a comprehensive structural transition and training pipeline natively built on the Huawei Ascend ecosystem. At its algorithmic core, YouZhi-LLM features a layer-adaptive GQA-to-MLA transition framework that dynamically assigns per-layer FreqFold sizes, maximizing KV-cache compression while minimizing perplexity degradation. To recover representation capacity and inject domain expertise, the Ascend-based training pipeline seamlessly integrates generalized knowledge distillation with financial-specific supervised fine-tuning. Evaluations demonstrate the superiority of this systematic approach, with the adaptive transition reducing perplexity degradation by up to 35% over uniform baselines. Crucially, when evaluated on Ascend NPUs via vLLM-Ascend, the massive KV-cache reduction translates directly into deployment efficiency. Compared to their respective base models, YouZhi-7B yields a 12.3% improvement in average financial benchmark score alongside a 2.69$\\times$ increase in maximum concurrency; similarly, YouZhi-14B achieves a 7.0% accuracy gain and a 2.43$\\times$ concurrency boost, establishing a new paradigm for cost-effective, high-throughput financial inference.",
+    "published": "2026-06-04",
+    "updated": "2026-06-04",
+    "categories": [
+      "cs.CL"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2606.05868.pdf",
+    "abs_url": "https://arxiv.org/abs/2606.05868"
+  },
+  {
+    "id": "2307.10635",
+    "title": "SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models",
+    "authors": [
+      "Xiaoxuan Wang",
+      "Ziniu Hu",
+      "Pan Lu",
+      "Yanqiao Zhu",
+      "Jieyu Zhang",
+      "Satyen Subramaniam",
+      "Arjun R. Loomba",
+      "Shichang Zhang",
+      "Yizhou Sun",
+      "Wei Wang"
+    ],
+    "abstract": "Most of the existing Large Language Model (LLM) benchmarks on scientific problem reasoning focus on problems grounded in high-school subjects and are confined to elementary algebraic operations. To systematically examine the reasoning capabilities required for solving complex scientific problems, we introduce an expansive benchmark suite SciBench for LLMs. SciBench contains a carefully curated dataset featuring a range of collegiate-level scientific problems from mathematics, chemistry, and physics domains. Based on the dataset, we conduct an in-depth benchmarking study of representative open-source and proprietary LLMs with various prompting strategies. The results reveal that the current LLMs fall short of delivering satisfactory performance, with the best overall score of merely 43.22%. Furthermore, through a detailed user study, we categorize the errors made by LLMs into ten problem-solving abilities. Our analysis indicates that no single prompting strategy significantly outperforms the others and some strategies that demonstrate improvements in certain problem-solving skills could result in declines in other skills. We envision that SciBench will catalyze further developments in the reasoning abilities of LLMs, thereby ultimately contributing to scientific research and discovery.",
+    "published": "2023-07-20",
+    "updated": "2024-06-28",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2307.10635.pdf",
+    "abs_url": "https://arxiv.org/abs/2307.10635"
+  },
+  {
+    "id": "2604.08140",
+    "title": "Multimodal Reasoning with LLM for Encrypted Traffic Interpretation: A Benchmark",
+    "authors": [
+      "Longgang Zhang",
+      "Xiaowei Fu",
+      "Fuxiang Huang",
+      "Lei Zhang"
+    ],
+    "abstract": "Network traffic, as a key media format, is crucial for ensuring security and communications in modern internet infrastructure. While existing methods offer excellent performance, they face two key bottlenecks: (1) They fail to capture multidimensional semantics beyond unimodal sequence patterns. (2) Their black box property, i.e., providing only category labels, lacks an auditable reasoning process. We identify a key factor that existing network traffic datasets are primarily designed for classification and inherently lack rich semantic annotations, failing to generate human-readable evidence report. To address data scarcity, this paper proposes a Byte-Grounded Traffic Description (BGTD) benchmark for the first time, combining raw bytes with structured expert annotations. BGTD provides necessary behavioral features and verifiable chains of evidence for multimodal reasoning towards explainable encrypted traffic interpretation. Built upon BGTD, this paper proposes an end-to-end traffic-language representation framework (mmTraffic), a multimodal reasoning architecture bridging physical traffic encoding and semantic interpretation. In order to alleviate modality interference and generative hallucinations, mmTraffic adopts a jointly-optimized perception-cognition architecture. By incorporating a perception-centered traffic encoder and a cognition-centered LLM generator, mmTraffic achieves refined traffic interpretation with guaranteed category prediction. Extensive experiments demonstrate that mmTraffic autonomously generates high-fidelity, human-readable, and evidence-grounded traffic interpretation reports, while maintaining highly competitive classification accuracy comparing to specialized unimodal model (e.g., NetMamba). The source code is available at https://github.com/lgzhangzlg/Multimodal-Reasoning-with-LLM-for-Encrypted-Traffic-Interpretation-A-Benchmark",
+    "published": "2026-04-09",
+    "updated": "2026-04-09",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.MM",
+      "cs.NI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2604.08140.pdf",
+    "abs_url": "https://arxiv.org/abs/2604.08140"
+  },
+  {
+    "id": "2504.10415",
+    "title": "LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models",
+    "authors": [
+      "Parshin Shojaee",
+      "Ngoc-Hieu Nguyen",
+      "Kazem Meidani",
+      "Amir Barati Farimani",
+      "Khoa D Doan",
+      "Chandan K Reddy"
+    ],
+    "abstract": "Scientific equation discovery is a fundamental task in the history of scientific progress, enabling the derivation of laws governing natural phenomena. Recently, Large Language Models (LLMs) have gained interest for this task due to their potential to leverage embedded scientific knowledge for hypothesis generation. However, evaluating the true discovery capabilities of these methods remains challenging, as existing benchmarks often rely on common equations that are susceptible to memorization by LLMs, leading to inflated performance metrics that do not reflect discovery. In this paper, we introduce LLM-SRBench, a comprehensive benchmark with 239 challenging problems across four scientific domains specifically designed to evaluate LLM-based scientific equation discovery methods while preventing trivial memorization. Our benchmark comprises two main categories: LSR-Transform, which transforms common physical models into less common mathematical representations to test reasoning beyond memorized forms, and LSR-Synth, which introduces synthetic, discovery-driven problems requiring data-driven reasoning. Through extensive evaluation of several state-of-the-art methods, using both open and closed LLMs, we find that the best-performing system so far achieves only 31.5% symbolic accuracy. These findings highlight the challenges of scientific equation discovery, positioning LLM-SRBench as a valuable resource for future research.",
+    "published": "2025-04-14",
+    "updated": "2025-06-07",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2504.10415.pdf",
+    "abs_url": "https://arxiv.org/abs/2504.10415"
+  },
+  {
+    "id": "2107.11742",
+    "title": "MHD analysis on the physical designs of CFETR and HFRC",
+    "authors": [
+      "Ping Zhu",
+      "Li Li",
+      "Yu Fang",
+      "Yuling He",
+      "Shuo Wang",
+      "Rui Han",
+      "Yue Liu",
+      "Xiaojing Wang",
+      "Yang Zhang",
+      "Xiaodong Zhang",
+      "Qingquan Yu",
+      "Liqun Hu",
+      "Huihui Wang",
+      "Youwen Sun",
+      "Lai Wei",
+      "Weikang Tang",
+      "Tong Liu",
+      "Zhengxiong Wang",
+      "Xingting Yan",
+      "Wenlong Huang",
+      "Yawei Hou",
+      "Xiaoquan Ji",
+      "Shiyong Zeng",
+      "Zafar Abdullah",
+      "Zhongyong Chen",
+      "Long Zeng",
+      "Haolong Li",
+      "Zhipeng Chen",
+      "Zhijiang Wang",
+      "Bo Rao",
+      "Ming Zhan",
+      "Yonghua Ding",
+      "Yuan Pan",
+      "the CFETR Physics Team",
+      "the HFRC Physics Team"
+    ],
+    "abstract": "The China Fusion Engineering Test Reactor (CFETR) and the Huazhong Field Reversed Configuration (HFRC), currently both under intensive physical and engineering designs in China, are the two major projects representative of the low-density steady-state and high-density pulsed pathways to fusion. One of the primary tasks of the physics designs for both CFETR and HFRC is the assessment and analysis of the magnetohydrodynamic (MHD) stability of the proposed design schemes. Comprehensive efforts on the assessment of MHD stability of CFETR and HFRC baseline scenarios have led to preliminary progresses that may further benefit engineering designs.",
+    "published": "2021-07-25",
+    "updated": "2021-07-25",
+    "categories": [
+      "physics.plasm-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2107.11742.pdf",
+    "abs_url": "https://arxiv.org/abs/2107.11742"
+  }
+]
+[
+  {
+    "id": "2607.07504",
+    "title": "Do LLM-Generated Skills Make Better AI Data Scientists? A Component Ablation Across Data-Science Workflows",
+    "authors": [
+      "Wei-Jung Huang"
+    ],
+    "abstract": "Product data scientists often ask LLM-based agents to help with recurring execution tasks such as cleaning data, writing SQL, choosing statistical tests, and formatting results. Reusable skill files are meant to avoid prompting from scratch by packaging guidance for a task family. Expert-written skills can encode high-quality guidance, but writing and maintaining them across many data-science task families creates a manual bottleneck. We ask whether LLM-generated skills offer a useful low-curation alternative: do they improve performance over the task prompt alone? We test this question across four lifecycle stages: data preparation, data extraction, statistical analysis, and reporting, using one generated skill per stage. We find no reliable improvement from full generated skills over No-Skill prompting. We then ask whether any part of the skill is useful by ablating different skill components. The main ablation covers 56 tasks, nine model configurations, and three providers, yielding 7,560 runs. Compared with prompting using the task alone, neither the full generated skill nor any ablated skill variant significantly improves performance; all p-values are at least 0.396, and the total spread across variants is only 1.2 pp. A supplemental token-matched control adds 1,512 runs and finds that Full skills perform similarly to task-irrelevant skill-formatted content. The results caution against using one LLM-generated skill per data-science workflow as a default single-shot prompting strategy.",
+    "published": "2026-07-08",
+    "updated": "2026-07-08",
+    "categories": [
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2607.07504.pdf",
+    "abs_url": "https://arxiv.org/abs/2607.07504"
+  },
+  {
+    "id": "2606.29981",
+    "title": "Hephaestus: Toward a Cybersecurity AI Scientist",
+    "authors": [
+      "Jiaqi Li",
+      "Yang Zhao",
+      "Wen Lu",
+      "Lvyang Zhang",
+      "Lidong Zhai"
+    ],
+    "abstract": "Cyber offense is moving to machine speed; cyber research itself is not. Existing AI scientist systems make end-to-end research automation increasingly plausible, but they target relatively stable scientific domains. We argue that AI-native cybersecurity is a different kind of scientific object. Its recurring units of study are security events and interaction traces, not static assets; its model and tool substrate is non-stationary, not steady-state; and credible evaluation depends on digital twins, cyber ranges, and auditable evidence rather than on a single benchmark score. We call this object the Cybersecurity AI Scientist. A practical realization is a modular, role-specialized multi-agent research system that coordinates problem framing, threat modeling, tool generation, controlled experimentation, evaluation, governance, and scientific reporting, and that anchors its concrete objectives in a four-zeros frame spanning risk, trust, incident, and energy dimensions. As a representative agenda we focus on AI-native defense, where steady-state perimeters give way to resilient agent legions and the classical category of terminal security is itself being deconstructed into agent security. This paper defines the object, separates it from any single organizational realization, and offers an architecture and an agenda on which later systems, benchmarks, and empirical programs can be built.",
+    "published": "2026-06-29",
+    "updated": "2026-06-29",
+    "categories": [
+      "cs.CR"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2606.29981.pdf",
+    "abs_url": "https://arxiv.org/abs/2606.29981"
+  },
+  {
+    "id": "2603.25777",
+    "title": "Challenges and opportunities for AI to help deliver fusion energy",
+    "authors": [
+      "Adriano Agnello",
+      "Helen Brooks",
+      "Cyd Cowley",
+      "Iulia Georgescu",
+      "Alex Higginbottom",
+      "Richard Pearson",
+      "Tara Shears",
+      "Melanie Windridge"
+    ],
+    "abstract": "There is great potential for the application of AI tools in fusion research, and substantial worldwide benefit if fusion power is realised. However, using AI comes with its own challenges, many of which can be mitigated if responsible and robust methodologies are built into existing approaches. To do that requires close, long-term collaborations between fusion domain experts and AI developers and awareness of the fact that not all problems in fusion research are best tackled with AI tools. In April 2025, experts from academia, industry, UKAEA and STFC discussed how AI can be used to advance R&D in fusion energy at the first edition of The Economist FusionFest event. This Perspective is an expanded and updated summary of the round table discussion, providing more context and examples.",
+    "published": "2026-03-26",
+    "updated": "2026-05-11",
+    "categories": [
+      "physics.plasm-ph",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2603.25777.pdf",
+    "abs_url": "https://arxiv.org/abs/2603.25777"
+  },
+  {
+    "id": "2603.28944",
+    "title": "Faith in AI can narrow the futures individuals consider",
+    "authors": [
+      "Aoi Naito",
+      "Hirokazu Shirado"
+    ],
+    "abstract": "Artificial intelligence (AI) predictions are increasingly used to inform human decisions. Here, using a behavioral implementation of the classic Newcomb's paradox in 1,305 participants, we show that AI predictions can also shape the reasoning people use to make a decision. In this paradigm, perceived predictive authority can alter how people reason about their future actions, leading them to forgo a guaranteed reward. Over 40% of participants treated AI as such a predictive authority about their own behavior, significantly increasing the odds of forgoing the guaranteed reward by a factor of 3.39 (95% CI: 2.45-4.70) and reducing earnings by 10.7-42.9%. The effect appeared across AI presentations and decision contexts and remained detectable even when predictions repeatedly failed. When people perceive AI as capable of predicting their personal behavior, the mere presence of AI predictions may shape their decision-making, narrowing the futures they consider.",
+    "published": "2026-03-30",
+    "updated": "2026-07-03",
+    "categories": [
+      "cs.HC"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2603.28944.pdf",
+    "abs_url": "https://arxiv.org/abs/2603.28944"
+  },
+  {
+    "id": "2501.02842",
+    "title": "Foundations of GenIR",
+    "authors": [
+      "Qingyao Ai",
+      "Jingtao Zhan",
+      "Yiqun Liu"
+    ],
+    "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+    "published": "2025-01-06",
+    "updated": "2025-01-06",
+    "categories": [
+      "cs.IR",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2501.02842.pdf",
+    "abs_url": "https://arxiv.org/abs/2501.02842"
+  },
+  {
+    "id": "2601.16513",
+    "title": "Competing Visions of Ethical AI: A Case Study of OpenAI",
+    "authors": [
+      "Melissa Wilfley",
+      "Mengting Ai",
+      "Madelyn Rose Sanfilippo"
+    ],
+    "abstract": "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI's public discourse leveraged 'ethics', 'safety', 'alignment' and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was assembled from public documentation. Analysis. Qualitative content analysis of ethical themes combined inductively derived and deductively applied codes. Quantitative analysis leveraged computational content analysis methods via NLP to model topics and quantify changes in rhetoric over time. Visualizations report aggregate results. For reproducible results, we have released our code at https://github.com/famous-blue-raincoat/AI_Ethics_Discourse. Results. Results indicate that safety and risk discourse dominate OpenAI's public communication and documentation, without applying academic and advocacy ethics frameworks or vocabularies. Conclusions. Implications for governance are presented, along with discussion of ethics-washing practices in industry.",
+    "published": "2026-01-23",
+    "updated": "2026-01-23",
+    "categories": [
+      "cs.CY"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2601.16513.pdf",
+    "abs_url": "https://arxiv.org/abs/2601.16513"
+  },
+  {
+    "id": "2511.04583",
+    "title": "Jr. AI Scientist and Its Risk Report: Autonomous Scientific Exploration from a Baseline Paper",
+    "authors": [
+      "Atsuyuki Miyai",
+      "Mashiro Toyooka",
+      "Takashi Otonari",
+      "Zaiying Zhao",
+      "Kiyoharu Aizawa"
+    ],
+    "abstract": "Understanding the current capabilities and risks of AI Scientist systems (autoresearch) is essential for ensuring trustworthy and sustainable AI-driven scientific progress while preserving the integrity of the academic ecosystem. To this end, we develop Jr. AI Scientist, a state-of-the-art autonomous AI scientist system that mimics the core research workflow of a novice student researcher: Given the baseline paper from the human mentor, it analyzes its limitations, formulates novel hypotheses for improvement, iteratively experiments until improvements are achieved, and writes a paper with the results. Unlike previous approaches that assume full automation or operate on small-scale code, Jr. AI Scientist follows a well-defined research workflow and leverages modern coding agents to handle complex, multi-file implementations, leading to scientifically valuable contributions. Through our experiments, the Jr. AI Scientist successfully generated new research papers that build upon real NeurIPS, IJCV, and ICLR works by proposing and implementing novel methods. For evaluation, we conducted automated assessments using AI Reviewers, author-led evaluations, and submissions to Agents4Science, a venue dedicated to AI-driven contributions. The findings demonstrate that Jr. AI Scientist generates papers receiving higher review scores by DeepReviewer than existing fully automated systems. Nevertheless, we identify important limitations from the author evaluation and the Agents4Science reviews, indicating the potential risks of directly applying current AI Scientist systems and key challenges for future research. Finally, we comprehensively report various risks identified during development. We believe this study clarifies the current role and limitations of AI Scientist systems, offering insights into the areas that still require human expertise and the risks that may emerge as these systems evolve.",
+    "published": "2025-11-06",
+    "updated": "2026-03-11",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2511.04583.pdf",
+    "abs_url": "https://arxiv.org/abs/2511.04583"
+  },
+  {
+    "id": "2605.21825",
+    "title": "Toward AI VIS Co-Scientists: A General and End-to-End Agent Harness for Solving Complex Data Visualization Tasks",
+    "authors": [
+      "Haichao Miao",
+      "Zhimin Li",
+      "Kuangshi Ai",
+      "Kaiyuan Tang",
+      "Chaoli Wang",
+      "Peer-Timo Bremer",
+      "Shusen Liu"
+    ],
+    "abstract": "The ability to inspect, interpret, and communicate complex data is crucial for virtually any scientific endeavor, but often requires significant expertise outside the core domain ranging from data management and analysis to visualization design and implementation. We present an end-to-end agentic harness that, based on only the data and a high level description of the tasks, independently designs custom visual analysis applications (VIS apps). This represents an important step towards a general AI co-scientist envisioned by many as an autonomous system that can autonomously execute long horizon tasks based on high-level directions. Our proposed VIS co-scientist is an essential component of this broader AI co-scientist vision: a harness that can autonomously analyze data and design visualization solutions using a collection of agents and specialized skills that coordinate exploratory analysis, plan, configure the environment, implement, validate the interface, and most importantly evaluate the overall task completion. Each stage produces document and instruction artifacts that guide downstream work and enable iterative refinement. We validate this approach on IEEE SciVis Contests spanning multiple science and engineering fields. These contests serve as ideal proving grounds because they encode real-world complexity: ambiguous requirements, diverse data modalities, design trade-offs, and task-driven validation. Given only the data and target tasks, our system autonomously produces functional single-page VIS Apps with verified linked-view behavior, highly customized to domain experts' specified tasks and needs.",
+    "published": "2026-05-20",
+    "updated": "2026-05-20",
+    "categories": [
+      "cs.AI",
+      "cs.HC"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.21825.pdf",
+    "abs_url": "https://arxiv.org/abs/2605.21825"
+  }
+]

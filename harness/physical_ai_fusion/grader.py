@@ -1,0 +1,91 @@
+"""Deterministic graders.
+
+numeric_tolerance: extract a number from the model response and compare
+against answer.value with relative tolerance.  Number extraction is fully
+deterministic and documented:
+
+  1. If the response contains a fenced ``answer:`` / ``答案`` marker, parse the
+     first number after the LAST such marker.
+  2. Otherwise take the LAST number that appears in the response.
+
+exact_match (choice): collect the set of option letters the response commits
+to (``Answer: A, C`` or ``选 A`` patterns), compare exactly with the key.
+
+Both graders return (score: float in {0,1}, detail: str).
+"""
+from __future__ import annotations
+
+import re
+
+NUM_RE = re.compile(
+    r"(?<![A-Za-z0-9_.])"                       # no leading identifier chars
+    r"(-?\d+(?:\.\d*)?(?:[eE][+-]?\d+)?)"       # plain / scientific
+    r"(?![A-Za-z0-9_.])"                        # no trailing identifier chars
+)
+MARKER_RE = re.compile(r"(?:final answer|answer|答案|答)\s*[:：=是]?\s*", re.I)
+LETTER_RE = re.compile(r"\b([A-D])\b")
+
+
+def _to_float(s: str) -> float:
+    return float(s.replace("×10", "e").replace("E", "e"))
+
+
+def extract_number(response: str) -> float | None:
+    """Deterministic number extraction (marker-first, then last number)."""
+    if not response:
+        return None
+    matches = list(MARKER_RE.finditer(response))
+    if matches:
+        last = matches[-1]
+        rest = response[last.end():]
+        m = NUM_RE.search(rest)
+        if m:
+            return _to_float(m.group(1))
+    nums = NUM_RE.findall(response)
+    return _to_float(nums[-1]) if nums else None
+
+
+def grade_numeric(response: str, answer: dict) -> tuple[float, str]:
+    gold = float(answer["value"])
+    tol = float(answer.get("tolerance_rel", 0.02))
+    got = extract_number(response)
+    if got is None:
+        return 0.0, "no number found in response"
+    if gold == 0:
+        ok = abs(got - gold) <= tol
+    else:
+        ok = abs(got - gold) / abs(gold) <= tol
+    rel = abs(got - gold) / abs(gold) if gold else abs(got - gold)
+    return (1.0 if ok else 0.0), f"gold={gold:.6g} got={got:.6g} rel_dev={rel:.2e} tol={tol:.1e}"
+
+
+def extract_letters(response: str) -> set[str]:
+    """Letters the response commits to: prefer after a marker, else all."""
+    if not response:
+        return set()
+    matches = list(MARKER_RE.finditer(response))
+    if matches:
+        rest = response[matches[-1].end():]
+        letters = set(LETTER_RE.findall(rest[:80]))
+        if letters:
+            return letters
+    return set(LETTER_RE.findall(response))
+
+
+def grade_choice(response: str, answer: dict) -> tuple[float, str]:
+    key = set(answer.get("correct", []))
+    got = extract_letters(response)
+    if not got:
+        return 0.0, f"no option letters found (key={sorted(key)})"
+    ok = got == key
+    return (1.0 if ok else 0.0), f"key={sorted(key)} got={sorted(got)}"
+
+
+def grade(response: str, task: dict) -> tuple[float, str]:
+    kind = task["answer"]["kind"]
+    mode = task["grading"]["mode"]
+    if mode == "numeric_tolerance":
+        return grade_numeric(response, task["answer"])
+    if mode == "exact_match":
+        return grade_choice(response, task["answer"])
+    return 0.0, f"grading mode {mode!r} requires the optional LLM-judge module (v1.1); skipped"

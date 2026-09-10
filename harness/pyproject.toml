@@ -1,26 +1,22 @@
 [build-system]
-requires = ["setuptools>=64"]
+requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "physical-ai-fusion"
 version = "0.1.0"
-description = "Physical-AI-Fusion: a SWE-bench-style benchmark for physics AI, focused on nuclear fusion (ICF-heavy)"
-readme = "README.md"
+description = "SWE-bench-style evaluation harness for the Physical-AI-Fusion benchmark (physics AI x nuclear fusion, ICF-focused)"
+readme = "../README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "Physical-AI-Fusion Team" }]
-dependencies = []
-
-[project.optional-dependencies]
-symbolic = ["sympy>=1.12"]
-judge = ["openai>=1.0"]
-dev = ["pytest>=7", "sympy>=1.12"]
+keywords = ["benchmark", "fusion", "ICF", "physics", "LLM", "evaluation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+]
 
 [project.scripts]
 physical-ai-fusion = "physical_ai_fusion.cli:main"
-paf = "physical_ai_fusion.cli:main"
 
 [tool.setuptools.packages.find]
-where = ["."]
 include = ["physical_ai_fusion*"]
