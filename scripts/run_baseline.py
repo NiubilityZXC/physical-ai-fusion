@@ -30,32 +30,42 @@ PROMPT = (
 )
 
 
-def load_api_key() -> str:
-    if os.environ.get("ARK_API_KEY"):
-        return os.environ["ARK_API_KEY"]
-    cfgp = Path.home() / ".arkcli" / "config.yaml"
-    if cfgp.exists():
+def load_auth() -> tuple[str, str]:
+    """返回 (token, base_url)。顺序: ~/.claude/settings.json env -> env -> ~/.arkcli/config.yaml"""
+    sp = Path.home() / ".claude" / "settings.json"
+    if sp.exists():
         try:
-            import yaml
-            cfg = yaml.safe_load(cfgp.read_text())
+            env = json.loads(sp.read_text()).get("env", {})
+            if env.get("ANTHROPIC_AUTH_TOKEN") and env.get("ANTHROPIC_BASE_URL"):
+                return env["ANTHROPIC_AUTH_TOKEN"], env["ANTHROPIC_BASE_URL"]
         except Exception:
-            cfg = None
-        if cfg:
-            for k, v in cfg.items():
-                if isinstance(v, str) and len(v) > 30 and ("key" in k.lower() or "token" in k.lower()):
-                    return v
-                if isinstance(v, dict):
-                    for k2, v2 in v.items():
-                        if isinstance(v2, str) and len(v2) > 30 and ("key" in k2.lower() or "token" in k2.lower()):
-                            return v2
-    raise SystemExit("no API key found (set ARK_API_KEY or configure ~/.arkcli/config.yaml)")
+            pass
+    if os.environ.get("ARK_API_KEY"):
+        return os.environ["ARK_API_KEY"], os.environ.get("ARK_BASE_URL", "https://ark.cn-beijing.volces.com/api/plan")
+    raise SystemExit("no auth found (~/.claude/settings.json env / ARK_API_KEY)")
 
 
-def chat(model: str, messages: list[dict], key: str, base: str, timeout: float = 120.0) -> str:
-    body = json.dumps({"model": model, "messages": messages, "max_tokens": 2048,
-                       "temperature": 0.2}).encode()
+def chat(model: str, messages: list[dict], key: str, base: str, timeout: float = 180.0) -> str:
+    """Anthropic /v1/messages(x-api-key)优先,失败后回退 OpenAI /chat/completions。"""
+    flat = "\n\n".join(m["content"] for m in messages if m["role"] == "user")
+    body = json.dumps({"model": model, "max_tokens": 2048,
+                       "messages": [{"role": "user", "content": flat}]}).encode()
+    try:
+        req = urllib.request.Request(
+            base.rstrip("/") + "/v1/messages", data=body,
+            headers={"Content-Type": "application/json", "x-api-key": key,
+                     "anthropic-version": "2023-06-01"})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            data = json.loads(r.read())
+        return "".join(c.get("text", "") for c in data.get("content", []))
+    except urllib.error.HTTPError as e:
+        if e.code not in (401, 404):
+            raise
+    # fallback: OpenAI style on <base>/v3
+    body = json.dumps({"model": model, "messages": [{"role": "user", "content": flat}],
+                       "max_tokens": 2048, "temperature": 0.2}).encode()
     req = urllib.request.Request(
-        base.rstrip("/") + "/chat/completions", data=body,
+        base.rstrip("/") + "/v3/chat/completions", data=body,
         headers={"Content-Type": "application/json", "Authorization": f"Bearer {key}"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         data = json.loads(r.read())
@@ -65,7 +75,7 @@ def chat(model: str, messages: list[dict], key: str, base: str, timeout: float =
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True)
-    ap.add_argument("--base", default="https://ark.cn-beijing.volces.com/api/plan/v3")
+    ap.add_argument("--base", default=None, help="override resolved base url (default: from auth source)")
     ap.add_argument("--output", default=None)
     ap.add_argument("--limit", type=int, default=10**9)
     ap.add_argument("--split", default="verified")
@@ -78,7 +88,9 @@ def main() -> int:
         for line in out_path.read_text(encoding="utf-8").splitlines():
             if line.strip():
                 done.add(json.loads(line)["task_id"])
-    key = load_api_key()
+    key, base = load_auth()
+    if args.base:
+        base = args.base
 
     tasks = [json.loads(l) for f in sorted(glob.glob(str(ROOT / "data" / args.split / "*.jsonl")))
              for l in open(f, encoding="utf-8") if l.strip()]
@@ -90,11 +102,11 @@ def main() -> int:
             prompt = PROMPT.format(question=t["question"])
             for attempt in range(3):
                 try:
-                    resp = chat(args.model, [{"role": "user", "content": prompt}], key, args.base)
+                    resp = chat(args.model, [{"role": "user", "content": prompt}], key, base)
                     fh.write(json.dumps({"task_id": t["task_id"], "response": resp}, ensure_ascii=False) + "\n")
                     fh.flush()
                     break
-                except (urllib.error.URLError, urllib.error.HTTPError, KeyError, TimeoutError) as e:
+                except Exception as e:
                     wait = 10 * (attempt + 1)
                     print(f"  [{i+1}/{len(todo)}] {t['task_id']} attempt {attempt+1} failed: {type(e).__name__} {e} — retry in {wait}s",
                           flush=True)

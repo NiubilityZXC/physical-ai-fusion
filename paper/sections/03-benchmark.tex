@@ -1,0 +1,24 @@
+\section{The Physical-AI-Fusion Benchmark}
+\label{sec:benchmark}
+
+\subsection{Scope and topic taxonomy}
+The benchmark covers fusion physics with an ICF emphasis (Figure~\ref{fig:topics}): eight ICF subdomains---ignition \& gain, Rayleigh--Taylor/Richtmyer--Meshkov (RT/RM) instabilities, laser--plasma interactions (LPI), radiation hydrodynamics, equations of state \& opacity, implosion dynamics, target design, and diagnostics---plus magnetic confinement fusion (MCF), Z-pinch and pulsed power, plasma fundamentals, fusion engineering (materials, tritium breeding, blankets), and computational physics (numerical methods, classic validation problems). Topic selection follows the standard ICF curriculum (Atzeni~\cite{atzeni2004icf}; Lindl~\cite{lindl1998icf}; Drake~\cite{drake2018hedp}; Kruer~\cite{kruer1988lpi}; Zel'dovich \& Raizer~\cite{zeldovich1966shock}; Freidberg~\cite{freidberg2007fusion}) and the NRL Plasma Formulary~\cite{nrlformulary}.
+
+\subsection{Task types and difficulty}
+Problems are authored to be self-contained (all constants and unit conventions in the statement) and fall into four types: \textbf{numeric} (62; deterministic tolerance-banded grading, default relative tolerance 2\%), \textbf{concept} (30; single- and multi-select exact match, distractors engineered from common failure modes---unit-system slips, coefficient slips, regime misidentification), \textbf{derivation} (13; graded against a weighted rubric by a locked LLM judge, reported separately from deterministic tasks), and \textbf{figure} (1; table/distribution reading with tolerance). Difficulty spans undergrad (27), grad (48), and expert (31); expert tasks require multi-step chains (e.g., NIF energetics: laser$\to$X-ray conversion$\to$capsule absorption), cross-formula synthesis, or reading verified local simulation output.
+
+\subsection{Schema and sources}
+Each task is one JSONL record (schema v1.0) carrying \texttt{task\_id}, \texttt{topic}, \texttt{type}, \texttt{difficulty}, \texttt{question}, a typed \texttt{answer}, a \texttt{grading} mode, provenance \texttt{metadata} (\texttt{source}, \texttt{source\_type}, \texttt{license}), and a \texttt{verification} block (methods, evidence, verifier, timestamp). Sources are public physics only: the NRL Plasma Formulary, textbook-standard formulas (quoted as formulas, never copied prose), LLNL/NIF public ignition data (2022-12-05: 2.05\,MJ in, 3.15\,MJ out; 2025-04-07 record: 8.6$\pm$0.45\,MJ out, target gain 4.13~\cite{llnl2025record}), and ITER official parameters. A subset (6 tasks) derives from \emph{verified local simulation assets} governed by the rules in Section~\ref{sec:verification}: a zero-dimensional Z-pinch dataset (10{,}944 rows; the identity $E=\tfrac12 mv^2$ holds in 10{,}942/10{,}944 rows to rounding), a screen-hydrogenic average-atom opacity model whose forced-single-core rerun reproduces all outputs byte-identically, and a FLASH~4.8 magnetohydrodynamic 15\,MA aluminum-liner Z-pinch setup used only for parameter/method questions because its physical outputs have not been independently rerun.
+
+\begin{examplebox}{Box 1: Two verified tasks (abridged)}
+\small
+\textbf{Numeric (icf-ignition-gain-0003).} \emph{DT fusion releases 17.6\,MeV per reaction. NIF's first ignition shot yielded 3.15\,MJ; how many DT reactions occurred?} Answer: $1.117\times10^{18}$; \texttt{recompute\_expr} evaluates $3.15\times10^{6}/(17.6\times10^{6}\cdot1.602176634\times10^{-19})$ in a sandboxed math namespace and must agree within half the grading tolerance.\\[3pt]
+\textbf{Derivation (icf-eos-opacity-0004).} \emph{Derive the Rosseland mean opacity from the radiation-diffusion approximation and explain why transparency windows dominate leakage.} Weighted rubric (4 points, weights summing to 1): diffusion flux form; LTE $E_\nu\propto B_\nu(T)$; coefficient comparison yielding the harmonic mean; window-dominance argument. Graded by a locked judge (model and prompt version pinned); reported separately.
+\end{examplebox}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{fig_topic_dist.pdf}
+\caption{Verified-split composition by topic and task type (v0.1, 106 tasks). ICF subdomains (blue) account for 52\%.}
+\label{fig:topics}
+\end{figure}

@@ -1,0 +1,24 @@
+\section{The Verification Pipeline}
+\label{sec:verification}
+
+Most benchmark answers are correct because the author says so. We replace that convention with a mechanical gate: a task may enter the \emph{verified} split only after passing all of the following, and every batch appends to a public verification log.
+
+\subsection{Gate steps}
+\begin{enumerate}
+    \item \textbf{Schema validation} (\texttt{validate\_tasks.py}): field completeness, taxonomy membership, answer/grading compatibility (e.g., numeric answers require \texttt{value}, \texttt{unit}, and \texttt{tolerance\_rel}), rubric weights summing to 1, and---for the verified split---non-empty verification metadata.
+    \item \textbf{Independent recomputation} (\texttt{verify\_numeric.py}): every numeric task carries \texttt{verification.evidence.recompute\_expr}, a Python expression written by the constructor to re-derive the answer from first principles and explicit constants. The script evaluates it in a sandboxed namespace (\texttt{math} only) and requires agreement with the declared answer within \emph{half} the grading tolerance, leaving room for rounding conventions. 63/63 numeric expressions currently pass.
+    \item \textbf{Dual-method requirement for non-numeric tasks}: concept/derivation/figure tasks must cite $\geq$2 independent verification methods (cross-source, expert review, second solver).
+    \item \textbf{Promotion} (\texttt{promote\_verified.py}): copies passing tasks staging$\rightarrow$verified and appends per-task method statistics and rejections to \texttt{docs/verification-log.md}.
+\end{enumerate}
+
+\subsection{Local-simulation governance}
+Local results may seed tasks only after physics validation: (i) a \emph{physics-identity check} on the Z-pinch dataset ($v=-\sqrt{2\times10^{16}E/m}$ in cgs, i.e., $E=\tfrac12 mv^2$) passes on 10{,}942/10{,}944 rows, the remainder off by rounding-level error; (ii) a \emph{byte-identical baseline rerun} of the opacity code under forced single-core conditions reproduces all output files; (iii) a cross-artifact check---the mean ionization recomputed from the occupation distribution equals the code's direct output exactly ($\bar Z=10.1715527253$); (iv) simulation \emph{outputs} whose physics has not been independently rerun (the FLASH liner case) may seed only parameter/method questions, never output-value questions. A capacitor-prognostics dataset was \textbf{rejected wholesale}: its own audit verdict was WARN with unresolved data-gate issues (target semantics, identity, duplicates), so it contributes nothing to the benchmark (the public patent-application text it accompanies seeds one concept task with explicit provenance).
+
+\begin{examplebox}{Box 2: The pipeline catching real errors}
+\small
+\textbf{Saha prefactor (constructor slip).} A staged hydrogen-Saha task declared $K\approx1.07\times10^{28}\,\mathrm{m^{-3}}$; the independent expression evaluates $2/\Lambda^3$ correctly at $3.37\times10^{26}\,\mathrm{m^{-3}}$ (an exponent slip in $\sqrt{2\pi m_e kT}$). The answer was corrected to $r=0.0337$ before promotion.\\[3pt]
+\textbf{Debye-length exponent (constructor slip).} A staged task declared $\lambda_D=5.26\times10^{-11}$\,m; recomputation gives $1.66\times10^{-9}$\,m ($kT$ at 5\,keV was mishandled by $10^3$). Corrected pre-promotion.\\[3pt]
+\textbf{Dataset rejection.} A local prognostics dataset failed its data-quality gate (audit verdict WARN); all dependent tasks were dropped rather than repaired, by policy.
+\end{examplebox}
+
+These cases are the pipeline working as designed: constructor arithmetic is a known-fragile path, and the deterministic second path exists precisely to catch it. We log interceptions publicly so that reviewers can audit the gate's teeth rather than take them on faith.

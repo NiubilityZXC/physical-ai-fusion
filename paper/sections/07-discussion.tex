@@ -1,0 +1,12 @@
+\section{Discussion and Limitations}
+\label{sec:discussion}
+
+\paragraph{Scale.} v0.1 ships 106 verified tasks---small next to thousand-task suites. We prioritized the verification gate's integrity over volume: every task in the split is one we can defend mechanically. The schema, taxonomy, and pipeline are designed for the next order of magnitude, and the staging area is the growth path (public contributions enter staging and are promoted only through the same gate).
+
+\paragraph{Derivation grading.} Rubric-judged derivations depend on an LLM judge despite the pinned model/prompt; we therefore keep them out of the headline deterministic score and report them separately. A future direction is symbol-level checking (SymPy equivalence, PHYSICS-style) for the algebra-heavy subset.
+
+\paragraph{Local sources.} Local simulation outputs that we cannot independently rerun are excluded from answer values by policy; they seed parameter/method questions only. This costs coverage (e.g., no FLASH output-value tasks in v0.1) but keeps the correctness story airtight.
+
+\paragraph{Single language.} Tasks are in Chinese (the authoring team's working language) with all formulas and constants standard; an English parallel track is planned. Contamination control is standard (problems are original compositions around public formulas and data, not scraped text), and the verified split is versioned to support canary-string policies if needed.
+
+\paragraph{Roadmap.} (i) code tasks with containerized unit tests (Rosseland-mean integration, Sedov series, Saha solver---test scaffolding exists); (ii) MCF data tasks built on TokaMark/ConStellaration releases; (iii) rubric-judge inter-rater reliability study; (iv) figure tasks with generated plots; (v) the 1{,}000-task verified target.

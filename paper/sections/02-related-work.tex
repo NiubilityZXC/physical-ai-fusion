@@ -1,0 +1,31 @@
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{General scientific benchmarks.}
+SciBench~\cite{wang2023scibench} evaluates college-level scientific problem solving with numeric answers and tolerance bands; PHYSICS~\cite{feng2025physics} grades university physics problems with symbolic equivalence; OlympiadBench~\cite{he2024olympiadbench} covers olympiad-level bilingual multimodal problems; GPQA~\cite{rein2023gpqa} established the ``Google-proof'' graduate multiple-choice paradigm and is now near-saturated (92\% for GPT-5.2); OpenAI's FrontierScience~\cite{openai2025frontierscience} adds rubric-graded PhD-level research tasks across physics, chemistry, and biology. FEABench~\cite{feabench2025} and LLM-SRBench~\cite{llmsrbench2025} probe multiphysics reasoning and scientific equation discovery respectively. Fusion content in all of the above is effectively zero, and none ships a mechanism for independently \emph{re-deriving} reference answers.
+
+\paragraph{Fusion-specific benchmarks and datasets.}
+FusionBench (PKU-XLab)~\cite{pkufusionbench} is, to our knowledge, the only public LLM benchmark covering fusion knowledge: 10{,}605 questions (single-choice 4{,}081, multiple-choice 6{,}021, true/false 503) across plasma instabilities, transport, waves, device concepts, heating, materials, neutronics, and control. Our audit of its public snapshot (September 2026) shows: (i) no ICF-specific category---ICF-keyword hits (13.9\%) are dominated by confinement-concept questions, with genuine ICF-physics depth below $\sim$5\%; (ii) only 80/10{,}605 questions (0.75\%) contain a numeric value with a physical unit, i.e., quantitative computation is essentially absent; (iii) answers carry no independent verification trail. Physical-AI-Fusion is complementary by construction: quantitative computation, derivation, and code with a mechanical verification pipeline (Table~\ref{tab:comparison}).
+
+The TokaMark family~\cite{ibm2026tokamark,gupta2026tokamark} benchmarks ML models on MAST tokamak diagnostics (14 tasks; 11{,}573 discharges), and the NeurIPS 2026 Fusion Equilibrium Challenge~\cite{sophelio2026fec} asks for magnetic-equilibrium reconstruction from non-magnetic diagnostics on 9{,}121 curated DIII-D/MAST shots (CC BY 4.0). These are ML-for-diagnostics tasks with train/test splits, not physics-reasoning benchmarks. Offline reinforcement learning for plasma control~\cite{offlinerl2026fusion} and the ConStellaration stellarator dataset~\cite{constellaration} occupy adjacent niches. XiHeFusion~\cite{wang2025xihefusion} fine-tunes an LLM for fusion science communication and includes a $\sim$180-question knowledge assessment; LPI-LLM~\cite{chen2024lpillm} uses an LLM with a reservoir computer to forecast laser--plasma-instability hot electrons---an application precedent for ICF$\times$LLM rather than an evaluation. Nuclear-domain evaluations in the broader sense include NuclearQAv2~\cite{nuclearqav2} and the NRC reactor-operator licensing exam benchmark~\cite{nrc2026exam}, neither of which contains ICF physics.
+
+\paragraph{Gap.} Across 2024--2026, we find no second quantitative, verification-pipelined benchmark in fusion physics, and none with ICF depth. Physical-AI-Fusion targets exactly this quadruple gap: (i) quantitative problem types (numeric/derivation/code), (ii) ICF coverage, (iii) a mechanical answer-correctness pipeline including local-simulation governance, and (iv) SWE-bench-style usability.
+
+\begin{table}[t]
+\centering
+\caption{Positioning against the closest fusion and physics benchmarks (v0.1).}
+\label{tab:comparison}
+\small
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Benchmark & Fusion & ICF & Quantitative & Verified & One-command \\
+\midrule
+SciBench & --- & --- & numeric & textbook-based & partial \\
+PHYSICS & --- & --- & symbolic & textbook-based & partial \\
+GPQA & --- & --- & MCQ & expert-reviewed & no \\
+FusionBench (PKU) & yes & shallow & 0.75\% numeric & none & yes \\
+TokaMark / FEC & MCF & --- & ML tasks & leaderboard & partial \\
+\textbf{Physical-AI-Fusion} & yes & \textbf{52\%} & \textbf{numeric+derivation+code} & \textbf{pipeline (Sec.~\ref{sec:verification})} & \textbf{yes} \\
+\bottomrule
+\end{tabular}
+\end{table}

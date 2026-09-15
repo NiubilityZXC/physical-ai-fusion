@@ -1,0 +1,10 @@
+{"task_id": "fusion-engineering-0001", "response": "DT 聚变消耗氚的速率很高：一座 1 GW 级聚变电站每年约消耗 50–60 kg 氚。而氚是放射性核素，半衰期仅约 12.3 年，自然界中几乎不存在，目前外部供给主要依赖裂变堆副产，产量和库存都远不能满足多个聚变电站长期运行。因此必须在包层中利用聚变中子与锂反应在线产氚，实现氚自持。\n\nFinal answer: 因氚半衰期短、天然储量极微且消耗量巨大，必须靠锂增殖包层在线产氚实现自持。"}
+{"task_id": "fusion-engineering-0002", "response": ""}
+{"task_id": "fusion-engineering-0003", "response": ""}
+{"task_id": "fusion-engineering-0004", "response": "每个 DT 中子经 Be(n,2n) 倍增后，可用中子数为 \\(1 \\times 1.3 = 1.3\\)。\n\n其中被 Li-6 俘获产氚的概率为 0.75，因此：\n\\[\n\\text{TBR} = 1.3 \\times 0.75 = 0.975\n\\]\n\n因为 \\(0"}
+{"task_id": "fusion-engineering-0005", "response": ""}
+{"task_id": "fusion-engineering-0006", "response": "磁场能量密度：\n\n\\[\nu=\\frac{B^2}{2\\mu_0}=\\frac{5.3^2}{2\\times 4\\pi\\times 10^{-7}}\n\\]\n\n\\[\nu=\\frac{28.09}{8\\pi\\times 10^{-7}}\\approx 1.12\\times 10^7\\ \\text{J/m}^3\n\\]\n\nFinal answer: 1.12×10^7 J/m^3"}
+{"task_id": "icf-diagnostics-0001", "response": ""}
+{"task_id": "icf-diagnostics-0002", "response": "DT 反应释放总能量约为 \\(Q=17.6\\ \\text{MeV}\\)。  \n在质心系中，反应前后动量守恒，且初态动能可忽略，因此 α 粒子和中子动量大小相等、方向相反。  \n非相对论下动能 \\(K=p^2/(2m)\\)，所以动能与质量成反比：\n\n\\[\n\\frac{K_\\alpha}{K_n}=\\frac{m_n}{m_\\alpha}\\approx \\frac{1}{4}\n\\]\n\n因此：\n\n\\[\nK_\\alpha \\approx \\frac{1}{5}\\times 17.6 = 3.5\\ \\text{MeV}\n\\]\n\n\\[\nK_n \\approx \\frac{4}{5}\\times 17.6 = 14.1\\ \\text{MeV}\n\\]\n\nFinal answer: α粒子约3.5 MeV，中子约14.1 MeV"}
+{"task_id": "icf-diagnostics-0003", "response": ""}
+{"task_id": "icf-diagnostics-0004", "response": ""}

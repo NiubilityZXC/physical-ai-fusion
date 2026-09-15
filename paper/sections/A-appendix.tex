@@ -1,0 +1,66 @@
+\section{Topic Taxonomy and Counts}
+\label{app:taxonomy}
+
+\begin{table}[h]
+\centering
+\caption{Verified split composition (v0.1).}
+\label{tab:topics}
+\small
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Topic & numeric & concept & derivation & figure \\
+\midrule
+icf/ignition-gain & 7 & 1 & 0 & 0 \\
+icf/rt-rm-instability & 5 & 1 & 1 & 0 \\
+icf/lpi & 3 & 2 & 2 & 0 \\
+icf/rad-hydro & 4 & 2 & 2 & 0 \\
+icf/eos-opacity & 4 & 1 & 2 & 1 \\
+icf/implosion & 4 & 2 & 1 & 0 \\
+icf/target-design & 2 & 3 & 0 & 0 \\
+icf/diagnostics & 2 & 3 & 0 & 0 \\
+mcf & 8 & 3 & 2 & 0 \\
+zpinch & 8 & 4 & 1 & 0 \\
+plasma-basic & 8 & 3 & 1 & 0 \\
+fusion-engineering & 3 & 3 & 0 & 0 \\
+simulation & 4 & 2 & 1 & 0 \\
+\midrule
+Total & 62 & 30 & 13 & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Data Sources and Licenses}
+\label{app:sources}
+All task content derives from public sources with per-task \texttt{metadata.source/source\_type/license}: NRL Plasma Formulary (public domain, US Government work); standard textbook formulas (fair-use quotation of formulas only; Atzeni; Lindl; Drake; Kruer; Zel'dovich \& Raizer; Freidberg); LLNL/NIF public releases (US Government work); ITER official Facts \& Figures; local simulation assets released by their owner for this benchmark after the governance checks of Section~\ref{sec:verification}. No classified or export-controlled content is included. The PKU FusionBench dataset snapshot used for the related-work audit is MIT-licensed and is not redistributed.
+
+\section{Verification Log (excerpt)}
+\label{app:vlog}
+The full log lives at \texttt{docs/verification-log.md}. Excerpt:
+\begin{itemize}
+    \item Promotion batch (2026-09-02): 106/106 promoted, 0 rejected; numeric recomputation 63 PASS / 0 FAIL; method statistics: independent-recompute 63, cross-source 43, expert-review 25, second-solver 12, local-sim-baseline 3.
+    \item Interceptions: Saha prefactor slip (corrected to $3.37\times10^{26}\,\mathrm{m^{-3}}$); Debye exponent slip (corrected to $1.66\times10^{-9}$\,m); capacitor-prognostics dataset rejected (owner audit WARN).
+\end{itemize}
+
+\section{Harness Manual}
+\label{app:harness}
+\begin{lstlisting}
+pip install -e harness/
+physical-ai-fusion stats
+physical-ai-fusion inspect --task icf-ignition-gain-0001
+physical-ai-fusion evaluate --predictions preds.jsonl \
+    --output results/model.json --output-md results/model.md
+\end{lstlisting}
+Predictions: one JSON object per line, \texttt{\{"task\_id": "...", "response": "..."\}}. Missing predictions score zero. Deterministic tasks grade locally in seconds.
+
+\section{Datasets and Benchmarks Checklist}
+\label{app:checklist}
+\begin{enumerate}
+    \item \textbf{Motivation}: Secs.~\ref{sec:intro}--\ref{sec:related} (gap: no quantitative, verified, ICF-focused fusion benchmark).
+    \item \textbf{Composition}: Sec.~\ref{sec:benchmark}, App.~\ref{app:taxonomy}; JSONL records with typed answers and provenance.
+    \item \textbf{Collection process}: Secs.~\ref{sec:benchmark},\ref{sec:verification}; sources in App.~\ref{app:sources}.
+    \item \textbf{Preprocessing/cleaning}: the verification pipeline of Sec.~\ref{sec:verification} \emph{is} the cleaning process; interceptions logged.
+    \item \textbf{Uses}: evaluation of physics reasoning; staging area accepts external contributions under the same gate.
+    \item \textbf{Distribution}: GitHub (dataset CC BY 4.0, code MIT); versioned releases; DOI via Zenodo at v1.0.
+    \item \textbf{Maintenance}: maintainers listed in the repository; verification log and issue tracker are the living record.
+    \item \textbf{Legal/ethical}: public sources only; per-task licenses; no personal data; no classified or export-controlled content.
+\end{enumerate}

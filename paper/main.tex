@@ -1,0 +1,61 @@
+\documentclass[10pt]{article}
+
+% Physical-AI-Fusion — NeurIPS 2026 (Datasets & Benchmarks track)
+% Style: official neurips_2026.sty placed in this directory.
+% Fallback: if the official style is unavailable, neurips_compat.sty (local
+% approximation with identical margins/fonts) is used instead.
+\IfFileExists{neurips_2026.sty}{%
+  \usepackage[final]{neurips_2026}%
+}{%
+  \usepackage[final]{neurips_compat}%
+}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{graphicx}
+\graphicspath{{../figures/}{figures/}}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,keepspaces=true}
+\usepackage[most]{tcolorbox}
+
+\newtcolorbox{examplebox}[1]{colback=gray!5,colframe=gray!60,title={#1},fonttitle=\bfseries\small,left=4pt,right=4pt,top=3pt,bottom=3pt}
+
+\title{Physical-AI-Fusion: A Quantitatively Verified Physics Benchmark for Nuclear Fusion with an Inertial-Confinement Focus}
+
+\author{%
+  Physical-AI-Fusion Team\\
+  \texttt{https://github.com/NiubilityZXC/physical-ai-fusion}
+}
+
+\begin{document}
+
+\maketitle
+
+\input{sections/00-abstract}
+\input{sections/01-introduction}
+\input{sections/02-related-work}
+\input{sections/03-benchmark}
+\input{sections/04-verification}
+\input{sections/05-harness}
+\input{sections/06-experiments}
+\input{sections/07-discussion}
+\input{sections/08-conclusion}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\appendix
+\input{sections/A-appendix}
+
+\end{document}

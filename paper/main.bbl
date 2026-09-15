@@ -1,0 +1,179 @@
+\begin{thebibliography}{27}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Agentic Intelligence Lab}(2026)]{offlinerl2026fusion}
+{Agentic Intelligence Lab}.
+\newblock Offline reinforcement learning for plasma control in nuclear fusion:
+  Codebase and benchmark.
+\newblock \emph{arXiv:2606.07550}, 2026.
+
+\bibitem[Atzeni and Meyer-ter Vehn(2004)]{atzeni2004icf}
+Stefano Atzeni and J{\"u}rgen Meyer-ter Vehn.
+\newblock \emph{The Physics of Inertial Fusion: {BeamPlasma} Interaction,
+  Hydrodynamics, Hot Dense Matter}.
+\newblock Oxford University Press, 2004.
+
+\bibitem[Chen et~al.(2024)Chen, Wang, and Cao]{chen2024lpillm}
+Mingkai Chen, Taowen Wang, and Shihui Cao.
+\newblock Inertial confinement fusion forecasting via large language models.
+\newblock \emph{arXiv:2407.11098}, 2024.
+
+\bibitem[{ConStellaration Team}(2026)]{constellaration}
+{ConStellaration Team}.
+\newblock {ConStellaration}: A dataset of {QI}-like stellarator plasma
+  boundaries and optimization benchmarks.
+\newblock arXiv preprint, 2026.
+
+\bibitem[Drake(2018)]{drake2018hedp}
+R.~Paul Drake.
+\newblock \emph{High-Energy-Density Physics: Foundation of Inertial Fusion and
+  Experimental Astrophysics}.
+\newblock Springer, 2nd edition, 2018.
+
+\bibitem[{FEABench Team}(2025)]{feabench2025}
+{FEABench Team}.
+\newblock {FEABench}: Evaluating language models on multiphysics reasoning
+  ability.
+\newblock \emph{arXiv:2504.06260}, 2025.
+
+\bibitem[Feng et~al.(2025)Feng, Zhao, Liu, et~al.]{feng2025physics}
+Kaiyue Feng, Yilun Zhao, Yixin Liu, et~al.
+\newblock {PHYSICS}: Benchmarking foundation models on university-level physics
+  problem solving.
+\newblock \emph{arXiv:2503.21821}, 2025.
+
+\bibitem[Freidberg(2007)]{freidberg2007fusion}
+Jeffrey~P. Freidberg.
+\newblock \emph{Plasma Physics and Fusion Energy}.
+\newblock Cambridge University Press, 2007.
+
+\bibitem[Gupta(2026)]{gupta2026tokamark}
+Neerav Gupta.
+\newblock Benchmarking sensor robustness in plasma diagnostic models: A
+  systematic evaluation on {TokaMark}.
+\newblock \emph{arXiv:2607.11915}, 2026.
+
+\bibitem[He et~al.(2024)He, Luo, Bai, et~al.]{he2024olympiadbench}
+Chaoqun He, Renjie Luo, Yuzhuo Bai, et~al.
+\newblock {OlympiadBench}: A challenging benchmark for promoting {AGI} with
+  olympiad-level bilingual multimodal scientific problems.
+\newblock \emph{arXiv:2402.14008}, 2024.
+
+\bibitem[Huba(2019)]{nrlformulary}
+J.~D. Huba.
+\newblock {NRL} plasma formulary.
+\newblock Naval Research Laboratory, Washington, DC, 2019.
+\newblock Public domain (US Government work).
+
+\bibitem[Jimenez et~al.(2023)Jimenez, Yang, Wettig, Yao, Pei, Press, and
+  Narasimhan]{jimenez2023swebench}
+Carlos~E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir
+  Press, and Karthik Narasimhan.
+\newblock {SWE-bench}: Can language models resolve real-world {GitHub} issues?
+\newblock \emph{arXiv:2310.06770}, 2023.
+
+\bibitem[Kruer(1988)]{kruer1988lpi}
+William~L. Kruer.
+\newblock \emph{The Physics of Laser Plasma Interactions}.
+\newblock Addison-Wesley, 1988.
+
+\bibitem[{Lawrence Livermore National Laboratory}(2022)]{llnl2022ignition}
+{Lawrence Livermore National Laboratory}.
+\newblock National ignition facility achieves fusion ignition.
+\newblock \url{https://lasers.llnl.gov/news/}, 2022.
+\newblock 2022-12-05 shot: 2.05 MJ laser input, 3.15 MJ fusion yield.
+
+\bibitem[{Lawrence Livermore National Laboratory}(2025)]{llnl2025record}
+{Lawrence Livermore National Laboratory}.
+\newblock Target breakthrough enabled fusion record at {NIF}.
+\newblock
+  \url{https://lasers.llnl.gov/news/target-breakthrough-enabled-fusion-record-nif},
+  2025.
+\newblock 2025-04-07 shot: 2.08 MJ input, 8.6 $\pm$ 0.45 MJ yield, target gain
+  4.13.
+
+\bibitem[Lindl(1998)]{lindl1998icf}
+John~D. Lindl.
+\newblock \emph{Inertial Confinement Fusion: The Quest for Ignition and Energy
+  Gain Using Indirect Drive}.
+\newblock Springer/AIP Press, 1998.
+
+\bibitem[{LLM-SRBench Team}(2025)]{llmsrbench2025}
+{LLM-SRBench Team}.
+\newblock {LLM-SRBench}: A new benchmark for scientific equation discovery with
+  large language models.
+\newblock \emph{arXiv:2504.10415}, 2025.
+
+\bibitem[{NRC-Exam Team}(2026)]{nrc2026exam}
+{NRC-Exam Team}.
+\newblock Multimodal language models benchmarked against the {NRC} reactor
+  operator licensing examination.
+\newblock \emph{arXiv:2607.22067}, 2026.
+
+\bibitem[{NuclearQA Team}(2026)]{nuclearqav2}
+{NuclearQA Team}.
+\newblock {NuclearQAv2}: A structured benchmark for evaluating domain-science
+  competence in large language models.
+\newblock \emph{arXiv:2606.27047}, 2026.
+
+\bibitem[{PKU-XLab}(2026)]{pkufusionbench}
+{PKU-XLab}.
+\newblock {FusionBench}: Nuclear fusion benchmark dataset and evaluation
+  framework.
+\newblock \url{https://github.com/PKU-XLab/FusionBench}, 2026.
+\newblock MIT license; dataset snapshot audited 2026-08-31: 10{,}605 questions.
+
+\bibitem[Rein et~al.(2023)Rein, Hou, Stickland, Petty, Pang, Dirani, Michael,
+  and Bowman]{rein2023gpqa}
+David Rein, Betty~Li Hou, Asa~Cooper Stickland, Jackson Petty, Richard~Yuanzhe
+  Pang, Julien Dirani, Julian Michael, and Samuel~R. Bowman.
+\newblock {GPQA}: A graduate-level google-proof {Q\&A} benchmark.
+\newblock \emph{arXiv:2311.12022}, 2023.
+
+\bibitem[{Sophelio} et~al.(2026){Sophelio}, {DIII-D National Fusion Facility},
+  and {UKAEA}]{sophelio2026fec}
+{Sophelio}, {DIII-D National Fusion Facility}, and {UKAEA}.
+\newblock Fusion equilibrium challenge ({NeurIPS} 2026 competition track).
+\newblock \url{https://fusion-equilibrium-challenge.sophelio.io/}, 2026.
+\newblock 9{,}121 curated DIII-D/MAST shots, CC BY 4.0.
+
+\bibitem[{TokaMark Team}(2026)]{ibm2026tokamark}
+{TokaMark Team}.
+\newblock {TOKAMARK}: A comprehensive benchmark for {MAST} tokamak plasma
+  models.
+\newblock \emph{arXiv:2602.10132}, 2026.
+
+\bibitem[Wang et~al.(2025{\natexlab{a}})Wang, Jiao, Chowdhury, Chang, and
+  Patwardhan]{openai2025frontierscience}
+Miles Wang, Joy Jiao, Neil Chowdhury, Ethan Chang, and Tejal Patwardhan.
+\newblock {FrontierScience}: Evaluating {AI's} ability to perform expert-level
+  scientific tasks.
+\newblock \url{https://openai.com/index/frontierscience/}, 2025{\natexlab{a}}.
+\newblock OpenAI technical report.
+
+\bibitem[Wang et~al.(2025{\natexlab{b}})Wang, Yang, and
+  Wang]{wang2025xihefusion}
+Xiao Wang, Qingquan Yang, and Fuling Wang.
+\newblock {XiHeFusion}: Harnessing large language models for science
+  communication in nuclear fusion.
+\newblock \emph{arXiv:2502.05615}, 2025{\natexlab{b}}.
+
+\bibitem[Wang et~al.(2023)Wang, Hu, Lu, Zhu, Zhang, Subramaniam, Loomba, Zhang,
+  Sun, and Wang]{wang2023scibench}
+Xiaoxuan Wang, Ziniu Hu, Pan Lu, Yanqiao Zhu, Jieyu Zhang, Satyen Subramaniam,
+  Arjun~R. Loomba, Shichang Zhang, Yizhou Sun, and Wei Wang.
+\newblock {SciBench}: Evaluating college-level scientific problem-solving
+  abilities of large language models.
+\newblock \emph{arXiv:2307.10635}, 2023.
+
+\bibitem[Zel'dovich and Raizer(1966)]{zeldovich1966shock}
+Ya.~B. Zel'dovich and Yu.~P. Raizer.
+\newblock \emph{Physics of Shock Waves and High-Temperature Hydrodynamic
+  Phenomena}.
+\newblock Academic Press, 1966.
+
+\end{thebibliography}

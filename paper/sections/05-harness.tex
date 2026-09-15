@@ -1,0 +1,29 @@
+\section{Evaluation Harness}
+\label{sec:harness}
+
+The harness reproduces the SWE-bench usability contract for a physics benchmark (Table~\ref{tab:swebench}).
+
+\begin{table}[t]
+\centering
+\caption{SWE-bench design contract and its Physical-AI-Fusion counterpart.}
+\label{tab:swebench}
+\small
+\begin{tabular}{@{}p{3.6cm}p{4.4cm}p{5.2cm}@{}}
+\toprule
+Property & SWE-bench & Physical-AI-Fusion \\
+\midrule
+One-command eval & \texttt{run\_evaluation --predictions} & \texttt{physical-ai-fusion evaluate --predictions preds.jsonl} \\
+Data format & JSON per instance & JSONL per task (schema v1.0) \\
+Deterministic score & FAIL\_TO\_PASS tests & numeric tolerance bands; exact-match choice; unit tests (code, v1.1) \\
+Verified subset & 500 human-screened & full split passes mechanical gate (Sec.~\ref{sec:verification}) \\
+Reproducible env & per-instance Docker images & single Dockerfile; harness-only for non-code tasks \\
+Versioning & dataset tags & \texttt{schema\_version} field + release tags \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Deterministic graders.}
+Numeric responses are graded by a documented extraction rule (last \texttt{answer:} marker---English or Chinese---else last number) and compared within the task's relative tolerance; choice responses commit to a letter set compared exactly against the key. Both graders are pure functions of (response, task)---no model calls---so scores are reproducible bit-for-bit. Derivation tasks route to a rubric judge with pinned model and prompt version and are reported on a separate line, never mixed into the deterministic score. A reference-prediction smoke test (the dataset's own answers rendered as responses) scores 93/93 on deterministic tasks, validating extraction and grading end-to-end.
+
+\paragraph{CLI.}
+\texttt{pip install -e harness/} exposes \texttt{physical-ai-fusion} with three subcommands: \texttt{stats} (dataset composition), \texttt{inspect} (task dump/listing), and \texttt{evaluate} (predictions JSONL $\to$ \texttt{results.json} + markdown report with per-topic, per-type, and per-difficulty means). Missing predictions score zero and are reported. The Dockerfile builds a container whose entrypoint is the CLI.
