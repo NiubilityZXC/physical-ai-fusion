@@ -2,8 +2,8 @@
 
 **A quantitative physics-AI benchmark for nuclear fusion, with an inertial-confinement-fusion (ICF) focus.**
 
-- **691 verified problems** across 13 topics — **ICF 50.1%** (ignition & gain, RT/RM instabilities, laser–plasma interactions, radiation hydrodynamics, EOS & opacity, implosion dynamics, target design, diagnostics), plus MCF, Z-pinch, plasma fundamentals, fusion engineering, and computational physics
-- **Task types**: 566 numeric (tolerance-banded deterministic grading), 103 concept (exact-match multiple choice), 13 derivation (rubric-judge, reported separately), 8 code (unit-test), 1 figure
+- **688 verified problems** across 13 topics — **ICF 50.9%** (ignition & gain, RT/RM instabilities, laser–plasma interactions, radiation hydrodynamics, EOS & opacity, implosion dynamics, target design, diagnostics), plus MCF, Z-pinch, plasma fundamentals, fusion engineering, and computational physics
+- **Task types**: 531 numeric (tolerance-banded deterministic grading), 135 concept (exact-match multiple choice), 13 derivation (rubric-judge, reported separately), 8 code (unit-test), 1 figure
 - **Every answer is double-verified**: independent recomputation (`recompute_expr`) for all numeric tasks + cross-source / expert-review / second-solver for the rest, with a staged `staging → verified` promotion gate and a public verification log
 - **SWE-bench-style usability**: `pip install -e harness/`, then one command to evaluate; deterministic scores; versioned JSONL datasets; verified split is the headline set
 
