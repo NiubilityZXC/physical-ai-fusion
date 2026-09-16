@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import datetime
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -54,6 +55,13 @@ def main() -> int:
             tid = line.split()[1]
             numeric_status[tid] = "PASS" if line.startswith("✅") else "FAIL"
 
+    # 解析 schema 校验失败行([task_id] ... 错误;来自 validate --strict 输出)
+    schema_bad: dict[str, str] = {}
+    for line in out1.splitlines():
+        m = re.match(r"^\[([^\]]+)\] (.*)$", line.strip())
+        if m and not m.group(1).endswith(".jsonl"):
+            schema_bad[m.group(1)] = m.group(2)
+
     promoted, rejected = [], []
     for f in files:
         keep = []
@@ -65,6 +73,8 @@ def main() -> int:
             ver = t.get("verification", {})
             methods = set(ver.get("methods", []))
             reasons = []
+            if tid in schema_bad:
+                reasons.append(f"schema strict FAIL: {schema_bad[tid]}")
             if kind == "numeric" and numeric_status.get(tid) != "PASS":
                 reasons.append("numeric recompute FAIL/missing")
             if rc1 != 0 and kind == "numeric":

@@ -16,6 +16,7 @@ Both graders return (score: float in {0,1}, detail: str).
 from __future__ import annotations
 
 import re
+from pathlib import Path
 
 NUM_RE = re.compile(
     r"(?<![A-Za-z0-9_.])"                       # no leading identifier chars
@@ -82,10 +83,13 @@ def grade_choice(response: str, answer: dict) -> tuple[float, str]:
 
 
 def grade(response: str, task: dict) -> tuple[float, str]:
-    kind = task["answer"]["kind"]
     mode = task["grading"]["mode"]
     if mode == "numeric_tolerance":
         return grade_numeric(response, task["answer"])
     if mode == "exact_match":
         return grade_choice(response, task["answer"])
+    if mode == "unit_test":
+        from .code_grader import grade_code
+        root = Path(__file__).resolve().parents[2]
+        return grade_code(response, task, root)
     return 0.0, f"grading mode {mode!r} requires the optional LLM-judge module (v1.1); skipped"
