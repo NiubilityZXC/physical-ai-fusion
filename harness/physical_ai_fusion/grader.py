@@ -25,6 +25,9 @@ NUM_RE = re.compile(
 )
 MARKER_RE = re.compile(r"(?:final answer|answer|答案|答)\s*[:：=是]?\s*", re.I)
 LETTER_RE = re.compile(r"\b([A-D])\b")
+# 中文字符与选项字母紧邻的格式: "答案是A" / "选项AC" / "选A、C" / "A、C 正确"
+GLUE_RE = re.compile(r"(?:答案(?:是|为)?|选项(?:是|为)?|选|答|为)\s*([A-D](?:\s*[,，、和与及]+\s*[A-D])*)")
+MULTI_GLUE_RE = re.compile(r"(?:^|[\s,，、；;])([A-D]{2,4})(?=[\s,，、；;.]|$)")
 
 
 def _to_float(s: str) -> float:
@@ -61,15 +64,28 @@ def grade_numeric(response: str, answer: dict) -> tuple[float, str]:
 
 
 def extract_letters(response: str) -> set[str]:
-    """Letters the response commits to: prefer after a marker, else all."""
+    """Letters the response commits to. Order: marker-window → glue patterns → all standalone letters."""
     if not response:
         return set()
+    # 1. marker 之后 80 字符内(允许字母紧贴中文)
     matches = list(MARKER_RE.finditer(response))
     if matches:
-        rest = response[matches[-1].end():]
-        letters = set(LETTER_RE.findall(rest[:80]))
+        rest = response[matches[-1].end():][:80]
+        letters = set(LETTER_RE.findall(rest))
+        letters |= set(re.findall(r"([A-D])(?=[,，、。.\s]|$)", rest))
         if letters:
             return letters
+    # 2. "答案是A/选项AC/选A、C" 等紧贴格式
+    for m in GLUE_RE.finditer(response):
+        letters = set(re.findall(r"[A-D]", m.group(1)))
+        if letters:
+            return letters
+    # 3. 紧缩多选 "AC" "ABC" 形式
+    for m in MULTI_GLUE_RE.finditer(response):
+        letters = set(m.group(1))
+        if len(letters) == len(m.group(1)):
+            return letters
+    # 4. 全文独立字母
     return set(LETTER_RE.findall(response))
 
 

@@ -1,0 +1,128 @@
+{
+  "deepseek-v4-flash": {
+    "n": 13,
+    "overall": 0.46153846153846156,
+    "by_diff": {
+      "undergrad": 0.75,
+      "grad": 0.286,
+      "expert": 0.5
+    },
+    "by_type": {
+      "numeric": 0.556,
+      "concept": 0.25
+    },
+    "fails": [
+      [
+        "simulation-0007",
+        "gold=0.0019922 got=1.99219 rel_dev=9.99e+02 tol=2.0e-02"
+      ],
+      [
+        "zpinch-0003",
+        "gold=179010 got=5.66 rel_dev=1.00e+00 tol=2.0e-02"
+      ],
+      [
+        "zpinch-0004",
+        "key=['A', 'B', 'C'] got=['A', 'B', 'C', 'D']"
+      ],
+      [
+        "zpinch-0006",
+        "gold=3.581e+10 got=3.58 rel_dev=1.00e+00 tol=2.0e-02"
+      ]
+    ]
+  },
+  "deepseek-v4-pro": {
+    "n": 73,
+    "overall": 0.2465753424657534,
+    "by_diff": {
+      "undergrad": 0.318,
+      "grad": 0.212,
+      "expert": 0.222
+    },
+    "by_type": {
+      "numeric": 0.375,
+      "concept": 0.0,
+      "figure": 0.0
+    },
+    "fails": [
+      [
+        "fusion-engineering-0001",
+        "no option letters found (key=['A'])"
+      ],
+      [
+        "fusion-engineering-0002",
+        "no number found in response"
+      ],
+      [
+        "fusion-engineering-0003",
+        "no option letters found (key=['A'])"
+      ],
+      [
+        "fusion-engineering-0004",
+        "gold=0.975 got=0 rel_dev=1.00e+00 tol=2.0e-02"
+      ]
+    ]
+  },
+  "doubao-seed-2-1-turbo": {
+    "n": 100,
+    "overall": 0.87,
+    "by_diff": {
+      "undergrad": 0.714,
+      "grad": 0.907,
+      "expert": 0.818
+    },
+    "by_type": {
+      "numeric": 0.906,
+      "concept": 0.0
+    },
+    "fails": [
+      [
+        "fusion-engineering-0001",
+        "key=['A'] got=['D']"
+      ],
+      [
+        "fusion-engineering-0003",
+        "no option letters found (key=['A'])"
+      ],
+      [
+        "fusion-engineering-0006",
+        "gold=1.1177e+07 got=1.1 rel_dev=1.00e+00 tol=2.0e-02"
+      ],
+      [
+        "icf-diagnostics-0001",
+        "gold=2.485e+06 got=2.5 rel_dev=1.00e+00 tol=2.0e-02"
+      ]
+    ]
+  },
+  "kimi-k3": {
+    "n": 17,
+    "overall": 0.29411764705882354,
+    "by_diff": {
+      "undergrad": 0.25,
+      "grad": 0.429,
+      "expert": 0.167
+    },
+    "by_type": {
+      "numeric": 0.5,
+      "concept": 0.125,
+      "figure": 0.0
+    },
+    "fails": [
+      [
+        "fusion-engineering-0001",
+        "no option letters found (key=['A'])"
+      ],
+      [
+        "fusion-engineering-0003",
+        "no option letters found (key=['A'])"
+      ],
+      [
+        "fusion-engineering-0005",
+        "no option letters found (key=['A', 'B', 'C'])"
+      ],
+      [
+        "fusion-engineering-0006",
+        "gold=1.1177e+07 got=1.12 rel_dev=1.00e+00 tol=2.0e-02"
+      ]
+    ]
+  }
+}

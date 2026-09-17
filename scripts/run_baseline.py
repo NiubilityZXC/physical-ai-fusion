@@ -99,7 +99,11 @@ def main() -> int:
     fail = 0
     with open(out_path, "a", encoding="utf-8") as fh:
         for i, t in enumerate(todo):
-            prompt = PROMPT.format(question=t["question"])
+            qtext = t["question"]
+            if t["answer"].get("kind") == "choice":
+                opts = "\n".join(f"{k}. {v}" for k, v in t["answer"]["options"].items())
+                qtext = qtext + "\n\n选项:\n" + opts
+            prompt = PROMPT.format(question=qtext)
             for attempt in range(3):
                 try:
                     resp = chat(args.model, [{"role": "user", "content": prompt}], key, base)
