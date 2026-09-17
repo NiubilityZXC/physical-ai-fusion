@@ -3,3 +3,164 @@
 {"task_id": "code-sedov-0001", "response": ""}
 {"task_id": "code-rt-scan-0001", "response": ""}
 {"task_id": "code-nrl-calc-0001", "response": ""}
+{"task_id": "code-evbatch-0001", "response": ""}
+{"task_id": "code-freepath-0001", "response": ""}
+{"task_id": "code-limits-0001", "response": ""}
+{"task_id": "icf-eos-opacity-3001", "response": "由公式 κ = 1/(ρ·l)，代入 ρ = 253.5 g/cm³、l = 0.0219095 cm：\n\nρ·l = 253.5 × 0.0219095 = 5.55405825  \nκ = 1 / 5.55405825 ≈ 0.1800485 cm²/g\n\nFinal answer: 0.1800485 cm²/g"}
+{"task_id": "icf-eos-opacity-3002", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n=\\frac{1}{103.8\\times 0.00210221}\n\\approx 4.58275\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 4.58275 cm²/g"}
+{"task_id": "icf-eos-opacity-3003", "response": "质量不透明度公式为：\n\n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n\n代入：\n\n\\[\n\\kappa=\\frac{1}{837.5 \\times 3.17839\\times 10^{-5}}\n\\approx 37.5671\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 37.5671 cm²/g"}
+{"task_id": "icf-eos-opacity-3004", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=0.05984\\ \\mathrm{g/cm^3}\\)，\\(l=93.6022\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{0.05984\\times 93.6022}\\approx 0.1785\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.1785 cm²/g"}
+{"task_id": "icf-eos-opacity-3005", "response": "质量不透明度为  \nκ = 1/(ρ·l) = 1/(1127 × 0.000590893) ≈ 1.50164 cm²/g。\n\nFinal answer: 1.50164 cm²/g"}
+{"task_id": "icf-eos-opacity-3006", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=0.2661\\ \\mathrm{g/cm^3}\\)，\\(l=21.1659\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{0.2661\\times 21.1659}\\approx 0.17755\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.17755 cm²/g"}
+{"task_id": "icf-eos-opacity-3007", "response": "质量不透明度由定义：\n\\[\n\\kappa=\\frac{1}{\\rho l}\n=\\frac{1}{0.05984\\times 21.0385}\n\\approx 0.7943166\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.7943166 cm²/g"}
+{"task_id": "icf-eos-opacity-3008", "response": "由公式：\n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入：\n\\[\n\\kappa=\\frac{1}{2.148 \\times 0.0416618}\n\\approx 11.1745\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 11.1745 cm²/g"}
+{"task_id": "icf-eos-opacity-3009", "response": "质量不透明度：\n\\[\n\\kappa=\\frac{1}{\\rho l}\n=\\frac{1}{1127\\times 0.000116009}\n\\approx 7.64864\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 7.64864 cm²/g"}
+{"task_id": "icf-eos-opacity-3010", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=0.01349\\ \\mathrm{g/cm^3}\\)，\\(l=369.188\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{0.01349\\times369.188}\\approx 0.200789\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.200789 cm²/g"}
+{"task_id": "icf-eos-opacity-3011", "response": "由定义：\n\\[\n\\kappa=\\frac{1}{\\rho l}\n=\\frac{1}{2.999\\times 10^4 \\times 1.44836\\times 10^{-6}}\n\\approx 23.0222\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 23.0222 cm²/g"}
+{"task_id": "icf-eos-opacity-3012", "response": "质量不透明度为  \nκ = 1/(ρ·l) = 1/(7.079 × 0.0265694) ≈ 5.31675 cm²/g。\n\nFinal answer: 5.31675 cm²/g"}
+{"task_id": "icf-eos-opacity-3013", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入：\n\\[\n\\kappa=\\frac{1}{5012\\times 0.000627621}\n\\approx 0.31790069\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 0.3179 cm²/g"}
+{"task_id": "icf-eos-opacity-3014", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=1.183\\ \\mathrm{g/cm^3}\\)、\\(l=0.0159627\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{1.183\\times 0.0159627}\\approx 52.9552\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 52.9552 cm²/g"}
+{"task_id": "icf-eos-opacity-3015", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=0.08072\\ \\mathrm{g/cm^3}\\)，\\(l=7.13718\\ \\mathrm{cm}\\)：\n\n\\[\n\\kappa=\\frac{1}{0.08072\\times 7.13718}\n=\\frac{1}{0.5761131696}\n\\approx 1.73577\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 1.73577 cm²/g"}
+{"task_id": "icf-eos-opacity-3016", "response": "由定义：\n\\[\n\\kappa=\\frac{1}{\\rho l}\n=\\frac{1}{76.91\\times 1.09074\\times 10^{-5}}\n\\approx 1.19205\\times 10^3\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 1192.05 cm²/g"}
+{"task_id": "icf-eos-opacity-3017", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=12.85\\ \\mathrm{g/cm^3}\\)，\\(l=0.00135228\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{12.85\\times0.00135228}\n=\\frac{1}{0.017376798}\n\\approx 57.548\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 57.548 cm²/g"}
+{"task_id": "icf-eos-opacity-3018", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入：\n\\[\n\\kappa=\\frac{1}{1127\\times 1.19532\\times10^{-5}}\n\\approx 74.232\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 74.232 cm²/g"}
+{"task_id": "icf-eos-opacity-3019", "response": ""}
+{"task_id": "icf-eos-opacity-3020", "response": ""}
+{"task_id": "icf-eos-opacity-3021", "response": ""}
+{"task_id": "icf-eos-opacity-3022", "response": ""}
+{"task_id": "icf-eos-opacity-3023", "response": "计算得：\n\\[\n\\log_{10}(\\text{coord})=\\log_{10}(50)+(\\log_{10}(30000)-\\log_{10}(50))\\frac{14}{50}\n\\approx 2.476852354\n\\]\n因此：\n\\[\n\\text{coord}=10^{2.476852354}\\approx 299.814\\ \\text{eV}\n\\]\n\nFinal answer: 299.814 eV"}
+{"task_id": "icf-eos-opacity-3024", "response": ""}
+{"task_id": "icf-eos-opacity-3025", "response": "光学深度定义为  \n\\[\n\\tau=\\frac{L}{l}\n\\]\n代入：\n\\[\n\\tau=\\frac{0.01}{0.822045}\\approx 0.01216\n\\]\n因为 \\(\\tau<1\\)，所以该板对该光子是光学薄的。\n\nFinal answer: 0.01216（无量纲，光学薄）"}
+{"task_id": "icf-eos-opacity-3026", "response": "光学深度定义为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.1\\ \\text{cm}}{5.0621\\times 10^{-5}\\ \\text{cm}}\n\\approx 1975.5\n\\]\n\n因为 \\(\\tau \\gg 1\\)，所以该板对此光子是光学厚的。\n\nFinal answer: τ≈1975.5（无量纲），光学厚（τ>1）"}
+{"task_id": "icf-eos-opacity-3027", "response": "光学深度计算为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.01}{298.155}\\approx 3.354\\times 10^{-5}\n\\]\n由于 \\(\\tau \\ll 1\\)，该板对该光子是光学薄的。\n\nFinal answer: 3.354e-5（光学薄）"}
+{"task_id": "icf-eos-opacity-3028", "response": "光学深度定义为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.001}{0.305737}\\approx 3.27\\times 10^{-3}\n\\]\n因为 \\(\\tau<1\\)，所以该板对该光子是光学薄的。\n\nFinal answer: τ≈3.27×10^-3（光学薄，τ<1）"}
+{"task_id": "icf-eos-opacity-3029", "response": "光学深度为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.01}{0.000744989}\\approx 13.423\n\\]\n因为 \\(\\tau>1\\)，所以该板对该光子是光学厚的。\n\nFinal answer: τ≈13.423（无量纲），光学厚"}
+{"task_id": "icf-eos-opacity-3030", "response": "光学深度定义为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.001\\ \\text{cm}}{0.000205726\\ \\text{cm}}\\approx 4.86\n\\]\n因为 \\(\\tau>1\\)，所以该板对该光子是光学厚的。\n\nFinal answer: τ≈4.86（光学厚，τ>1）"}
+{"task_id": "icf-eos-opacity-3031", "response": ""}
+{"task_id": "icf-eos-opacity-3032", "response": "不透明度与自由程关系为 \\(\\kappa \\propto 1/(\\rho l)\\)。由于两温度点密度相同，故  \n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}=\\frac{l_1}{l_2}\n=\\frac{3.1811}{3.24945}\\approx 0.97897\n\\]\n\nFinal answer: 0.97897（无量纲）"}
+{"task_id": "icf-eos-opacity-3033", "response": "不透明度与自由程的关系为：\n\n\\[\nl=\\frac{1}{\\kappa \\rho}\n\\]\n\n同一密度下：\n\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}\n=\n\\frac{l_1}{l_2}\n=\n\\frac{1.32869}{0.381865}\n\\approx 3.4795\n\\]\n\nFinal answer: 3.4795"}
+{"task_id": "icf-eos-opacity-3034", "response": "不透明度与自由程关系为 \\(l=1/(\\rho \\kappa)\\)。同一密度下，\\(\\kappa \\propto 1/l\\)，因此\n\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}=\\frac{l_1}{l_2}\n=\\frac{0.0632898}{0.0114738}\\approx 5.516\n\\]\n\nFinal answer: 5.516（无量纲）"}
+{"task_id": "icf-eos-opacity-3035", "response": "不透明度与自由程满足 \\(l=1/(\\rho \\kappa)\\)，密度相同，所以 \\(\\"}
+{"task_id": "icf-eos-opacity-3036", "response": "质量不透明度为  \n\\[\n\\kappa=\\frac{1}{\\rho l}=\\frac{1}{342\\times 0.0112654}\\approx 0.2595537\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 0.2595537 cm²/g"}
+{"task_id": "icf-eos-opacity-3037", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=0.02449\\ \\mathrm{g/cm^3}\\)，\\(l=228.689\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{0.02449\\times228.689}\\approx 0.17855\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.17855 cm²/g"}
+{"task_id": "icf-eos-opacity-3038", "response": "质量不透明度为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n=\\frac{1}{461.3\\times 0.0121405}\n\\approx 0.178558\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 0.178558 cm²/g"}
+{"task_id": "icf-eos-opacity-3039", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=5.248\\ \\mathrm{g/cm^3}\\)、\\(l=0.483545\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{5.248\\times 0.483545}\\approx 0.394066\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.394066 cm²/g"}
+{"task_id": "icf-eos-opacity-3040", "response": "质量不透明度定义为 \\(\\kappa = \\frac{1}{\\rho l}\\)。代入 \\(\\rho=0.1466\\ \\mathrm{g/cm^3}\\)、\\(l=19.8693\\ \\mathrm{cm}\\)，得：\n\n\\[\n\\kappa=\\frac{1}{0.1466 \\times 19.8693}\\approx 0.3433\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.3433 cm²/g"}
+{"task_id": "icf-eos-opacity-3041", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=2.228\\times 10^4\\ \\mathrm{g/cm^3}\\)，\\(l=6.34767\\times 10^{-5}\\ \\mathrm{cm}\\)：\n\n\\[\n\\kappa=\\frac{1}{(2.228\\times10^4)(6.34767\\times10^{-5})}\n\\approx 0.707083\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.707083 cm²/g"}
+{"task_id": "icf-eos-opacity-3042", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=253.5\\ \\mathrm{g/cm^3}\\)，\\(l=0.0182331\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{253.5\\times 0.0182331}\n\\approx 0.2163523\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.2163523 cm²/g"}
+{"task_id": "icf-eos-opacity-3043", "response": "质量不透明度由 \\(\\kappa = \\frac{1}{\\rho l}\\) 计算：\n\n\\[\n\\kappa=\\frac{1}{0.05984 \\times 42.0955}\n\\approx 0.39698\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.39698 cm²/g"}
+{"task_id": "icf-eos-opacity-3044", "response": "质量不透明度为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n=\\frac{1}{3.899\\times 0.333281}\n\\approx 0.76955\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 0.76955 cm²/g"}
+{"task_id": "icf-eos-opacity-3045", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=31.48\\ \\mathrm{g/cm^3}\\)，\\(l=0.0010347\\ \\mathrm{cm}\\)：\n\n\\[\n\\kappa=\\frac{1}{31.48\\times 0.0010347}\n\\approx 30.7009\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 30.7009 cm²/g"}
+{"task_id": "icf-eos-opacity-3046", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=0.4831\\ \\mathrm{g/cm^3}\\)、\\(l=3.01294\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{0.4831\\times 3.01294}\n\\approx 0.687025\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.687025 cm²/g"}
+{"task_id": "icf-eos-opacity-3047", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=2046\\ \\mathrm{g/cm^3}\\)，\\(l=0.000219638\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{2046\\times 0.000219638}\n\\approx 2.22529\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 2.22529 cm²/g"}
+{"task_id": "icf-eos-opacity-3048", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n\n代入数据：\n\\[\n\\rho l=103.8\\times 0.0259538=2.69400444\\ \\text{g/cm}^2\n\\]\n\n因此：\n\\[\n\\kappa=\\frac{1}{2.69400444}=0.3711946\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 0.3711946 cm²/g"}
+{"task_id": "icf-eos-opacity-3049", "response": ""}
+{"task_id": "icf-eos-opacity-3050", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入数据：\n\\[\n\\kappa=\\frac{1}{461.3 \\times 0.000227277}\n\\approx 9.538\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 9.538 cm²/g"}
+{"task_id": "icf-eos-opacity-3051", "response": "质量不透明度为  \n\\[\n\\kappa=\\frac{1}{\\rho l}=\\frac{1}{103.8\\times 2.0845\\times 10^{-5}}\n\\approx 462.17\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 462.17 cm²/g"}
+{"task_id": "icf-eos-opacity-3052", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=139.6\\ \\mathrm{g/cm^3}\\)，\\(l=0.000788894\\ \\mathrm{cm}\\)：\n\\[\n\\rho l=139.6\\times 0.000788894=0.1101296024\n\\]\n因此：\n\\[\n\\kappa=\\frac{1}{0.1101296024}\\approx 9.08021\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 9.08021 cm²/g"}
+{"task_id": "icf-eos-opacity-3053", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入：\n\\[\n\\kappa=\\frac{1}{31.48\\times 3.19268\\times 10^{-5}}\n\\approx 994.97\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 994.97 cm²/g"}
+{"task_id": "icf-eos-opacity-3054", "response": ""}
+{"task_id": "icf-eos-opacity-3055", "response": ""}
+{"task_id": "icf-eos-opacity-3056", "response": ""}
+{"task_id": "icf-eos-opacity-3057", "response": ""}
+{"task_id": "icf-eos-opacity-3058", "response": ""}
+{"task_id": "icf-eos-opacity-3059", "response": "坐标公式为对数插值：\n\n\\[\nE_i = 50 \\times \\left(\\frac{30000}{50}\\right)^{i/50}\n\\]\n\n代入 \\(i=16\\)：\n\n\\[\nE_{16}=50 \\times 600^{16/50}\n=50 \\times 600^{0.32}\n\\approx 387.238\n\\]\n\nFinal answer: 387.238 eV"}
+{"task_id": "icf-eos-opacity-3060", "response": "光学深度为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.1}{0.336632}\\approx 0.297\n\\]\n因为 \\(\\tau<1\\)，所以该板对 \\(568.9\\ \\text{eV}\\) 光子是光学薄的。\n\nFinal answer: τ≈0.297，光学薄"}
+{"task_id": "icf-eos-opacity-3061", "response": "光学深度为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.01}{1.18484}\\approx 0.00844\n\\]\n因为 \\(\\tau<1\\)，所以该板对此光子是光学薄的。\n\nFinal answer: τ≈0.00844（光学薄，τ<1）"}
+{"task_id": "icf-eos-opacity-3062", "response": "光学深度定义为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.01}{0.0582117}\\approx 0.1718\n\\]\n因为 \\(\\tau<1\\)，所以该板对该光子是光学薄的。\n\nFinal answer: 0.1718（光学薄）"}
+{"task_id": "icf-eos-opacity-3063", "response": "光学深度为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.01}{7.13309\\times 10^{-5}}\\approx 140.19\n\\]\n由于 \\(\\tau \\gg 1\\)，该板对 \\(948.4\\ \\text{eV}\\) 光子是光学厚的。\n\nFinal answer: τ≈140.19（光学厚，无量纲）"}
+{"task_id": "icf-eos-opacity-3064", "response": "光学深度定义为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.001}{0.078282}\\approx 0.01277\n\\]\n因为 \\(\\tau<1\\)，所以该板对光子是光学薄的。\n\nFinal answer: τ=0.01277（无量纲，光学薄，τ<1）"}
+{"task_id": "icf-eos-opacity-3065", "response": "光学深度为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.1}{0.0205417}\\approx 4.868\n\\]\n因为 \\(\\tau>1\\)，所以该板对 \\(h\\nu=2.999e+04\\ \\text{eV}\\) 光子是光学厚的。\n\nFinal answer: τ≈4.868（无量纲，光学厚）"}
+{"task_id": "icf-eos-opacity-3066", "response": "不透明度与光子自由程关系为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n密度 \\(\\rho\\) 相同，因此  \n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}=\\frac{l_1}{l_2}\n\\]\n代入：\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}\n=\\frac{0.000343364}{2.27496\\times10^{-5}}\n\\approx 15.0932\n\\]\n\nFinal answer: 15.0932（无量纲）"}
+{"task_id": "icf-eos-opacity-3067", "response": "不透明度与自由程满足 \\(l=1/(\\kappa \\rho)\\)。同一材料且密度相同，因此 \\(\\kappa \\propto 1/l\\)。\n\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}=\\frac{l_1}{l_2}\n=\\frac{1.25672\\times10^{-5}}{3.02983\\times10^{-6}}\n\\approx 4.1478\n\\]\n\nFinal answer: 4.1478（无量纲）"}
+{"task_id": "icf-eos-opacity-3068", "response": "不透明度与自由程的关系为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n密度 \\(\\rho\\) 相同，因此\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}=\\frac{l_1}{l_2}\n=\\frac{2.87555\\times 10^{-6}}{6.25825\\times 10^{-6}}\n\\approx 0.4595\n\\]\n\nFinal answer: 0.4595"}
+{"task_id": "icf-eos-opacity-3069", "response": "不透明度与光子自由程关系为  \n\\[\n\\kappa = \\frac{1}{\\rho l}\n\\]\n密度 \\(\\rho\\) 相同，因此\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}\n=\\frac{l_1}{l_2}\n=\\frac{2.63526\\times 10^{-6}}{1.16709\\times 10^{-5}}\n\\approx 0.2258\n\\]\n\nFinal answer: 0.2258（无量纲）"}
+{"task_id": "icf-eos-opacity-3070", "response": "不透明度与自由程成反比：\\(\\kappa \\propto 1/l\\)（密度相同，因此 \\(\\rho\\) 不影响比值）。\n\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}=\\frac{l_1}{l_2}\n=\\frac{1.13123\\times 10^{-6}}{1.90629\\times 10^{-5}}\n\\approx 5.934\\times 10^{-2}\n\\]\n\nFinal answer: 5.934×10^{-2}（无量纲）"}
+{"task_id": "icf-eos-opacity-3071", "response": "不透明度与光子自由程满足 \\(l = \\frac{1}{\\kappa \\rho}\\)，且两态密度 \\(\\rho\\) 相同，因此  \n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}=\\frac{l_1}{l_2}\n=\\frac{3.32659\\times 10^{-5}}{0.000111928}\n\\approx 0.2972\n\\]\n\nFinal answer: 0.297（无量纲）"}
+{"task_id": "icf-eos-opacity-4001", "response": "质量不透明度定义为：\n\n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n\n代入 \\(\\rho=0.4831\\ \\mathrm{g/cm^3}\\)、\\(l=11.4058\\ \\mathrm{cm}\\)：\n\n\\[\n\\kappa=\\frac{1}{0.4831\\times 11.4058}\n\\approx 0.18148\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.18148 cm²/g"}
+{"task_id": "icf-eos-opacity-4002", "response": "质量不透明度公式为：\n\nκ = 1/(ρ·l)\n\n代入 ρ=1.592 g/cm³，l=3.50686 cm：\n\nκ = 1/(1.592 × 3.50686) ≈ 0.1791177 cm²/g\n\nFinal answer: 0.1791177 cm²/g"}
+{"task_id": "icf-eos-opacity-4003", "response": "质量不透明度定义为：\n\n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n\n代入数据：\n\n\\[\n\\kappa=\\frac{1}{2.891 \\times 1.90249}\n\\approx 0.181815\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 0.181815 cm²/g"}
+{"task_id": "icf-eos-opacity-4004", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入数据：\n\\[\n\\rho l = 1.225\\times 10^4 \\times 2.68175\\times 10^{-6}\n=3.28514375\\times 10^{-2}\n\\]\n因此：\n\\[\n\\kappa=\\frac{1}{3.28514375\\times 10^{-2}}\n\\approx 30.4401\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 30.4401 cm²/g"}
+{"task_id": "icf-eos-opacity-4005", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入：\n\\[\n\\kappa=\\frac{1}{42.36\\times 0.132766}\n=\\frac{1}{5.62396776}\n\\approx 0.17781\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 0.17781 cm²/g"}
+{"task_id": "icf-eos-opacity-4006", "response": "质量不透明度由定义：\n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入：\n\\[\n\\kappa=\\frac{1}{103.8 \\times 0.0537544}\n\\]\n计算得：\n\\[\n\\kappa \\approx 0.179221\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 0.179221 cm²/g"}
+{"task_id": "icf-eos-opacity-4007", "response": "质量不透明度为\n\\[\n\\kappa=\\frac{1}{\\rho l}\n=\\frac{1}{837.5\\times 0.00463556}\n\\approx 0.25758\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.25758 cm²/g"}
+{"task_id": "icf-eos-opacity-4008", "response": "由质量不透明度定义：\n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入：\n\\[\n\\rho l = 253.5 \\times 3.55453\\times 10^{-6}\n= 9.01073355\\times 10^{-4}\\ \\text{g/cm}^2\n\\]\n因此：\n\\[\n\\kappa=\\frac{1}{9.01073355\\times 10^{-4}}\n\\approx 1109.79\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 1109.79 cm²/g"}
+{"task_id": "icf-eos-opacity-4009", "response": "质量不透明度为：\n\n\\[\n\\kappa=\\frac{1}{\\rho l}\n=\\frac{1}{5.248\\times 0.0449642}\n\\approx 4.23778874\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 4.23778874 cm²/g"}
+{"task_id": "icf-eos-opacity-4010", "response": "质量不透明度由定义：\nκ = 1/(ρ·l)\n\n代入：\nρ·l = 5012 × 0.000227116 ≈ 1.138305392\nκ = 1 / 1.138305392 ≈ 0.878499 cm²/g\n\nFinal answer: 0.878499 cm²/g"}
+{"task_id": "icf-eos-opacity-4011", "response": "质量不透明度为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n=\\frac{1}{1.225\\times 10^4\\ \\mathrm{g/cm^3}\\times 4.1449\\times 10^{-6}\\ \\mathrm{cm}}\n\\approx 19.6947\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 19.6947 cm²/g"}
+{"task_id": "icf-eos-opacity-4012", "response": "由定义 \\(\\kappa = \\frac{1}{\\rho l}\\)。代入 \\(\\rho=0.08072\\ \\mathrm{g/cm^3}\\)、\\(l=23.6601\\ \\mathrm{cm}\\)，得  \n\\[\n\\kappa=\\frac{1}{0.08072\\times 23.6601}\\approx 0.5236\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.5236 cm²/g"}
+{"task_id": "icf-eos-opacity-4013", "response": "质量不透明度为  \n\\[\n\\kappa=\\frac{1}{\\rho l}=\\frac{1}{139.6\\times 2.21871\\times 10^{-5}}\n\\approx 322.86\\ \\text{cm}^2/\\text{g}\n\\]\n\nFinal answer: 322.86 cm²/g"}
+{"task_id": "icf-eos-opacity-4014", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=0.1086\\ \\mathrm{g/cm^3}\\)，\\(l=45.5376\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{0.1086\\times 45.5376}\n=\\frac{1}{4.94538336}\n\\approx 0.2022\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.2022 cm²/g"}
+{"task_id": "icf-eos-opacity-4015", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=0.1972\\ \\mathrm{g/cm^3}\\)、\\(l=30.274\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{0.1972\\times 30.274}\\approx 0.1675\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 0.1675 cm²/g"}
+{"task_id": "icf-eos-opacity-4016", "response": "质量不透明度计算公式为：\n\n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n\n代入：\n\n\\[\n\\rho l = 2761 \\times 4.36834\\times 10^{-5}\n= 0.1206098674\\ \\mathrm{g/cm^2}\n\\]\n\n因此：\n\n\\[\n\\kappa=\\frac{1}{0.1206098674}\n\\approx 8.2912\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 8.2912 cm²/g"}
+{"task_id": "icf-eos-opacity-4017", "response": "质量不透明度定义为  \n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n代入 \\(\\rho=1521\\ \\mathrm{g/cm^3}\\)、\\(l=7.85042\\times10^{-6}\\ \\mathrm{cm}\\)：\n\\[\n\\kappa=\\frac{1}{1521\\times 7.85042\\times10^{-6}}\n\\approx 83.7487\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 83.7487 cm²/g"}
+{"task_id": "icf-eos-opacity-4018", "response": "质量不透明度定义为：\n\n\\[\n\\kappa=\\frac{1}{\\rho l}\n\\]\n\n代入 \\(\\rho=0.04446\\ \\mathrm{g/cm^3}\\)，\\(l=0.130372\\ \\mathrm{cm}\\)：\n\n\\[\n\\kappa=\\frac{1}{0.04446\\times 0.130372}\\approx 172.52\\ \\mathrm{cm^2/g}\n\\]\n\nFinal answer: 172.52 cm²/g"}
+{"task_id": "icf-eos-opacity-4019", "response": ""}
+{"task_id": "icf-eos-opacity-4021", "response": ""}
+{"task_id": "icf-eos-opacity-4022", "response": ""}
+{"task_id": "icf-eos-opacity-4023", "response": ""}
+{"task_id": "icf-eos-opacity-4024", "response": ""}
+{"task_id": "icf-eos-opacity-4025", "response": "光学深度定义为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.01}{2.35736}\\approx 4.242\\times 10^{-3}\n\\]\n由于 \\(\\tau<1\\)，该板对该光子为光学薄。\n\nFinal answer: 4.242×10^-3（无量纲，光学薄）"}
+{"task_id": "icf-eos-opacity-4026", "response": "光学深度为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.01}{0.000515054}\\approx 19.415\n\\]\n因为 \\(\\tau>1\\)，所以该板对该光子是光学厚。\n\nFinal answer: 19.415（光学厚，τ>1）"}
+{"task_id": "icf-eos-opacity-4027", "response": "光学深度定义为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.01}{0.00793781}\\approx 1.2598\n\\]\n因为 \\(\\tau>1\\)，所以该板对该光子是光学厚的。\n\nFinal answer: τ≈1.2598（光学厚，τ>1）"}
+{"task_id": "icf-eos-opacity-4028", "response": "光学深度定义为  \n\\[\n\\tau=\\frac{L}{l}\n\\]\n代入：\n\\[\n\\tau=\\frac{0.01}{3.8479\\times 10^{-6}}\\approx 2598.8\n\\]\n因为 \\(\\tau \\gg 1\\)，所以该板对该光子是光学厚的。\n\nFinal answer: τ≈2.5988×10^3（光学厚，τ>1）"}
+{"task_id": "icf-eos-opacity-4029", "response": "光学深度定义为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.001\\ \\text{cm}}{2.82453\\times10^{-6}\\ \\text{cm}}\n\\approx 354.04\n\\]\n因为 \\(\\tau>1\\)，所以该板对该 500 eV 光子是光学厚的。\n\nFinal answer: τ≈354.04（无量纲），光学厚（τ>1）"}
+{"task_id": "icf-eos-opacity-4030", "response": "光学深度定义为  \n\\[\n\\tau=\\frac{L}{l}=\\frac{0.001\\ \\text{cm}}{0.732664\\ \\text{cm}}\n\\]\n计算得：\n\\[\n\\tau \\approx 1.365\\times 10^{-3}\n\\]\n由于 \\(\\tau<1\\)，该板对该光子是光学薄的。\n\nFinal answer: τ≈1.365×10^-3（无量纲），光学薄"}
+{"task_id": "icf-eos-opacity-4031", "response": "不透明度与自由程的关系为 \\(\\kappa \\propto 1/l\\)（密度相同），因此\n\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}=\\frac{l_1}{l_2}\n=\\frac{0.000152948}{0.000430143}\n\\approx 0.3556\n\\]\n\nFinal answer: 0.3556"}
+{"task_id": "icf-eos-opacity-4032", "response": "不透明度与自由程关系为 \\(l=1/(\\kappa \\rho)\\)。同一密度下，\\(\\kappa \\propto 1/l\\)，因此：\n\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}=\\frac{l_1}{l_2}\n=\\frac{6.04361}{2.2936}\\approx 2.635\n\\]\n\nFinal answer: 2.635（无量纲）"}
+{"task_id": "icf-eos-opacity-4033", "response": "光子自由程与不透明度满足 \\(l=1/(\\kappa \\rho)\\)。密度相同，因此 \\(\\kappa \\propto 1/l\\)。\n\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}=\\frac{l_1}{l_2}\n=\\frac{0.0151691}{0.000474209}\\approx 31.988\n\\]\n\nFinal answer: 31.988（无量纲）"}
+{"task_id": "icf-eos-opacity-4034", "response": "不透明度与自由程关系为  \n\\[\nl=\\frac{1}{\\kappa \\rho}\n\\]\n同一密度 \\(\\rho\\) 下：\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}=\\frac{l_1}{l_2}\n\\]\n代入：\n\\[\n\\frac{\\kappa(T_2)}{\\kappa(T_1)}\n=\\frac{0.00350053}{0.0187849}\n\\approx 0.186348\n\\]\n该比值为无量纲量。\n\nFinal answer: 0.186348（无量纲）"}
+{"task_id": "fusion-engineering-0001", "response": "DT 聚变会持续消耗氚，而天然氚存量极微且半衰期约 12.3 年，无法依靠外部长期供给维持电站运行。因此必须在氚增殖包层中利用聚变中子与 Li-6 反应生成氚，并保证氚增殖比 TBR>1，实现氚自持。\n\nFinal answer: A"}
+{"task_id": "fusion-engineering-0002", "response": ""}
+{"task_id": "fusion-engineering-0003", "response": "RAF/M 钢的核心优势是“低活化”和较好的抗辐照性能：通过合金成分设计减少长寿命放射性核素生成，降低衰变热，便于近距维护和核废料管理；同时在聚变中子环境下具有较好的抗肿胀、抗热疲劳等综合性能。熔点、成本和耐腐蚀性并不是其替代奥氏体不锈钢的主要原因。\n\nFinal answer: A"}
+{"task_id": "fusion-engineering-0004", "response": "每个 DT 中子经 Be(n,2n) 倍增后可用中子数为 \\(1.3\\)。这些中子中被 Li-6 俘获并产氚的概率为 \\(0.75\\)，每次俘获产 1 个氚，因此：\n\n\\[\n\\mathrm{TBR}=1.3 \\times 0.75 = 0.975\n\\]\n\n由于 \\(0.975 < 1\\)，该包层不能支持氚自持。\n\nFinal answer: 0.975（不能自持）"}
+{"task_id": "fusion-engineering-0005", "response": "A 正确：LiPb 中氚溶解度低，有利于氚提取；但液态金属导电，在强磁场中会产生 MHD 压降/流阻。\n\nB 正确：FLiBe 电绝缘、化学稳定性较好，可避免 MHD 问题；但含铍有毒，且熔点较高，需要保温加热。\n\nC 正确：LiPb 中的 Pb 可通过 (n,2n) 反应起中子倍增作用。\n\nD 错误：氚增殖比与包层设计、锂富集度、几何结构、中子倍增材料等密切相关，FLiBe 并非一定高于 LiPb。\n\nFinal answer: A, B, C"}
+{"task_id": "fusion-engineering-0006", "response": "磁场能量密度：\n\\(u=\\frac{B^2}{2\\mu_0}\\)\n\n代入 \\(B=5.3\\,\\mathrm{T}\\)，\\(\\mu_0=4\\pi\\times10^{-7}\\,\\mathrm{H/m}\\)：\n\n\\(u=\\frac{(5.3)^2}{2\\times4\\pi\\times10^{-7}}\\approx 1.12\\times10^7\\,\\mathrm{J/m^3}\\)\n\nFinal answer: 1.12×10^7 J/m³"}
+{"task_id": "icf-diagnostics-0001", "response": "每次反应产生的中子能量为：\n\\(14.1 \\times 1.602176634\\times10^{-13}=2.259069054\\times10^{-12}\\ \\text{J}\\)\n\n总能量：\n\\(1.1\\times10^{18}\\times2.259069054\\times10^{-12}=2.484975959\\times10^6\\ \\text{J}\\)\n\nFinal answer: 2.484975959e6 J"}
+{"task_id": "icf-diagnostics-0002", "response": "DT 反应总释放能量约为 \\(17.6\\,\\text{MeV}\\)。在质心系中，α 粒子与中子动量大小相等、方向相反，因此动能与质量成反比：\n\n\\[\nE_\\alpha:E_n = m_n:m_\\alpha \\approx 1:4\n\\]\n\n所以：\n\n\\[\nE_\\alpha \\approx \\frac{1}{5}\\times 17.6 = 3.5\\,\\text{MeV}\n\\]\n\\[\nE_n \\approx \\frac{4}{5}\\times 17.6 = 14.1\\,\\text{MeV}\n\\]\n\n对应选项 A。\n\nFinal answer: A"}
+{"task_id": "icf-diagnostics-0003", "response": "14.1 MeV 主中子由 D-T 聚变产生。中子在燃料中传播时会与 D、T 等核发生弹性散射，损失部分能量，形成约 10–12 MeV 的下降散射中子。其与主中子的比值反映中子在燃料中发生弹性散射的概率，而该概率正比于中子路径上的核子面密度，即燃料面密度 \\(\\rho R\\)。因此 DSR 用于诊断燃料面密度。\n\nFinal answer: A"}
+{"task_id": "icf-diagnostics-0004", "response": "T = 300 eV × 11604.525 K/eV = 3.4813575×10^6 K\n\nλ_max = b/T = (2.897771955×10^-3 m·K) / (3.4813575×10^6 K)  \n≈ 8.32×10^-10 m = 0.832 nm\n\n该波长属于 X 射线波段，具体为软 X 射线。\n\nFinal answer: 8.32×10^-10 m，软X射线波段"}
+{"task_id": "icf-diagnostics-0005", "response": "在纯 D₂ 靶中，DD 反应会产生 1.01 MeV 的氚核（T）。这些氚核在燃料中慢化，慢化程度由燃料路径密度 \\(\\rho R\\) 决定。若部分氚核尚未充分慢化就与 D 发生 DT 反应，则会产生 14.1 MeV 次级 DT 中子。次级 DT 中子产额份额对氚核慢化历史敏感，因此可用于推断燃料的 \\(\\rho R\\)。\n\nFinal answer: A"}
+{"task_id": "icf-eos-opacity-2001", "response": ""}
+{"task_id": "icf-eos-opacity-2002", "response": ""}
+{"task_id": "icf-eos-opacity-2003", "response": ""}
+{"task_id": "icf-eos-opacity-2004", "response": ""}
+{"task_id": "icf-eos-opacity-2005", "response": ""}
+{"task_id": "icf-eos-opacity-2006", "response": ""}
+{"task_id": "icf-eos-opacity-2007", "response": ""}
+{"task_id": "icf-eos-opacity-2008", "response": ""}
+{"task_id": "icf-eos-opacity-2009", "response": "由 \\(\\log_{10}(\\mathrm{lnu})=144.693\\)，且单位是 cm，则自由程为  \n\\[\n\\mathrm{lnu}=10^{144.693}\\ \\mathrm{cm}\n\\]\n换算为 m：\n\\[\n10^{144.693}\\ \\mathrm{cm}\n=10^{144.693-2}\\ \\mathrm{m}\n=10^{142.693}\\ \\mathrm{m}\n\\approx 4.93\\times 10^{142}\\ \\mathrm{m}\n\\]\n\nFinal answer: 4.93×10^142 m"}
+{"task_id": "icf-eos-opacity-2010", "response": "由 \\(\\log_{10}(\\mathrm{lnu})=0.777886\\)，得：\n\n\\[\n\\mathrm{lnu}=10^{0.777886}\\ \\mathrm{cm}\\approx 5.996\\ \\mathrm{cm}\n\\]\n\n换算为米：\n\n\\[\n5.996\\ \\mathrm{cm}=0.05996\\ \\mathrm{m}\n\\]\n\n保留 3 位有效数字为 \\(0.0600\\ \\mathrm{m}\\)。\n\nFinal answer: 0.0600 m"}
+{"task_id": "icf-eos-opacity-2011", "response": "由 \\(\\log_{10}(\\lambda/\\text{cm})=8.61384\\times 10^{-5}\\)，得  \n\\(\\lambda/\\text{cm}=10^{8.61384\\times 10^{-5}}\\approx 1.000198\\)，  \n所以 \\(\\lambda\\approx 1.000198\\ \\text{cm}=0.01000198\\ \\text{m}\\)。保留 3 位有效数字为 \\(0.0100\\ \\text{m}\\)。\n\nFinal answer: 0.0100 m"}
+{"task_id": "icf-eos-opacity-2012", "response": "由 log₁₀(lnu)=0.0444935 得：\n\nlnu = 10^{0.0444935} ≈ 1.10788 cm\n\n换算为米：\n\n1.10788 cm × 0.01 = 0.0110788 m\n\n保留 3 位有效数字为 0.0111 m。\n\nFinal answer: 0.0111 m"}
+{"task_id": "icf-eos-opacity-2013", "response": "由  \n\\[\n\\log_{10}(\\lambda)=0.591938\n\\]\n得\n\\[\n\\lambda=10^{0.591938}\\ \\text{cm}\\approx 3.908\\ \\text{cm}\n\\]\n转换为米：\n\\[\n3.908\\ \\text{cm}=0.03908\\ \\text{m}\n\\]\n保留 3 位有效数字为 \\(0.0391\\ \\text{m}\\)。\n\nFinal answer: 0.0391 m"}
+{"task_id": "icf-eos-opacity-2014", "response": "由 \\(\\log_{10}(\\ell/\\mathrm{cm})=60.7963\\) 得：\n\n\\[\n\\ell = 10^{60.7963}\\ \\mathrm{cm}\n\\]\n\n计算：\n\n\\[\n10^{60.7963} \\approx 6.256\\times 10^{60}\\ \\mathrm{cm}\n\\]\n\n换算为米：\n\n\\[\n6.256\\times 10^{60}\\ \\mathrm{cm}=6.256\\times 10^{58}\\ \\mathrm{m}\n\\]\n\n保留 3 位有效数字：\n\nFinal answer: 6.26×10^58 m"}
+{"task_id": "icf-eos-opacity-2015", "response": ""}
+{"task_id": "icf-eos-opacity-2016", "response": "由定义：\n\\[\n\\ln u_A=10^{0.00104699},\\quad \\ln u_B=10^{0.0948632}\n\\]\n因此\n\\[\n\\frac{\\ln u_A}{\\ln u_B}\n=10^{0.00104699-0.0948632}\n=10^{-0.09381621}\n\\approx 0.8057\n\\]\n保留 3 位有效数字为 0.806。\n\nFinal answer: 0.806"}
+{"task_id": "icf-eos-opacity-2017", "response": "由对数差直接求比值：\n\n\\[\n\\frac{\\mathrm{lnu}_A}{\\mathrm{lnu}_B}\n=10^{0.00113782-0.00205632}\n=10^{-0.00091850}\n\\approx 0.997887\n\\]\n\n保留 3 位有效数字为 0.998。\n\nFinal answer: 0.998"}
+{"task_id": "icf-eos-opacity-2018", "response": ""}
+{"task_id": "icf-eos-opacity-2019", "response": ""}
+{"task_id": "icf-eos-opacity-2020", "response": ""}
+{"task_id": "icf-eos-opacity-2021", "response": ""}
+{"task_id": "icf-eos-opacity-2022", "response": ""}
+{"task_id": "icf-eos-opacity-0001", "response": ""}
+{"task_id": "icf-eos-opacity-0002", "response": ""}
+{"task_id": "icf-eos-opacity-0003", "response": "Rosseland 平均不透明度采用对 \\(1/\\kappa_\\nu\\) 的加权平均，即调和平均形式，主要用于光学厚介质中的辐射扩散；Planck 平均不透明度采用对 \\(\\kappa_\\nu\\) 的直接加权平均，即算术平均形式，主要用于光学薄介质中的发射和吸收。因此选项 A 正确。\n\nFinal answer: A"}
+{"task_id": "icf-eos-opacity-0004", "response": ""}
+{"task_id": "icf-eos-opacity-0005", "response": "将 \\(T=1\\,\\text{keV}=1000\\,\\text{eV}\\)，\\(n_e=10^{24}\\,\\text{cm}^{-3}\\) 代入：\n\n\\[\n\\ln\\Lambda = 23 - 0.5\\ln(10^{24}) + 1.5\\ln(1000)\n\\]\n\n\\[\n\\ln\\Lambda \\approx 23 - 27.631 + 10.362 = 5.731\n\\]\n\nFinal answer: 5.73"}
+{"task_id": "icf-eos-opacity-0006", "response": ""}
+{"task_id": "icf-eos-opacity-0007", "response": "Rosseland 平均不透明度主要由 \\(1/\\kappa_\\nu\\) 的加权积分决定，因此低 \\(\\kappa_\\nu\\) 的透明窗口会使 \\(1/\\kappa_\\nu\\) 很大，从而强烈主导结果，表示辐射更容易从这些窗口泄漏。Planck 平均则是对 \\(\\kappa_\\nu\\) 本身按 Planck 谱加权，低 \\(\\kappa_\\nu\\) 窗口贡献很小，因此不敏感。\n\nFinal answer: A"}
+{"task_id": "icf-eos-opacity-0008", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0001", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0002", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0003", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0004", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0005", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0006", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0007", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0008", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0009", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0010", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0011", "response": ""}
+{"task_id": "icf-rt-rm-instability-gen-0012", "response": ""}
+{"task_id": "icf-lpi-gen-0001", "response": "由经验公式：\n\\[\nI_{\\rm th}\\approx 1\\times10^{15}\\left(\\frac{T_e}{2\\,{\\rm keV}}\\right)\\left(\\frac{0.5\\,\\mu m}{\\lambda}\\right)\\ {\\rm W/cm^2}\n\\]\n代入 \\(T_e=2\\,{\\rm keV}\\)，\\(\\lambda=0.351\\,\\mu m\\)：\n\\[\nI_{\\rm th}=1\\times10^{15}\\times 1\\times \\frac{0.5}{0.351}\n\\approx 1.42\\times10^{15}\\ {\\rm W/cm^2}\n\\]\n\nNIF 使用 \\(0.351\\,\\mu m\\) 三倍频激光，典型靶内/冕区强度可接近或超过 \\(10^{15}\\ {\\rm W/cm^2}\\) 量级，因此已达到 SRS/SBS 阈值附近。SRS/SBS 会背向散射激光、降低吸收效率，并可能产生超热电子预热燃料、破坏压缩对称性和损伤光学元件，所以在 NIF 参数下必须重点关注和控制。\n\nFinal answer: 1.42×10^15 W/cm²"}

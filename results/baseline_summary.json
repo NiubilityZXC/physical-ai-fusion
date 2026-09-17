@@ -1,128 +1,433 @@
 {
   "deepseek-v4-flash": {
-    "n": 13,
-    "overall": 0.46153846153846156,
+    "overall": 0.5555555555555556,
+    "n": 9,
     "by_diff": {
-      "undergrad": 0.75,
-      "grad": 0.286,
-      "expert": 0.5
+      "undergrad": 1.0,
+      "grad": 0.2,
+      "expert": 1.0
     },
     "by_type": {
-      "numeric": 0.556,
-      "concept": 0.25
+      "numeric": 0.5555555555555556
     },
-    "fails": [
-      [
-        "simulation-0007",
-        "gold=0.0019922 got=1.99219 rel_dev=9.99e+02 tol=2.0e-02"
-      ],
-      [
-        "zpinch-0003",
-        "gold=179010 got=5.66 rel_dev=1.00e+00 tol=2.0e-02"
-      ],
-      [
-        "zpinch-0004",
-        "key=['A', 'B', 'C'] got=['A', 'B', 'C', 'D']"
-      ],
-      [
-        "zpinch-0006",
-        "gold=3.581e+10 got=3.58 rel_dev=1.00e+00 tol=2.0e-02"
+    "by_topic": {
+      "simulation": 0.0,
+      "zpinch": 0.625
+    },
+    "fail_examples": {
+      "numeric": [
+        [
+          "simulation-0007",
+          "gold=0.0019922 got=1.99219 rel_dev=9.99e+02 tol=2.0e-02"
+        ],
+        [
+          "zpinch-0003",
+          "gold=179010 got=5.66 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "zpinch-0006",
+          "gold=3.581e+10 got=3.58 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "zpinch-0008",
+          "gold=1e+06 got=1 rel_dev=1.00e+00 tol=2.0e-02"
+        ]
       ]
-    ]
+    }
   },
   "deepseek-v4-pro": {
-    "n": 73,
-    "overall": 0.2465753424657534,
+    "overall": 0.3673469387755102,
+    "n": 49,
     "by_diff": {
-      "undergrad": 0.318,
-      "grad": 0.212,
-      "expert": 0.222
+      "undergrad": 0.5,
+      "grad": 0.3181818181818182,
+      "expert": 0.3076923076923077
     },
     "by_type": {
       "numeric": 0.375,
-      "concept": 0.0,
       "figure": 0.0
     },
-    "fails": [
-      [
-        "fusion-engineering-0001",
-        "no option letters found (key=['A'])"
+    "by_topic": {
+      "fusion-engineering": 0.0,
+      "icf/diagnostics": 0.0,
+      "icf/eos-opacity": 0.25,
+      "icf/ignition-gain": 0.7142857142857143,
+      "icf/implosion": 1.0,
+      "icf/lpi": 0.0,
+      "icf/rad-hydro": 0.0,
+      "icf/rt-rm-instability": 0.4,
+      "icf/target-design": 1.0,
+      "mcf": 0.2857142857142857,
+      "plasma-basic": 0.25
+    },
+    "fail_examples": {
+      "numeric": [
+        [
+          "fusion-engineering-0002",
+          "no number found in response"
+        ],
+        [
+          "fusion-engineering-0004",
+          "gold=0.975 got=0 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "fusion-engineering-0006",
+          "gold=1.1177e+07 got=1.12 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "icf-diagnostics-0001",
+          "no number found in response"
+        ],
+        [
+          "icf-diagnostics-0004",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-0001",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-0006",
+          "no number found in response"
+        ],
+        [
+          "icf-ignition-gain-0003",
+          "gold=1.117e+18 got=1.12 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "icf-ignition-gain-0005",
+          "no number found in response"
+        ],
+        [
+          "icf-lpi-0001",
+          "gold=8.9283e+21 got=8.93 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "icf-lpi-0002",
+          "no number found in response"
+        ],
+        [
+          "icf-lpi-0005",
+          "no number found in response"
+        ],
+        [
+          "icf-rad-hydro-0001",
+          "no number found in response"
+        ],
+        [
+          "icf-rad-hydro-0002",
+          "no number found in response"
+        ],
+        [
+          "icf-rad-hydro-0003",
+          "gold=115470 got=1.15 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "icf-rad-hydro-0004",
+          "no number found in response"
+        ],
+        [
+          "icf-rt-rm-instability-0001",
+          "no number found in response"
+        ],
+        [
+          "icf-rt-rm-instability-0003",
+          "no number found in response"
+        ],
+        [
+          "icf-rt-rm-instability-0004",
+          "gold=1.029e+07 got=1.03 rel_dev=1.00e+00 tol=5.0e-02"
+        ],
+        [
+          "mcf-0003",
+          "gold=1.1937 got=1.19e+20 rel_dev=9.97e+19 tol=5.0e-02"
+        ],
+        [
+          "mcf-0004",
+          "no number found in response"
+        ],
+        [
+          "mcf-0007",
+          "no number found in response"
+        ],
+        [
+          "mcf-0008",
+          "no number found in response"
+        ],
+        [
+          "mcf-0010",
+          "no number found in response"
+        ],
+        [
+          "plasma-basic-0001",
+          "no number found in response"
+        ],
+        [
+          "plasma-basic-0002",
+          "no number found in response"
+        ],
+        [
+          "plasma-basic-0003",
+          "no number found in response"
+        ],
+        [
+          "plasma-basic-0005",
+          "no number found in response"
+        ],
+        [
+          "plasma-basic-0006",
+          "no number found in response"
+        ],
+        [
+          "plasma-basic-0008",
+          "no number found in response"
+        ]
       ],
-      [
-        "fusion-engineering-0002",
-        "no number found in response"
-      ],
-      [
-        "fusion-engineering-0003",
-        "no option letters found (key=['A'])"
-      ],
-      [
-        "fusion-engineering-0004",
-        "gold=0.975 got=0 rel_dev=1.00e+00 tol=2.0e-02"
+      "figure": [
+        [
+          "icf-eos-opacity-0002",
+          "no number found in response"
+        ]
       ]
-    ]
+    }
   },
-  "doubao-seed-2-1-turbo": {
-    "n": 100,
-    "overall": 0.87,
+  "deepseek-v4.1-flash": {
+    "overall": 0.7672413793103449,
+    "n": 116,
     "by_diff": {
-      "undergrad": 0.714,
-      "grad": 0.907,
-      "expert": 0.818
+      "undergrad": 0.19047619047619047,
+      "grad": 0.9210526315789473,
+      "expert": 0.7894736842105263
     },
     "by_type": {
-      "numeric": 0.906,
-      "concept": 0.0
+      "numeric": 0.7545454545454545,
+      "concept": 1.0
     },
-    "fails": [
-      [
-        "fusion-engineering-0001",
-        "key=['A'] got=['D']"
-      ],
-      [
-        "fusion-engineering-0003",
-        "no option letters found (key=['A'])"
-      ],
-      [
-        "fusion-engineering-0006",
-        "gold=1.1177e+07 got=1.1 rel_dev=1.00e+00 tol=2.0e-02"
-      ],
-      [
-        "icf-diagnostics-0001",
-        "gold=2.485e+06 got=2.5 rel_dev=1.00e+00 tol=2.0e-02"
+    "by_topic": {
+      "fusion-engineering": 0.6666666666666666,
+      "icf/diagnostics": 0.8,
+      "icf/eos-opacity": 0.7714285714285715
+    },
+    "fail_examples": {
+      "numeric": [
+        [
+          "icf-eos-opacity-3019",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3020",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3021",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3022",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3024",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3028",
+          "gold=0.0032708 got=3.27 rel_dev=9.99e+02 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-3031",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3035",
+          "gold=1.1867 got=1 rel_dev=1.57e-01 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-3049",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3054",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3055",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3056",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3057",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3058",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-3070",
+          "gold=0.059342 got=5.934 rel_dev=9.90e+01 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-4019",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-4021",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-4022",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-4023",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-4024",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-4025",
+          "gold=0.004242 got=4.242 rel_dev=9.99e+02 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-4028",
+          "gold=2598.8 got=2.5988 rel_dev=9.99e-01 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-4030",
+          "gold=0.0013649 got=1.365 rel_dev=9.99e+02 tol=2.0e-02"
+        ],
+        [
+          "fusion-engineering-0002",
+          "no number found in response"
+        ],
+        [
+          "fusion-engineering-0006",
+          "gold=1.1177e+07 got=1.12 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "icf-diagnostics-0004",
+          "gold=8.3236e-10 got=8.32 rel_dev=1.00e+10 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-2001",
+          "no number found in response"
+        ]
       ]
-    ]
+    }
+  },
+  "doubao-seed-2-1-turbo": {
+    "overall": 0.90625,
+    "n": 96,
+    "by_diff": {
+      "undergrad": 0.8333333333333334,
+      "grad": 0.918918918918919,
+      "expert": 0.9
+    },
+    "by_type": {
+      "numeric": 0.90625
+    },
+    "by_topic": {
+      "fusion-engineering": 0.6666666666666666,
+      "icf/diagnostics": 0.0,
+      "icf/eos-opacity": 0.9340659340659341
+    },
+    "fail_examples": {
+      "numeric": [
+        [
+          "icf-eos-opacity-3027",
+          "gold=3.354e-05 got=3.35 rel_dev=9.99e+04 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-3028",
+          "gold=0.0032708 got=3.27 rel_dev=9.99e+02 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-4022",
+          "gold=14072 got=1.4 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-4025",
+          "gold=0.004242 got=4.24 rel_dev=9.99e+02 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-4028",
+          "gold=2598.8 got=2.6 rel_dev=9.99e-01 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-4030",
+          "gold=0.0013649 got=1.36 rel_dev=9.95e+02 tol=2.0e-02"
+        ],
+        [
+          "fusion-engineering-0006",
+          "gold=1.1177e+07 got=1.1 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "icf-diagnostics-0001",
+          "gold=2.485e+06 got=2.5 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "icf-diagnostics-0004",
+          "gold=8.3236e-10 got=8.3 rel_dev=9.97e+09 tol=2.0e-02"
+        ]
+      ]
+    }
+  },
+  "glm-5.3": {
+    "overall": 0.0,
+    "n": 0,
+    "by_diff": {},
+    "by_type": {},
+    "by_topic": {},
+    "fail_examples": {}
   },
   "kimi-k3": {
-    "n": 17,
-    "overall": 0.29411764705882354,
+    "overall": 0.4444444444444444,
+    "n": 9,
     "by_diff": {
-      "undergrad": 0.25,
-      "grad": 0.429,
-      "expert": 0.167
+      "undergrad": 0.5,
+      "grad": 0.5,
+      "expert": 0.3333333333333333
     },
     "by_type": {
       "numeric": 0.5,
-      "concept": 0.125,
       "figure": 0.0
     },
-    "fails": [
-      [
-        "fusion-engineering-0001",
-        "no option letters found (key=['A'])"
+    "by_topic": {
+      "fusion-engineering": 0.6666666666666666,
+      "icf/diagnostics": 0.5,
+      "icf/eos-opacity": 0.25
+    },
+    "fail_examples": {
+      "numeric": [
+        [
+          "fusion-engineering-0006",
+          "gold=1.1177e+07 got=1.12 rel_dev=1.00e+00 tol=2.0e-02"
+        ],
+        [
+          "icf-diagnostics-0004",
+          "gold=8.3236e-10 got=8.323 rel_dev=1.00e+10 tol=2.0e-02"
+        ],
+        [
+          "icf-eos-opacity-0001",
+          "no number found in response"
+        ],
+        [
+          "icf-eos-opacity-0006",
+          "no number found in response"
+        ]
       ],
-      [
-        "fusion-engineering-0003",
-        "no option letters found (key=['A'])"
-      ],
-      [
-        "fusion-engineering-0005",
-        "no option letters found (key=['A', 'B', 'C'])"
-      ],
-      [
-        "fusion-engineering-0006",
-        "gold=1.1177e+07 got=1.12 rel_dev=1.00e+00 tol=2.0e-02"
+      "figure": [
+        [
+          "icf-eos-opacity-0002",
+          "no number found in response"
+        ]
       ]
-    ]
+    }
   }
 }

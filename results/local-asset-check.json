@@ -1,0 +1,26 @@
+{
+  "generated_by": "scripts/local_asset_check.py",
+  "date": "2026-09-17",
+  "zpinch_0d": {
+    "rows": 10944,
+    "identity_pass": 10944,
+    "pass_fraction": 1.0
+  },
+  "snop_average_atom": {
+    "n_stages": 27,
+    "zbar_from_distribution": 10.171552725303085,
+    "zbar_program_output": 10.171552725303085,
+    "relative_deviation": 0.0
+  },
+  "flash_setup": {
+    "par_file": "~/FLASH_GPU_hydro_lab_20260715/flash.par.gpu",
+    "has_15ma_comment": true,
+    "setup_line": [
+      "## ./setup -auto magnetoHD/ZPinch -2d +cylindrical +ug species=fill,line,vacu +mtmmmt +usm3t +mgd mgd_meshgroups=6 +hdf5typeio"
+    ],
+    "amr_lrefine_max": [
+      "lrefine_max = 7"
+    ],
+    "note": "parameters only; no output physics claimed"
+  }
+}

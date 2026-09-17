@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Deterministic-task accuracy on the verified split (93 numeric+concept+figure tasks; derivation tasks judged separately).}
+\label{tab:baseline}
+\small
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Model & Overall & undergrad & grad & expert & numeric/concept \\
+\midrule
+doubao-seed-2-1-turbo & 90.6 & 83.3 & 91.9 & 90.0 & 90.6/0.0 \
+deepseek-v4.1-flash & 76.7 & 19.0 & 92.1 & 78.9 & 75.5/100.0 \
+deepseek-v4-flash & 55.6 & 100.0 & 20.0 & 100.0 & 55.6/0.0 \
+kimi-k3 & 44.4 & 50.0 & 50.0 & 33.3 & 50.0/0.0 \
+deepseek-v4-pro & 36.7 & 50.0 & 31.8 & 30.8 & 37.5/0.0 \
+glm-5.3 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0/0.0 \
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,3 +1,115 @@
+{"task_id": "code-rosseland-0001", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "code-saha-0001", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "code-sedov-0001", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "code-rt-scan-0001", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "code-nrl-calc-0001", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "code-evbatch-0001", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "code-freepath-0001", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "code-limits-0001", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "icf-eos-opacity-3001", "response": "分析过程若干……Final answer: 0.18004 cm^2/g"}
+{"task_id": "icf-eos-opacity-3002", "response": "分析过程若干……Final answer: 4.5848 cm^2/g"}
+{"task_id": "icf-eos-opacity-3003", "response": "分析过程若干……Final answer: 37.566 cm^2/g"}
+{"task_id": "icf-eos-opacity-3004", "response": "分析过程若干……Final answer: 0.17853 cm^2/g"}
+{"task_id": "icf-eos-opacity-3005", "response": "分析过程若干……Final answer: 1.5014 cm^2/g"}
+{"task_id": "icf-eos-opacity-3006", "response": "分析过程若干……Final answer: 0.17757 cm^2/g"}
+{"task_id": "icf-eos-opacity-3007", "response": "分析过程若干……Final answer: 0.7943 cm^2/g"}
+{"task_id": "icf-eos-opacity-3008", "response": "分析过程若干……Final answer: 11.175 cm^2/g"}
+{"task_id": "icf-eos-opacity-3009", "response": "分析过程若干……Final answer: 7.6473 cm^2/g"}
+{"task_id": "icf-eos-opacity-3010", "response": "分析过程若干……Final answer: 0.20079 cm^2/g"}
+{"task_id": "icf-eos-opacity-3011", "response": "分析过程若干……Final answer: 23.021 cm^2/g"}
+{"task_id": "icf-eos-opacity-3012", "response": "分析过程若干……Final answer: 5.3164 cm^2/g"}
+{"task_id": "icf-eos-opacity-3013", "response": "分析过程若干……Final answer: 0.31791 cm^2/g"}
+{"task_id": "icf-eos-opacity-3014", "response": "分析过程若干……Final answer: 52.953 cm^2/g"}
+{"task_id": "icf-eos-opacity-3015", "response": "分析过程若干……Final answer: 1.7357 cm^2/g"}
+{"task_id": "icf-eos-opacity-3016", "response": "分析过程若干……Final answer: 1192 cm^2/g"}
+{"task_id": "icf-eos-opacity-3017", "response": "分析过程若干……Final answer: 57.535 cm^2/g"}
+{"task_id": "icf-eos-opacity-3018", "response": "分析过程若干……Final answer: 74.219 cm^2/g"}
+{"task_id": "icf-eos-opacity-3019", "response": "分析过程若干……Final answer: 0.87728 g/cm³"}
+{"task_id": "icf-eos-opacity-3020", "response": "分析过程若干……Final answer: 0.080686 g/cm³"}
+{"task_id": "icf-eos-opacity-3021", "response": "分析过程若干……Final answer: 188.49 eV"}
+{"task_id": "icf-eos-opacity-3022", "response": "分析过程若干……Final answer: 365.99 eV"}
+{"task_id": "icf-eos-opacity-3023", "response": "分析过程若干……Final answer: 299.81 eV"}
+{"task_id": "icf-eos-opacity-3024", "response": "分析过程若干……Final answer: 440.09 eV"}
+{"task_id": "icf-eos-opacity-3025", "response": "分析过程若干……Final answer: 0.012165 1"}
+{"task_id": "icf-eos-opacity-3026", "response": "分析过程若干……Final answer: 1975.5 1"}
+{"task_id": "icf-eos-opacity-3027", "response": "分析过程若干……Final answer: 3.354e-05 1"}
+{"task_id": "icf-eos-opacity-3028", "response": "分析过程若干……Final answer: 0.0032708 1"}
+{"task_id": "icf-eos-opacity-3029", "response": "分析过程若干……Final answer: 13.423 1"}
+{"task_id": "icf-eos-opacity-3030", "response": "分析过程若干……Final answer: 4.8608 1"}
+{"task_id": "icf-eos-opacity-3031", "response": "分析过程若干……Final answer: 0.095656 1"}
+{"task_id": "icf-eos-opacity-3032", "response": "分析过程若干……Final answer: 0.97897 1"}
+{"task_id": "icf-eos-opacity-3033", "response": "分析过程若干……Final answer: 3.4795 1"}
+{"task_id": "icf-eos-opacity-3034", "response": "分析过程若干……Final answer: 5.516 1"}
+{"task_id": "icf-eos-opacity-3035", "response": "分析过程若干……Final answer: 1.1867 1"}
+{"task_id": "icf-eos-opacity-3036", "response": "分析过程若干……Final answer: 0.25957 cm^2/g"}
+{"task_id": "icf-eos-opacity-3037", "response": "分析过程若干……Final answer: 0.17855 cm^2/g"}
+{"task_id": "icf-eos-opacity-3038", "response": "分析过程若干……Final answer: 0.17855 cm^2/g"}
+{"task_id": "icf-eos-opacity-3039", "response": "分析过程若干……Final answer: 0.39406 cm^2/g"}
+{"task_id": "icf-eos-opacity-3040", "response": "分析过程若干……Final answer: 0.34341 cm^2/g"}
+{"task_id": "icf-eos-opacity-3041", "response": "分析过程若干……Final answer: 0.70695 cm^2/g"}
+{"task_id": "icf-eos-opacity-3042", "response": "分析过程若干……Final answer: 0.21634 cm^2/g"}
+{"task_id": "icf-eos-opacity-3043", "response": "分析过程若干……Final answer: 0.39698 cm^2/g"}
+{"task_id": "icf-eos-opacity-3044", "response": "分析过程若干……Final answer: 0.76947 cm^2/g"}
+{"task_id": "icf-eos-opacity-3045", "response": "分析过程若干……Final answer: 30.703 cm^2/g"}
+{"task_id": "icf-eos-opacity-3046", "response": "分析过程若干……Final answer: 0.68708 cm^2/g"}
+{"task_id": "icf-eos-opacity-3047", "response": "分析过程若干……Final answer: 2.2248 cm^2/g"}
+{"task_id": "icf-eos-opacity-3048", "response": "分析过程若干……Final answer: 0.37136 cm^2/g"}
+{"task_id": "icf-eos-opacity-3049", "response": "分析过程若干……Final answer: 1.2109 cm^2/g"}
+{"task_id": "icf-eos-opacity-3050", "response": "分析过程若干……Final answer: 9.5377 cm^2/g"}
+{"task_id": "icf-eos-opacity-3051", "response": "分析过程若干……Final answer: 462.38 cm^2/g"}
+{"task_id": "icf-eos-opacity-3052", "response": "分析过程若干……Final answer: 9.0778 cm^2/g"}
+{"task_id": "icf-eos-opacity-3053", "response": "分析过程若干……Final answer: 995.05 cm^2/g"}
+{"task_id": "icf-eos-opacity-3054", "response": "分析过程若干……Final answer: 1519.5 g/cm³"}
+{"task_id": "icf-eos-opacity-3055", "response": "分析过程若干……Final answer: 5010.3 g/cm³"}
+{"task_id": "icf-eos-opacity-3056", "response": "分析过程若干……Final answer: 32253 eV"}
+{"task_id": "icf-eos-opacity-3057", "response": "分析过程若干……Final answer: 1379.7 eV"}
+{"task_id": "icf-eos-opacity-3058", "response": "分析过程若干……Final answer: 646 eV"}
+{"task_id": "icf-eos-opacity-3059", "response": "分析过程若干……Final answer: 387.24 eV"}
+{"task_id": "icf-eos-opacity-3060", "response": "分析过程若干……Final answer: 0.29706 1"}
+{"task_id": "icf-eos-opacity-3061", "response": "分析过程若干……Final answer: 0.00844 1"}
+{"task_id": "icf-eos-opacity-3062", "response": "分析过程若干……Final answer: 0.17179 1"}
+{"task_id": "icf-eos-opacity-3063", "response": "分析过程若干……Final answer: 140.19 1"}
+{"task_id": "icf-eos-opacity-3064", "response": "分析过程若干……Final answer: 0.012774 1"}
+{"task_id": "icf-eos-opacity-3065", "response": "分析过程若干……Final answer: 4.8681 1"}
+{"task_id": "icf-eos-opacity-3066", "response": "分析过程若干……Final answer: 15.093 1"}
+{"task_id": "icf-eos-opacity-3067", "response": "分析过程若干……Final answer: 4.1478 1"}
+{"task_id": "icf-eos-opacity-3068", "response": "分析过程若干……Final answer: 0.45948 1"}
+{"task_id": "icf-eos-opacity-3069", "response": "分析过程若干……Final answer: 0.2258 1"}
+{"task_id": "icf-eos-opacity-3070", "response": "分析过程若干……Final answer: 0.059342 1"}
+{"task_id": "icf-eos-opacity-3071", "response": "分析过程若干……Final answer: 0.29721 1"}
+{"task_id": "icf-eos-opacity-4001", "response": "分析过程若干……Final answer: 0.1815 cm^2/g"}
+{"task_id": "icf-eos-opacity-4002", "response": "分析过程若干……Final answer: 0.17909 cm^2/g"}
+{"task_id": "icf-eos-opacity-4003", "response": "分析过程若干……Final answer: 0.18184 cm^2/g"}
+{"task_id": "icf-eos-opacity-4004", "response": "分析过程若干……Final answer: 30.45 cm^2/g"}
+{"task_id": "icf-eos-opacity-4005", "response": "分析过程若干……Final answer: 0.17779 cm^2/g"}
+{"task_id": "icf-eos-opacity-4006", "response": "分析过程若干……Final answer: 0.1793 cm^2/g"}
+{"task_id": "icf-eos-opacity-4007", "response": "分析过程若干……Final answer: 0.25757 cm^2/g"}
+{"task_id": "icf-eos-opacity-4008", "response": "分析过程若干……Final answer: 1109.7 cm^2/g"}
+{"task_id": "icf-eos-opacity-4009", "response": "分析过程若干……Final answer: 4.2377 cm^2/g"}
+{"task_id": "icf-eos-opacity-4010", "response": "分析过程若干……Final answer: 0.87852 cm^2/g"}
+{"task_id": "icf-eos-opacity-4011", "response": "分析过程若干……Final answer: 19.701 cm^2/g"}
+{"task_id": "icf-eos-opacity-4012", "response": "分析过程若干……Final answer: 0.52358 cm^2/g"}
+{"task_id": "icf-eos-opacity-4013", "response": "分析过程若干……Final answer: 322.77 cm^2/g"}
+{"task_id": "icf-eos-opacity-4014", "response": "分析过程若干……Final answer: 0.20213 cm^2/g"}
+{"task_id": "icf-eos-opacity-4015", "response": "分析过程若干……Final answer: 0.16747 cm^2/g"}
+{"task_id": "icf-eos-opacity-4016", "response": "分析过程若干……Final answer: 8.2925 cm^2/g"}
+{"task_id": "icf-eos-opacity-4017", "response": "分析过程若干……Final answer: 83.774 cm^2/g"}
+{"task_id": "icf-eos-opacity-4018", "response": "分析过程若干……Final answer: 172.51 cm^2/g"}
+{"task_id": "icf-eos-opacity-4019", "response": "分析过程若干……Final answer: 0.48312 g/cm³"}
+{"task_id": "icf-eos-opacity-4021", "response": "分析过程若干……Final answer: 710.61 eV"}
+{"task_id": "icf-eos-opacity-4022", "response": "分析过程若干……Final answer: 14072 eV"}
+{"task_id": "icf-eos-opacity-4023", "response": "分析过程若干……Final answer: 2043.1 eV"}
+{"task_id": "icf-eos-opacity-4024", "response": "分析过程若干……Final answer: 500.15 eV"}
+{"task_id": "icf-eos-opacity-4025", "response": "分析过程若干……Final answer: 0.004242 1"}
+{"task_id": "icf-eos-opacity-4026", "response": "分析过程若干……Final answer: 19.415 1"}
+{"task_id": "icf-eos-opacity-4027", "response": "分析过程若干……Final answer: 1.2598 1"}
+{"task_id": "icf-eos-opacity-4028", "response": "分析过程若干……Final answer: 2598.8 1"}
+{"task_id": "icf-eos-opacity-4029", "response": "分析过程若干……Final answer: 354.04 1"}
+{"task_id": "icf-eos-opacity-4030", "response": "分析过程若干……Final answer: 0.0013649 1"}
+{"task_id": "icf-eos-opacity-4031", "response": "分析过程若干……Final answer: 0.35557 1"}
+{"task_id": "icf-eos-opacity-4032", "response": "分析过程若干……Final answer: 2.635 1"}
+{"task_id": "icf-eos-opacity-4033", "response": "分析过程若干……Final answer: 31.988 1"}
+{"task_id": "icf-eos-opacity-4034", "response": "分析过程若干……Final answer: 0.18635 1"}
 {"task_id": "fusion-engineering-0001", "response": "经过分析,正确选项是 A"}
 {"task_id": "fusion-engineering-0002", "response": "分析过程若干……Final answer: 28.01 kg"}
 {"task_id": "fusion-engineering-0003", "response": "经过分析,正确选项是 A"}
@@ -9,14 +121,169 @@
 {"task_id": "icf-diagnostics-0003", "response": "经过分析,正确选项是 A"}
 {"task_id": "icf-diagnostics-0004", "response": "分析过程若干……Final answer: 8.3236e-10 m"}
 {"task_id": "icf-diagnostics-0005", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-eos-opacity-2001", "response": "分析过程若干……Final answer: 0.0005087 1"}
+{"task_id": "icf-eos-opacity-2002", "response": "分析过程若干……Final answer: 0.004848 1"}
+{"task_id": "icf-eos-opacity-2003", "response": "分析过程若干……Final answer: 0.0001587 1"}
+{"task_id": "icf-eos-opacity-2004", "response": "分析过程若干……Final answer: 0.003043 1"}
+{"task_id": "icf-eos-opacity-2005", "response": "分析过程若干……Final answer: 9.706e-05 1"}
+{"task_id": "icf-eos-opacity-2006", "response": "分析过程若干……Final answer: 0.0001785 1"}
+{"task_id": "icf-eos-opacity-2007", "response": "分析过程若干……Final answer: 1.618e-07 1"}
+{"task_id": "icf-eos-opacity-2008", "response": "分析过程若干……Final answer: 2.785e-06 1"}
+{"task_id": "icf-eos-opacity-2009", "response": "分析过程若干……Final answer: 4.932e+142 m"}
+{"task_id": "icf-eos-opacity-2010", "response": "分析过程若干……Final answer: 0.05996 m"}
+{"task_id": "icf-eos-opacity-2011", "response": "分析过程若干……Final answer: 0.01 m"}
+{"task_id": "icf-eos-opacity-2012", "response": "分析过程若干……Final answer: 0.01108 m"}
+{"task_id": "icf-eos-opacity-2013", "response": "分析过程若干……Final answer: 0.03908 m"}
+{"task_id": "icf-eos-opacity-2014", "response": "分析过程若干……Final answer: 6.256e+58 m"}
+{"task_id": "icf-eos-opacity-2015", "response": "分析过程若干……Final answer: 3.055e-82 1"}
+{"task_id": "icf-eos-opacity-2016", "response": "分析过程若干……Final answer: 0.8057 1"}
+{"task_id": "icf-eos-opacity-2017", "response": "分析过程若干……Final answer: 0.9979 1"}
+{"task_id": "icf-eos-opacity-2018", "response": "分析过程若干……Final answer: 0.8987 1"}
+{"task_id": "icf-eos-opacity-2019", "response": "分析过程若干……Final answer: 1.185 1"}
+{"task_id": "icf-eos-opacity-2020", "response": "分析过程若干……Final answer: 110.2 1"}
+{"task_id": "icf-eos-opacity-2021", "response": "分析过程若干……Final answer: 4.106e-06 1"}
+{"task_id": "icf-eos-opacity-2022", "response": "分析过程若干……Final answer: 2.047e-05 1"}
 {"task_id": "icf-eos-opacity-0001", "response": "分析过程若干……Final answer: 0.0337 1"}
 {"task_id": "icf-eos-opacity-0002", "response": "分析过程若干……Final answer: 10.1716 1"}
 {"task_id": "icf-eos-opacity-0003", "response": "经过分析,正确选项是 A"}
-{"task_id": "icf-eos-opacity-0004", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-eos-opacity-0004", "response": "(derivation: judge module deferred to v1.1)"}
 {"task_id": "icf-eos-opacity-0005", "response": "分析过程若干……Final answer: 5.7277 1"}
 {"task_id": "icf-eos-opacity-0006", "response": "分析过程若干……Final answer: 1.6623e-09 m"}
 {"task_id": "icf-eos-opacity-0007", "response": "经过分析,正确选项是 A"}
-{"task_id": "icf-eos-opacity-0008", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-eos-opacity-0008", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "icf-rt-rm-instability-gen-0001", "response": "分析过程若干……Final answer: 7.795e+07 s^-1"}
+{"task_id": "icf-rt-rm-instability-gen-0002", "response": "分析过程若干……Final answer: -1.605e+09 s^-1"}
+{"task_id": "icf-rt-rm-instability-gen-0003", "response": "分析过程若干……Final answer: 1.432e+08 s^-1"}
+{"task_id": "icf-rt-rm-instability-gen-0004", "response": "分析过程若干……Final answer: -1.348e+09 s^-1"}
+{"task_id": "icf-rt-rm-instability-gen-0005", "response": "分析过程若干……Final answer: -3.801e+08 s^-1"}
+{"task_id": "icf-rt-rm-instability-gen-0006", "response": "分析过程若干……Final answer: -4.881e+08 s^-1"}
+{"task_id": "icf-rt-rm-instability-gen-0007", "response": "分析过程若干……Final answer: 3.431e+06 s^-1"}
+{"task_id": "icf-rt-rm-instability-gen-0008", "response": "分析过程若干……Final answer: -1.609e+09 s^-1"}
+{"task_id": "icf-rt-rm-instability-gen-0009", "response": "分析过程若干……Final answer: -1.494e+09 s^-1"}
+{"task_id": "icf-rt-rm-instability-gen-0010", "response": "分析过程若干……Final answer: -5.328e+07 s^-1"}
+{"task_id": "icf-rt-rm-instability-gen-0011", "response": "分析过程若干……Final answer: -2.014e+08 s^-1"}
+{"task_id": "icf-rt-rm-instability-gen-0012", "response": "分析过程若干……Final answer: 1.757e+08 s^-1"}
+{"task_id": "icf-lpi-gen-0001", "response": "分析过程若干……Final answer: 1.425e+15 W/cm^2"}
+{"task_id": "icf-lpi-gen-0002", "response": "分析过程若干……Final answer: 9.488e+14 W/cm^2"}
+{"task_id": "icf-lpi-gen-0003", "response": "分析过程若干……Final answer: 4.717e+14 W/cm^2"}
+{"task_id": "icf-lpi-gen-0005", "response": "分析过程若干……Final answer: 4.744e+14 W/cm^2"}
+{"task_id": "icf-lpi-gen-0007", "response": "分析过程若干……Final answer: 7.075e+14 W/cm^2"}
+{"task_id": "icf-lpi-gen-0008", "response": "分析过程若干……Final answer: 2.358e+14 W/cm^2"}
+{"task_id": "icf-lpi-gen-0010", "response": "分析过程若干……Final answer: 2.137e+15 W/cm^2"}
+{"task_id": "icf-rad-hydro-gen-0001", "response": "分析过程若干……Final answer: 0.1731 cm"}
+{"task_id": "icf-rad-hydro-gen-0002", "response": "分析过程若干……Final answer: 0.3161 cm"}
+{"task_id": "icf-rad-hydro-gen-0003", "response": "分析过程若干……Final answer: 0.09997 cm"}
+{"task_id": "icf-rad-hydro-gen-0004", "response": "分析过程若干……Final answer: 0.1731 cm"}
+{"task_id": "icf-rad-hydro-gen-0005", "response": "分析过程若干……Final answer: 0.09997 cm"}
+{"task_id": "icf-rad-hydro-gen-0006", "response": "分析过程若干……Final answer: 0.1731 cm"}
+{"task_id": "icf-rad-hydro-gen-0010", "response": "分析过程若干……Final answer: 0.09997 cm"}
+{"task_id": "icf-rad-hydro-gen-0012", "response": "分析过程若干……Final answer: 0.3161 cm"}
+{"task_id": "icf-implosion-gen-0001", "response": "分析过程若干……Final answer: 2.197e+07 cm/s"}
+{"task_id": "icf-implosion-gen-0003", "response": "分析过程若干……Final answer: 1.609e+07 cm/s"}
+{"task_id": "icf-implosion-gen-0004", "response": "分析过程若干……Final answer: 6.908e+07 cm/s"}
+{"task_id": "icf-implosion-gen-0007", "response": "分析过程若干……Final answer: 2.303e+07 cm/s"}
+{"task_id": "icf-implosion-gen-0008", "response": "分析过程若干……Final answer: 6.931e+06 cm/s"}
+{"task_id": "icf-implosion-gen-0009", "response": "分析过程若干……Final answer: 1.099e+07 cm/s"}
+{"task_id": "icf-implosion-gen-0010", "response": "分析过程若干……Final answer: 3.296e+07 cm/s"}
+{"task_id": "icf-implosion-gen-0012", "response": "分析过程若干……Final answer: 2.079e+07 cm/s"}
+{"task_id": "icf-ignition-gain-gen-0001", "response": "分析过程若干……Final answer: 4 g/cm^2 keV"}
+{"task_id": "icf-ignition-gain-gen-0002", "response": "分析过程若干……Final answer: 6.4 g/cm^2 keV"}
+{"task_id": "icf-ignition-gain-gen-0003", "response": "分析过程若干……Final answer: 4 g/cm^2 keV"}
+{"task_id": "icf-ignition-gain-gen-0004", "response": "分析过程若干……Final answer: 1.6 g/cm^2 keV"}
+{"task_id": "icf-ignition-gain-gen-0007", "response": "分析过程若干……Final answer: 2 g/cm^2 keV"}
+{"task_id": "icf-ignition-gain-gen-0008", "response": "分析过程若干……Final answer: 2.5 g/cm^2 keV"}
+{"task_id": "icf-ignition-gain-gen-0009", "response": "分析过程若干……Final answer: 1.5 g/cm^2 keV"}
+{"task_id": "icf-ignition-gain-gen-0012", "response": "分析过程若干……Final answer: 2.4 g/cm^2 keV"}
+{"task_id": "icf-diagnostics-gen-0001", "response": "分析过程若干……Final answer: 1.039e+06 J"}
+{"task_id": "icf-diagnostics-gen-0002", "response": "分析过程若干……Final answer: 994000 J"}
+{"task_id": "icf-diagnostics-gen-0003", "response": "分析过程若干……Final answer: 406600 J"}
+{"task_id": "icf-diagnostics-gen-0004", "response": "分析过程若干……Final answer: 768100 J"}
+{"task_id": "icf-diagnostics-gen-0005", "response": "分析过程若干……Final answer: 722900 J"}
+{"task_id": "icf-diagnostics-gen-0006", "response": "分析过程若干……Final answer: 271100 J"}
+{"task_id": "icf-diagnostics-gen-0007", "response": "分析过程若干……Final answer: 881000 J"}
+{"task_id": "icf-diagnostics-gen-0008", "response": "分析过程若干……Final answer: 655100 J"}
+{"task_id": "icf-diagnostics-gen-0009", "response": "分析过程若干……Final answer: 903600 J"}
+{"task_id": "icf-diagnostics-gen-0011", "response": "分析过程若干……Final answer: 113000 J"}
+{"task_id": "icf-diagnostics-gen-0012", "response": "分析过程若干……Final answer: 451800 J"}
+{"task_id": "icf-target-design-gen-0001", "response": "分析过程若干……Final answer: 117.8 mm^2"}
+{"task_id": "icf-target-design-gen-0002", "response": "分析过程若干……Final answer: 207.6 mm^2"}
+{"task_id": "icf-target-design-gen-0004", "response": "分析过程若干……Final answer: 196.3 mm^2"}
+{"task_id": "icf-target-design-gen-0006", "response": "分析过程若干……Final answer: 234.3 mm^2"}
+{"task_id": "icf-target-design-gen-0010", "response": "分析过程若干……Final answer: 150.8 mm^2"}
+{"task_id": "icf-target-design-gen-0011", "response": "分析过程若干……Final answer: 217.4 mm^2"}
+{"task_id": "icf-eos-opacity-gen-0001", "response": "分析过程若干……Final answer: 5.502e-09 1"}
+{"task_id": "icf-eos-opacity-gen-0002", "response": "分析过程若干……Final answer: 1.349e-08 1"}
+{"task_id": "icf-eos-opacity-gen-0003", "response": "分析过程若干……Final answer: 0.005474 1"}
+{"task_id": "icf-eos-opacity-gen-0004", "response": "分析过程若干……Final answer: 1.96 1"}
+{"task_id": "icf-eos-opacity-gen-0005", "response": "分析过程若干……Final answer: 3.533e-05 1"}
+{"task_id": "icf-eos-opacity-gen-0006", "response": "分析过程若干……Final answer: 1.901e-08 1"}
+{"task_id": "icf-eos-opacity-gen-0007", "response": "分析过程若干……Final answer: 4.171e-13 1"}
+{"task_id": "icf-eos-opacity-gen-0008", "response": "分析过程若干……Final answer: 0.003704 1"}
+{"task_id": "icf-eos-opacity-gen-0009", "response": "分析过程若干……Final answer: 0.08718 1"}
+{"task_id": "icf-eos-opacity-gen-0010", "response": "分析过程若干……Final answer: 2.594e-05 1"}
+{"task_id": "icf-eos-opacity-gen-0011", "response": "分析过程若干……Final answer: 4.448e-09 1"}
+{"task_id": "icf-eos-opacity-gen-0012", "response": "分析过程若干……Final answer: 0.6282 1"}
+{"task_id": "icf-rad-hydro-gen-0013", "response": "分析过程若干……Final answer: 0.2519 1"}
+{"task_id": "icf-rad-hydro-gen-0014", "response": "分析过程若干……Final answer: 0.28 1"}
+{"task_id": "icf-rad-hydro-gen-0015", "response": "分析过程若干……Final answer: 0.4375 1"}
+{"task_id": "icf-rad-hydro-gen-0018", "response": "分析过程若干……Final answer: 0.2575 1"}
+{"task_id": "icf-rt-rm-instability-gen-0013", "response": "分析过程若干……Final answer: 5.404e+06 cm/s"}
+{"task_id": "icf-rt-rm-instability-gen-0014", "response": "分析过程若干……Final answer: 185400 cm/s"}
+{"task_id": "icf-rt-rm-instability-gen-0015", "response": "分析过程若干……Final answer: 364400 cm/s"}
+{"task_id": "icf-rt-rm-instability-gen-0016", "response": "分析过程若干……Final answer: 87960 cm/s"}
+{"task_id": "icf-rt-rm-instability-gen-0017", "response": "分析过程若干……Final answer: 49640 cm/s"}
+{"task_id": "icf-rt-rm-instability-gen-0018", "response": "分析过程若干……Final answer: 57810 cm/s"}
+{"task_id": "icf-rt-rm-instability-gen-0019", "response": "分析过程若干……Final answer: 1.131e+06 cm/s"}
+{"task_id": "icf-rt-rm-instability-gen-0020", "response": "分析过程若干……Final answer: 895400 cm/s"}
+{"task_id": "icf-rt-rm-instability-gen-0021", "response": "分析过程若干……Final answer: 7.226e+06 cm/s"}
+{"task_id": "icf-rt-rm-instability-gen-0022", "response": "分析过程若干……Final answer: 2.545e+06 cm/s"}
+{"task_id": "icf-rt-rm-instability-gen-0023", "response": "分析过程若干……Final answer: 5.152e+06 cm/s"}
+{"task_id": "icf-rt-rm-instability-gen-0024", "response": "分析过程若干……Final answer: 942500 cm/s"}
+{"task_id": "icf-rt-rm-instability-genb-0001", "response": "分析过程若干……Final answer: -8.611e+08 s^-1"}
+{"task_id": "icf-rt-rm-instability-genb-0002", "response": "分析过程若干……Final answer: -4.297e+08 s^-1"}
+{"task_id": "icf-rt-rm-instability-genb-0003", "response": "分析过程若干……Final answer: -1.951e+08 s^-1"}
+{"task_id": "icf-lpi-genb-0003", "response": "分析过程若干……Final answer: 7.123e+14 W/cm^2"}
+{"task_id": "icf-rad-hydro-genb-0003", "response": "分析过程若干……Final answer: 0.3161 cm"}
+{"task_id": "icf-implosion-genb-0002", "response": "分析过程若干……Final answer: 3.219e+07 cm/s"}
+{"task_id": "icf-ignition-gain-genb-0001", "response": "分析过程若干……Final answer: 3.2 g/cm^2 keV"}
+{"task_id": "icf-ignition-gain-genb-0003", "response": "分析过程若干……Final answer: 0.8 g/cm^2 keV"}
+{"task_id": "icf-diagnostics-genb-0001", "response": "分析过程若干……Final answer: 1.062e+06 J"}
+{"task_id": "icf-diagnostics-genb-0002", "response": "分析过程若干……Final answer: 971400 J"}
+{"task_id": "icf-target-design-genb-0003", "response": "分析过程若干……Final answer: 245 mm^2"}
+{"task_id": "icf-eos-opacity-genb-0001", "response": "分析过程若干……Final answer: 0.0002264 1"}
+{"task_id": "icf-eos-opacity-genb-0002", "response": "分析过程若干……Final answer: 0.009205 1"}
+{"task_id": "icf-eos-opacity-genb-0003", "response": "分析过程若干……Final answer: 0.009296 1"}
+{"task_id": "icf-rt-rm-instability-genb-0004", "response": "分析过程若干……Final answer: 1.398e+06 cm/s"}
+{"task_id": "icf-rt-rm-instability-genb-0005", "response": "分析过程若干……Final answer: 3.644e+06 cm/s"}
+{"task_id": "icf-rt-rm-instability-genb-0006", "response": "分析过程若干……Final answer: 502700 cm/s"}
+{"task_id": "icf-rt-rm-instability-genc-0001", "response": "分析过程若干……Final answer: -1.185e+08 s^-1"}
+{"task_id": "icf-eos-opacity-genc-0001", "response": "分析过程若干……Final answer: 0.02021 1"}
+{"task_id": "icf-rt-rm-instability-genc-0002", "response": "分析过程若干……Final answer: 552900 cm/s"}
+{"task_id": "icf-rt-rm-instability-hard-0001", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "icf-rt-rm-instability-hard-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-rt-rm-instability-hard-0003", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "icf-lpi-hard-0001", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "icf-lpi-hard-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-lpi-hard-0003", "response": "经过分析,正确选项是 A, C"}
+{"task_id": "icf-diagnostics-hard-0001", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "icf-diagnostics-hard-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-diagnostics-hard-0003", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-target-design-hard-0001", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "icf-target-design-hard-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-implosion-hard-0001", "response": "经过分析,正确选项是 A, B, D"}
+{"task_id": "icf-ignition-gain-hard-0001", "response": "经过分析,正确选项是 A, B, D"}
+{"task_id": "icf-eos-opacity-hard-0001", "response": "经过分析,正确选项是 A, B, D"}
+{"task_id": "icf-eos-opacity-hard-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-rad-hydro-hard-0001", "response": "经过分析,正确选项是 A, B, D"}
+{"task_id": "icf-rad-hydro-hard-0002", "response": "经过分析,正确选项是 A, B, D"}
+{"task_id": "icf-implosion-hard-0002", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "icf-lpi-hard-0004", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "icf-ignition-gain-hard-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-target-design-hard-0003", "response": "经过分析,正确选项是 A, B"}
+{"task_id": "icf-eos-opacity-hard-0003", "response": "经过分析,正确选项是 A"}
+{"task_id": "icf-diagnostics-hard-0004", "response": "经过分析,正确选项是 A, B"}
+{"task_id": "icf-rt-rm-instability-hard-0004", "response": "经过分析,正确选项是 A, B, D"}
+{"task_id": "icf-lpi-hard-0005", "response": "经过分析,正确选项是 A, B, C"}
 {"task_id": "icf-ignition-gain-0001", "response": "分析过程若干……Final answer: 1.54 1"}
 {"task_id": "icf-ignition-gain-0002", "response": "分析过程若干……Final answer: 4.13 1"}
 {"task_id": "icf-ignition-gain-0003", "response": "分析过程若干……Final answer: 1.117e+18 1"}
@@ -31,34 +298,131 @@
 {"task_id": "icf-implosion-0004", "response": "分析过程若干……Final answer: 0.06125 MJ/cm"}
 {"task_id": "icf-implosion-0005", "response": "经过分析,正确选项是 A, B, D"}
 {"task_id": "icf-implosion-0006", "response": "经过分析,正确选项是 A"}
-{"task_id": "icf-implosion-0007", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-implosion-0007", "response": "(derivation: judge module deferred to v1.1)"}
 {"task_id": "icf-lpi-0001", "response": "分析过程若干……Final answer: 8.9283e+21 cm^-3"}
 {"task_id": "icf-lpi-0002", "response": "分析过程若干……Final answer: 9.9018e+20 cm^-3"}
 {"task_id": "icf-lpi-0003", "response": "经过分析,正确选项是 A, B, C"}
 {"task_id": "icf-lpi-0004", "response": "经过分析,正确选项是 A"}
 {"task_id": "icf-lpi-0005", "response": "分析过程若干……Final answer: 1.7841e+15 rad/s"}
-{"task_id": "icf-lpi-0006", "response": "(推导题,judge 模块 v1.1 前跳过)"}
-{"task_id": "icf-lpi-0007", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-lpi-0006", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "icf-lpi-0007", "response": "(derivation: judge module deferred to v1.1)"}
 {"task_id": "icf-rad-hydro-0001", "response": "分析过程若干……Final answer: 8.331e+18 W/m^2"}
 {"task_id": "icf-rad-hydro-0002", "response": "分析过程若干……Final answer: 3.7058e+10 Pa"}
 {"task_id": "icf-rad-hydro-0003", "response": "分析过程若干……Final answer: 115470 m/s"}
 {"task_id": "icf-rad-hydro-0004", "response": "分析过程若干……Final answer: 567890 K"}
 {"task_id": "icf-rad-hydro-0005", "response": "经过分析,正确选项是 A, B, D"}
 {"task_id": "icf-rad-hydro-0006", "response": "经过分析,正确选项是 A"}
-{"task_id": "icf-rad-hydro-0007", "response": "(推导题,judge 模块 v1.1 前跳过)"}
-{"task_id": "icf-rad-hydro-0008", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-rad-hydro-0007", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "icf-rad-hydro-0008", "response": "(derivation: judge module deferred to v1.1)"}
 {"task_id": "icf-rt-rm-instability-0001", "response": "分析过程若干……Final answer: 1.014e+09 s^-1"}
 {"task_id": "icf-rt-rm-instability-0002", "response": "分析过程若干……Final answer: 0.6 1"}
 {"task_id": "icf-rt-rm-instability-0003", "response": "分析过程若干……Final answer: 2.64e+08 s^-1"}
 {"task_id": "icf-rt-rm-instability-0004", "response": "分析过程若干……Final answer: 1.029e+07 cm/s"}
 {"task_id": "icf-rt-rm-instability-0005", "response": "分析过程若干……Final answer: 10.2 μm"}
 {"task_id": "icf-rt-rm-instability-0006", "response": "经过分析,正确选项是 A, B, C"}
-{"task_id": "icf-rt-rm-instability-0007", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "icf-rt-rm-instability-0007", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "icf-sim-gen-0001", "response": "分析过程若干……Final answer: 0.01785 m"}
+{"task_id": "icf-sim-gen-0002", "response": "分析过程若干……Final answer: 0.004351 m"}
+{"task_id": "icf-sim-gen-0003", "response": "分析过程若干……Final answer: 0.01126 m"}
+{"task_id": "icf-sim-gen-0005", "response": "分析过程若干……Final answer: 0.002889 m"}
+{"task_id": "icf-sim-gen-0006", "response": "分析过程若干……Final answer: 65.25 eV"}
+{"task_id": "icf-sim-gen-0007", "response": "分析过程若干……Final answer: 21.75 eV"}
+{"task_id": "icf-sim-gen-0008", "response": "分析过程若干……Final answer: 32.62 eV"}
+{"task_id": "icf-sim-gen-0009", "response": "分析过程若干……Final answer: 522 eV"}
+{"task_id": "icf-sim-gen-0010", "response": "分析过程若干……Final answer: 43.5 eV"}
+{"task_id": "icf-sim-gen-0011", "response": "分析过程若干……Final answer: 14640 J"}
+{"task_id": "icf-sim-gen-0012", "response": "分析过程若干……Final answer: 16070 J"}
+{"task_id": "icf-sim-gen-0013", "response": "分析过程若干……Final answer: 7650 J"}
+{"task_id": "icf-sim-gen-0014", "response": "分析过程若干……Final answer: 14850 J"}
+{"task_id": "icf-sim-gen-0015", "response": "分析过程若干……Final answer: 9350 J"}
+{"task_id": "icf-sim-gen-0016", "response": "分析过程若干……Final answer: 1.538e-13 s"}
+{"task_id": "icf-sim-gen-0017", "response": "分析过程若干……Final answer: 5e-14 s"}
+{"task_id": "icf-sim-gen-0018", "response": "分析过程若干……Final answer: 3.03e-13 s"}
+{"task_id": "icf-sim-gen-0019", "response": "分析过程若干……Final answer: 1.667e-12 s"}
+{"task_id": "icf-sim-gen-0020", "response": "分析过程若干……Final answer: 1.25e-12 s"}
+{"task_id": "icf-sim-gen-0021", "response": "分析过程若干……Final answer: 900 1"}
+{"task_id": "icf-sim-gen-0022", "response": "分析过程若干……Final answer: 1600 1"}
+{"task_id": "icf-sim-gen-0023", "response": "分析过程若干……Final answer: 625 1"}
+{"task_id": "icf-sim-gen-0025", "response": "分析过程若干……Final answer: 400 1"}
+{"task_id": "icf-sim-genb-0002", "response": "分析过程若干……Final answer: 0.007256 m"}
+{"task_id": "icf-sim-genb-0003", "response": "分析过程若干……Final answer: 0.007105 m"}
+{"task_id": "icf-sim-genb-0004", "response": "分析过程若干……Final answer: 0.00426 m"}
+{"task_id": "icf-sim-genb-0005", "response": "分析过程若干……Final answer: 0.0115 m"}
+{"task_id": "icf-sim-genb-0006", "response": "分析过程若干……Final answer: 10.87 eV"}
+{"task_id": "icf-sim-genb-0009", "response": "分析过程若干……Final answer: 130.5 eV"}
+{"task_id": "icf-sim-genb-0011", "response": "分析过程若干……Final answer: 12850 J"}
+{"task_id": "icf-sim-genb-0012", "response": "分析过程若干……Final answer: 17010 J"}
+{"task_id": "icf-sim-genb-0014", "response": "分析过程若干……Final answer: 8100 J"}
+{"task_id": "icf-sim-genb-0016", "response": "分析过程若干……Final answer: 7.692e-14 s"}
+{"task_id": "icf-sim-genb-0017", "response": "分析过程若干……Final answer: 6.061e-14 s"}
+{"task_id": "icf-sim-genb-0018", "response": "分析过程若干……Final answer: 6.452e-14 s"}
+{"task_id": "icf-sim-genb-0019", "response": "分析过程若干……Final answer: 6.667e-13 s"}
+{"task_id": "icf-sim-genb-0020", "response": "分析过程若干……Final answer: 1e-13 s"}
+{"task_id": "icf-sim-genc-0001", "response": "分析过程若干……Final answer: 0.01126 m"}
+{"task_id": "icf-sim-genc-0002", "response": "分析过程若干……Final answer: 0.0115 m"}
+{"task_id": "icf-sim-genc-0003", "response": "分析过程若干……Final answer: 0.004483 m"}
+{"task_id": "icf-sim-genc-0004", "response": "分析过程若干……Final answer: 0.01093 m"}
+{"task_id": "icf-sim-genc-0005", "response": "分析过程若干……Final answer: 0.001823 m"}
+{"task_id": "icf-sim-genc-0011", "response": "分析过程若干……Final answer: 11220 J"}
+{"task_id": "icf-sim-genc-0012", "response": "分析过程若干……Final answer: 10460 J"}
+{"task_id": "icf-sim-genc-0013", "response": "分析过程若干……Final answer: 19640 J"}
+{"task_id": "icf-sim-genc-0014", "response": "分析过程若干……Final answer: 13860 J"}
+{"task_id": "icf-sim-genc-0017", "response": "分析过程若干……Final answer: 9.091e-13 s"}
+{"task_id": "icf-sim-genc-0019", "response": "分析过程若干……Final answer: 5e-14 s"}
+{"task_id": "icf-sim-genc-0020", "response": "分析过程若干……Final answer: 5e-13 s"}
+{"task_id": "icf-sim-genc-0021", "response": "分析过程若干……Final answer: 225 1"}
 {"task_id": "icf-target-design-0001", "response": "经过分析,正确选项是 A"}
 {"task_id": "icf-target-design-0002", "response": "经过分析,正确选项是 A"}
 {"task_id": "icf-target-design-0003", "response": "分析过程若干……Final answer: 184500 J"}
 {"task_id": "icf-target-design-0004", "response": "经过分析,正确选项是 A, B"}
 {"task_id": "icf-target-design-0005", "response": "分析过程若干……Final answer: 0.2471 mg"}
+{"task_id": "icf-ignition-gain-topup-0001", "response": "分析过程若干……Final answer: 2.439 1"}
+{"task_id": "icf-ignition-gain-topup-0002", "response": "分析过程若干……Final answer: 1.695 1"}
+{"task_id": "icf-ignition-gain-topup-0003", "response": "分析过程若干……Final answer: 8.55e+09 J/kg"}
+{"task_id": "icf-ignition-gain-topup-0004", "response": "分析过程若干……Final answer: 0.05 mg"}
+{"task_id": "icf-ignition-gain-topup2-0001", "response": "分析过程若干……Final answer: 1.44e+22 m^-3 keV s"}
+{"task_id": "icf-implosion-topup2-0001", "response": "分析过程若干……Final answer: 30 μm"}
+{"task_id": "icf-rad-hydro-topup2-0001", "response": "分析过程若干……Final answer: 5.3594e+10 J/m^3"}
+{"task_id": "icf-diagnostics-topup2-0001", "response": "分析过程若干……Final answer: 3 1e-4"}
+{"task_id": "mcf-sim-gen-0001", "response": "分析过程若干……Final answer: 0.2235 s"}
+{"task_id": "mcf-sim-gen-0002", "response": "分析过程若干……Final answer: 0.06931 s"}
+{"task_id": "mcf-sim-gen-0003", "response": "分析过程若干……Final answer: 3.203 s"}
+{"task_id": "mcf-sim-gen-0004", "response": "分析过程若干……Final answer: 2.587 s"}
+{"task_id": "mcf-sim-gen-0005", "response": "分析过程若干……Final answer: 0.474 s"}
+{"task_id": "mcf-sim-gen-0006", "response": "分析过程若干……Final answer: 6.654 s"}
+{"task_id": "mcf-sim-gen-0007", "response": "分析过程若干……Final answer: 11.78 1"}
+{"task_id": "mcf-sim-gen-0008", "response": "分析过程若干……Final answer: 20.78 1"}
+{"task_id": "mcf-sim-gen-0009", "response": "分析过程若干……Final answer: 4.157 1"}
+{"task_id": "mcf-sim-gen-0010", "response": "分析过程若干……Final answer: 1.425 1"}
+{"task_id": "mcf-sim-gen-0011", "response": "分析过程若干……Final answer: 0.02688 1"}
+{"task_id": "mcf-sim-gen-0012", "response": "分析过程若干……Final answer: 3.333 1"}
+{"task_id": "mcf-sim-gen-0013", "response": "分析过程若干……Final answer: 0.006096 m"}
+{"task_id": "mcf-sim-gen-0014", "response": "分析过程若干……Final answer: 0.004039 m"}
+{"task_id": "mcf-sim-gen-0015", "response": "分析过程若干……Final answer: 0.009031 m"}
+{"task_id": "mcf-sim-gen-0016", "response": "分析过程若干……Final answer: 0.005109 m"}
+{"task_id": "mcf-sim-gen-0017", "response": "分析过程若干……Final answer: 0.001524 m"}
+{"task_id": "mcf-sim-gen-0018", "response": "分析过程若干……Final answer: 0.01616 m"}
+{"task_id": "mcf-sim-gen-0019", "response": "分析过程若干……Final answer: 1.692e+07 W/m^3"}
+{"task_id": "mcf-sim-gen-0020", "response": "分析过程若干……Final answer: 528700 W/m^3"}
+{"task_id": "mcf-sim-gen-0021", "response": "分析过程若干……Final answer: 1.057e+06 W/m^3"}
+{"task_id": "mcf-sim-gen-0022", "response": "分析过程若干……Final answer: 2.82e+06 W/m^3"}
+{"task_id": "mcf-sim-gen-0023", "response": "分析过程若干……Final answer: 8.459e+06 W/m^3"}
+{"task_id": "mcf-sim-gen-0025", "response": "分析过程若干……Final answer: 176200 W/m^3"}
+{"task_id": "mcf-sim-genb-0001", "response": "分析过程若干……Final answer: 0.4458 s"}
+{"task_id": "mcf-sim-genb-0002", "response": "分析过程若干……Final answer: 0.7776 s"}
+{"task_id": "mcf-sim-genb-0003", "response": "分析过程若干……Final answer: 0.3128 s"}
+{"task_id": "mcf-sim-genb-0004", "response": "分析过程若干……Final answer: 1.866 s"}
+{"task_id": "mcf-sim-genb-0005", "response": "分析过程若干……Final answer: 0.979 s"}
+{"task_id": "mcf-sim-genb-0006", "response": "分析过程若干……Final answer: 1.323 s"}
+{"task_id": "mcf-sim-genb-0008", "response": "分析过程若干……Final answer: 0.2849 1"}
+{"task_id": "mcf-sim-genb-0010", "response": "分析过程若干……Final answer: 5.699 1"}
+{"task_id": "mcf-sim-genb-0012", "response": "分析过程若干……Final answer: 17.1 1"}
+{"task_id": "mcf-sim-genb-0013", "response": "分析过程若干……Final answer: 0.003408 m"}
+{"task_id": "mcf-sim-genb-0014", "response": "分析过程若干……Final answer: 0.004311 m"}
+{"task_id": "mcf-sim-genb-0018", "response": "分析过程若干……Final answer: 0.01142 m"}
+{"task_id": "mcf-sim-genb-0019", "response": "分析过程若干……Final answer: 705000 W/m^3"}
+{"task_id": "mcf-sim-genb-0021", "response": "分析过程若干……Final answer: 4.23e+06 W/m^3"}
+{"task_id": "mcf-sim-genb-0024", "response": "分析过程若干……Final answer: 2.115e+06 W/m^3"}
 {"task_id": "mcf-0001", "response": "分析过程若干……Final answer: 10 1"}
 {"task_id": "mcf-0002", "response": "分析过程若干……Final answer: 3.9623 %"}
 {"task_id": "mcf-0003", "response": "分析过程若干……Final answer: 1.1937 1e20 m^-3"}
@@ -70,8 +434,47 @@
 {"task_id": "mcf-0009", "response": "经过分析,正确选项是 A, B, C"}
 {"task_id": "mcf-0010", "response": "分析过程若干……Final answer: 0.0003553 kg"}
 {"task_id": "mcf-0011", "response": "经过分析,正确选项是 A, B, C"}
-{"task_id": "mcf-0012", "response": "(推导题,judge 模块 v1.1 前跳过)"}
-{"task_id": "mcf-0013", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "mcf-0012", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "mcf-0013", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "plasma-basic-gen-0001", "response": "分析过程若干……Final answer: 6.372 1"}
+{"task_id": "plasma-basic-gen-0002", "response": "分析过程若干……Final answer: 7.434e-10 m"}
+{"task_id": "plasma-basic-gen-0005", "response": "分析过程若干……Final answer: 6.057 1"}
+{"task_id": "plasma-basic-gen-0006", "response": "分析过程若干……Final answer: 0.0002351 m"}
+{"task_id": "plasma-basic-gen-0007", "response": "分析过程若干……Final answer: 2.351e-09 m"}
+{"task_id": "plasma-basic-gen-0008", "response": "分析过程若干……Final answer: 8.956 1"}
+{"task_id": "plasma-basic-gen-0011", "response": "分析过程若干……Final answer: 7.295e+06 m/s"}
+{"task_id": "plasma-basic-gen-0012", "response": "分析过程若干……Final answer: 1.485e+14 rad/s"}
+{"task_id": "plasma-basic-gen-0014", "response": "分析过程若干……Final answer: 1.376e+06 m/s"}
+{"task_id": "plasma-basic-gen-0015", "response": "分析过程若干……Final answer: 2.22 1"}
+{"task_id": "plasma-basic-gen-0016", "response": "分析过程若干……Final answer: 5.997e+12 rad/s"}
+{"task_id": "plasma-basic-gen-0017", "response": "分析过程若干……Final answer: 4.623 1"}
+{"task_id": "plasma-basic-gen-0018", "response": "分析过程若干……Final answer: 956400 m/s"}
+{"task_id": "plasma-basic-gen-0019", "response": "分析过程若干……Final answer: 15.59 1"}
+{"task_id": "plasma-basic-gen-0020", "response": "分析过程若干……Final answer: 8.33e+11 rad/s"}
+{"task_id": "plasma-basic-gen-0021", "response": "分析过程若干……Final answer: 13.3 1"}
+{"task_id": "plasma-basic-gen-0022", "response": "分析过程若干……Final answer: 7.434e-09 m"}
+{"task_id": "plasma-basic-gen-0023", "response": "分析过程若干……Final answer: 139300 m/s"}
+{"task_id": "plasma-basic-gen-0024", "response": "分析过程若干……Final answer: 7.593 1"}
+{"task_id": "plasma-basic-gen-0025", "response": "分析过程若干……Final answer: 330200 m/s"}
+{"task_id": "plasma-basic-genb-0002", "response": "分析过程若干……Final answer: 7.872 1"}
+{"task_id": "plasma-basic-genb-0005", "response": "分析过程若干……Final answer: -1.962 1"}
+{"task_id": "plasma-basic-genb-0006", "response": "分析过程若干……Final answer: 7.887 1"}
+{"task_id": "plasma-basic-genb-0008", "response": "分析过程若干……Final answer: 1.821e+06 m/s"}
+{"task_id": "plasma-basic-genb-0009", "response": "分析过程若干……Final answer: 1.947e+06 m/s"}
+{"task_id": "plasma-basic-genb-0010", "response": "分析过程若干……Final answer: 1.629e+06 m/s"}
+{"task_id": "plasma-basic-genb-0012", "response": "分析过程若干……Final answer: 15.7 1"}
+{"task_id": "plasma-basic-genb-0013", "response": "分析过程若干……Final answer: 7.356e+12 rad/s"}
+{"task_id": "plasma-basic-genb-0014", "response": "分析过程若干……Final answer: 5.776e+06 m/s"}
+{"task_id": "plasma-basic-genb-0015", "response": "分析过程若干……Final answer: 2.351e-10 m"}
+{"task_id": "plasma-basic-genb-0016", "response": "分析过程若干……Final answer: 7.168 1"}
+{"task_id": "plasma-basic-genb-0017", "response": "分析过程若干……Final answer: 13.67 1"}
+{"task_id": "plasma-basic-genb-0019", "response": "分析过程若干……Final answer: 2.351e-05 m"}
+{"task_id": "plasma-basic-genb-0020", "response": "分析过程若干……Final answer: 126200 m/s"}
+{"task_id": "plasma-basic-genb-0021", "response": "分析过程若干……Final answer: 2.795 1"}
+{"task_id": "plasma-basic-genb-0022", "response": "分析过程若干……Final answer: 7.434e-06 m"}
+{"task_id": "plasma-basic-genb-0023", "response": "分析过程若干……Final answer: 13.93 1"}
+{"task_id": "plasma-basic-genb-0024", "response": "分析过程若干……Final answer: 2.351e-08 m"}
+{"task_id": "plasma-basic-genb-0025", "response": "分析过程若干……Final answer: 1.515e+14 rad/s"}
 {"task_id": "plasma-basic-0001", "response": "分析过程若干……Final answer: 2.3509e-06 cm"}
 {"task_id": "plasma-basic-0002", "response": "分析过程若干……Final answer: 89780 GHz"}
 {"task_id": "plasma-basic-0003", "response": "分析过程若干……Final answer: 148.4 GHz"}
@@ -81,16 +484,195 @@
 {"task_id": "plasma-basic-0007", "response": "分析过程若干……Final answer: 218900 m/s"}
 {"task_id": "plasma-basic-0008", "response": "分析过程若干……Final answer: 0.0477 mm"}
 {"task_id": "plasma-basic-0009", "response": "经过分析,正确选项是 A, C"}
-{"task_id": "plasma-basic-0010", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "plasma-basic-0010", "response": "(derivation: judge module deferred to v1.1)"}
 {"task_id": "plasma-basic-0011", "response": "分析过程若干……Final answer: 2.87 %"}
 {"task_id": "plasma-basic-0012", "response": "分析过程若干……Final answer: 1.049e-09 Ω·m"}
+{"task_id": "plasma-instabilities-gen-0001", "response": "分析过程若干……Final answer: 4.071e+09 s^-1"}
+{"task_id": "plasma-instabilities-gen-0002", "response": "分析过程若干……Final answer: 4.419e+09 s^-1"}
+{"task_id": "plasma-instabilities-gen-0003", "response": "分析过程若干……Final answer: 8.277e+09 s^-1"}
+{"task_id": "plasma-instabilities-gen-0004", "response": "分析过程若干……Final answer: 3.966e+09 s^-1"}
+{"task_id": "plasma-instabilities-gen-0005", "response": "分析过程若干……Final answer: 8.92e+14 s^-1"}
+{"task_id": "plasma-instabilities-gen-0006", "response": "分析过程若干……Final answer: 8.92e+14 s^-1"}
+{"task_id": "plasma-instabilities-gen-0007", "response": "分析过程若干……Final answer: 8.92e+14 s^-1"}
+{"task_id": "plasma-instabilities-gen-0008", "response": "分析过程若干……Final answer: 8.92e+14 s^-1"}
+{"task_id": "plasma-instabilities-gen-0009", "response": "分析过程若干……Final answer: 2.258e+07 m/s"}
+{"task_id": "plasma-instabilities-gen-0010", "response": "分析过程若干……Final answer: 1.027e+07 m/s"}
+{"task_id": "plasma-instabilities-gen-0011", "response": "分析过程若干……Final answer: 2.619e+07 m/s"}
+{"task_id": "plasma-instabilities-gen-0013", "response": "分析过程若干……Final answer: 374800 m/s"}
+{"task_id": "plasma-instabilities-gen-0015", "response": "分析过程若干……Final answer: 113000 m/s"}
+{"task_id": "plasma-instabilities-gen-0016", "response": "分析过程若干……Final answer: 218800 m/s"}
+{"task_id": "plasma-instabilities-gen-0021", "response": "分析过程若干……Final answer: 22760 rad/s"}
+{"task_id": "plasma-instabilities-gen-0022", "response": "分析过程若干……Final answer: 52150 rad/s"}
+{"task_id": "plasma-instabilities-gen-0023", "response": "分析过程若干……Final answer: 71110 rad/s"}
+{"task_id": "plasma-instabilities-gen-0024", "response": "分析过程若干……Final answer: 52000 rad/s"}
+{"task_id": "plasma-instabilities-gen-0025", "response": "分析过程若干……Final answer: 30230 rad/s"}
+{"task_id": "plasma-instabilities-genb-0001", "response": "分析过程若干……Final answer: 7.64e+09 s^-1"}
+{"task_id": "plasma-instabilities-genb-0002", "response": "分析过程若干……Final answer: 6.856e+09 s^-1"}
+{"task_id": "plasma-instabilities-genb-0003", "response": "分析过程若干……Final answer: 3.96e+09 s^-1"}
+{"task_id": "plasma-instabilities-genb-0004", "response": "分析过程若干……Final answer: 6.579e+09 s^-1"}
+{"task_id": "plasma-instabilities-genb-0005", "response": "分析过程若干……Final answer: 8.92e+14 s^-1"}
+{"task_id": "plasma-instabilities-genb-0006", "response": "分析过程若干……Final answer: 8.92e+14 s^-1"}
+{"task_id": "plasma-instabilities-genb-0007", "response": "分析过程若干……Final answer: 8.92e+14 s^-1"}
+{"task_id": "plasma-instabilities-genb-0008", "response": "分析过程若干……Final answer: 8.92e+14 s^-1"}
+{"task_id": "plasma-instabilities-genb-0009", "response": "分析过程若干……Final answer: 2.481e+07 m/s"}
+{"task_id": "plasma-instabilities-genb-0010", "response": "分析过程若干……Final answer: 2.138e+07 m/s"}
+{"task_id": "plasma-instabilities-genb-0012", "response": "分析过程若干……Final answer: 1.186e+07 m/s"}
+{"task_id": "plasma-instabilities-genb-0013", "response": "分析过程若干……Final answer: 319600 m/s"}
+{"task_id": "plasma-instabilities-genb-0015", "response": "分析过程若干……Final answer: 428900 m/s"}
+{"task_id": "plasma-instabilities-genb-0016", "response": "分析过程若干……Final answer: 321600 m/s"}
+{"task_id": "plasma-instabilities-genb-0017", "response": "分析过程若干……Final answer: 2.638e+11 rad/s"}
+{"task_id": "plasma-instabilities-genb-0018", "response": "分析过程若干……Final answer: 1.284e+12 rad/s"}
+{"task_id": "plasma-instabilities-genb-0019", "response": "分析过程若干……Final answer: 2.849e+12 rad/s"}
+{"task_id": "plasma-instabilities-genb-0020", "response": "分析过程若干……Final answer: 3.342e+11 rad/s"}
+{"task_id": "plasma-instabilities-genb-0021", "response": "分析过程若干……Final answer: 64250 rad/s"}
+{"task_id": "plasma-instabilities-genb-0022", "response": "分析过程若干……Final answer: 44500 rad/s"}
+{"task_id": "plasma-instabilities-genb-0023", "response": "分析过程若干……Final answer: 43950 rad/s"}
+{"task_id": "plasma-instabilities-genb-0024", "response": "分析过程若干……Final answer: 16580 rad/s"}
+{"task_id": "plasma-instabilities-genb-0025", "response": "分析过程若干……Final answer: 19630 rad/s"}
+{"task_id": "plasma-inst-hard-0001", "response": "经过分析,正确选项是 A, C"}
+{"task_id": "plasma-inst-hard-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "plasma-inst-hard-0003", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "plasma-inst-hard-0004", "response": "经过分析,正确选项是 A"}
+{"task_id": "plasma-inst-hard-0005", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "plasma-inst-hard-0006", "response": "经过分析,正确选项是 A"}
+{"task_id": "plasma-inst-hard-0007", "response": "经过分析,正确选项是 A"}
+{"task_id": "plasma-inst-hard-0008", "response": "经过分析,正确选项是 A"}
+{"task_id": "plasma-inst-hard-0009", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "plasma-inst-hard-0010", "response": "经过分析,正确选项是 A"}
+{"task_id": "plasma-inst-hard-0011", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "plasma-inst-hard-0012", "response": "经过分析,正确选项是 A"}
+{"task_id": "plasma-inst-hard-0013", "response": "经过分析,正确选项是 A"}
+{"task_id": "plasma-inst-hard-0014", "response": "经过分析,正确选项是 A"}
+{"task_id": "plasma-inst-hard-0015", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "plasma-inst-hard-0016", "response": "经过分析,正确选项是 A"}
+{"task_id": "plasma-inst-hard-0017", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "plasma-inst-hard-0018", "response": "经过分析,正确选项是 A, C"}
+{"task_id": "plasma-inst-hard-0019", "response": "经过分析,正确选项是 A, B, D"}
+{"task_id": "plasma-inst-hard-0020", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0003", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0004", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0005", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0006", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0007", "response": "经过分析,正确选项是 A, B, C"}
+{"task_id": "sim-hard-0008", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0009", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0010", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0011", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0012", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0013", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0014", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0015", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0016", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0017", "response": "经过分析,正确选项是 A, B"}
+{"task_id": "sim-hard-0018", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0019", "response": "经过分析,正确选项是 A"}
+{"task_id": "sim-hard-0020", "response": "经过分析,正确选项是 A, B, C"}
 {"task_id": "simulation-0001", "response": "分析过程若干……Final answer: 0.010906 m"}
 {"task_id": "simulation-0002", "response": "分析过程若干……Final answer: 1.9154e-13 s"}
 {"task_id": "simulation-0003", "response": "分析过程若干……Final answer: 1.0179e-10 s"}
 {"task_id": "simulation-0004", "response": "经过分析,正确选项是 A, B, C, D"}
 {"task_id": "simulation-0005", "response": "经过分析,正确选项是 A"}
-{"task_id": "simulation-0006", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "simulation-0006", "response": "(derivation: judge module deferred to v1.1)"}
 {"task_id": "simulation-0007", "response": "分析过程若干……Final answer: 0.0019922 m"}
+{"task_id": "swe-real-desc1940-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-desc1940-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-desc1879-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-openmc1472-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-openmc1472-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-warpx4038-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-openmc2418-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-openmc2418-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-bout3442-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-bout3442-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-bout3462-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-bout2624-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-torax689-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-torax689-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-desc1879-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-warpx4038-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-openmc1472-0003", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-bout3442-0003", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-issue-0001", "response": "分析过程若干……Final answer: 0.7071 1"}
+{"task_id": "swe-issue-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-issue-0003", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-issue-0004", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-issue-0006", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-issue-0007", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-issue-0008", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-issue-0009", "response": "分析过程若干……Final answer: 0.05 1"}
+{"task_id": "swe-issue-0010", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-issue-0011", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-issue-0012", "response": "分析过程若干……Final answer: 131.9 1"}
+{"task_id": "swe-real-0001", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0002", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0003", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0004", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0005", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0006", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0007", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0008", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0009", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0010", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0011", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0012", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0013", "response": "经过分析,正确选项是 A"}
+{"task_id": "swe-real-0014", "response": "经过分析,正确选项是 A"}
+{"task_id": "zpinch-3001", "response": "分析过程若干……Final answer: 5.53118e+07 cm/s"}
+{"task_id": "zpinch-3002", "response": "分析过程若干……Final answer: 5.22178e+07 cm/s"}
+{"task_id": "zpinch-3003", "response": "分析过程若干……Final answer: 1.40591e+08 cm/s"}
+{"task_id": "zpinch-3004", "response": "分析过程若干……Final answer: 5.63004e+07 cm/s"}
+{"task_id": "zpinch-3005", "response": "分析过程若干……Final answer: 9.46686e+07 cm/s"}
+{"task_id": "zpinch-3006", "response": "分析过程若干……Final answer: 6.30079e+07 cm/s"}
+{"task_id": "zpinch-3007", "response": "分析过程若干……Final answer: 6.98625e+07 cm/s"}
+{"task_id": "zpinch-3008", "response": "分析过程若干……Final answer: 1.10961e+08 cm/s"}
+{"task_id": "zpinch-3009", "response": "分析过程若干……Final answer: 3.00067e+07 cm/s"}
+{"task_id": "zpinch-3010", "response": "分析过程若干……Final answer: 4.41995e+07 cm/s"}
+{"task_id": "zpinch-3011", "response": "分析过程若干……Final answer: 7.15716e+07 cm/s"}
+{"task_id": "zpinch-3012", "response": "分析过程若干……Final answer: 1.88653e+07 cm/s"}
+{"task_id": "zpinch-3013", "response": "分析过程若干……Final answer: 5.1826 MJ/cm"}
+{"task_id": "zpinch-3014", "response": "分析过程若干……Final answer: 2.9176 MJ/cm"}
+{"task_id": "zpinch-3015", "response": "分析过程若干……Final answer: 0.88464 MJ/cm"}
+{"task_id": "zpinch-3016", "response": "分析过程若干……Final answer: 6.57 MJ/cm"}
+{"task_id": "zpinch-3017", "response": "分析过程若干……Final answer: 3.2446 MJ/cm"}
+{"task_id": "zpinch-3018", "response": "分析过程若干……Final answer: 5.044 MJ/cm"}
+{"task_id": "zpinch-3019", "response": "分析过程若干……Final answer: 3.6918 MJ/cm"}
+{"task_id": "zpinch-3020", "response": "分析过程若干……Final answer: 3.382 MJ/cm"}
+{"task_id": "zpinch-3021", "response": "分析过程若干……Final answer: 2.9278 MJ/cm"}
+{"task_id": "zpinch-3022", "response": "分析过程若干……Final answer: 4.6758 MJ/cm"}
+{"task_id": "zpinch-3031", "response": "分析过程若干……Final answer: 4.92 1"}
+{"task_id": "zpinch-3032", "response": "分析过程若干……Final answer: 1.38 1"}
+{"task_id": "zpinch-3033", "response": "分析过程若干……Final answer: 5.1 1"}
+{"task_id": "zpinch-3034", "response": "分析过程若干……Final answer: -1.8 1"}
+{"task_id": "zpinch-3035", "response": "分析过程若干……Final answer: 5.07 1"}
+{"task_id": "zpinch-2001", "response": "分析过程若干……Final answer: 6.10977e+07 cm/s"}
+{"task_id": "zpinch-2002", "response": "分析过程若干……Final answer: 5.41299e+07 cm/s"}
+{"task_id": "zpinch-2003", "response": "分析过程若干……Final answer: 1.09358e+08 cm/s"}
+{"task_id": "zpinch-2004", "response": "分析过程若干……Final answer: 5.06471e+07 cm/s"}
+{"task_id": "zpinch-2005", "response": "分析过程若干……Final answer: 4.82307e+07 cm/s"}
+{"task_id": "zpinch-2006", "response": "分析过程若干……Final answer: 2.44881e+07 cm/s"}
+{"task_id": "zpinch-2007", "response": "分析过程若干……Final answer: 9.02621e+07 cm/s"}
+{"task_id": "zpinch-2008", "response": "分析过程若干……Final answer: 1.63894e+08 cm/s"}
+{"task_id": "zpinch-2009", "response": "分析过程若干……Final answer: 2.68365e+07 cm/s"}
+{"task_id": "zpinch-2010", "response": "分析过程若干……Final answer: 1.56432e+08 cm/s"}
+{"task_id": "zpinch-2011", "response": "分析过程若干……Final answer: 7.32605e+07 cm/s"}
+{"task_id": "zpinch-2012", "response": "分析过程若干……Final answer: 2.77321e+07 cm/s"}
+{"task_id": "zpinch-2013", "response": "分析过程若干……Final answer: 0.6081 MJ/cm"}
+{"task_id": "zpinch-2014", "response": "分析过程若干……Final answer: 5.3464 MJ/cm"}
+{"task_id": "zpinch-2015", "response": "分析过程若干……Final answer: 5.3432 MJ/cm"}
+{"task_id": "zpinch-2016", "response": "分析过程若干……Final answer: 7.7618 MJ/cm"}
+{"task_id": "zpinch-2017", "response": "分析过程若干……Final answer: 3.5043 MJ/cm"}
+{"task_id": "zpinch-2018", "response": "分析过程若干……Final answer: 2.6366 MJ/cm"}
+{"task_id": "zpinch-2019", "response": "分析过程若干……Final answer: 4.7267 MJ/cm"}
+{"task_id": "zpinch-2020", "response": "分析过程若干……Final answer: 5.6347 MJ/cm"}
+{"task_id": "zpinch-2021", "response": "分析过程若干……Final answer: 3.6812 MJ/cm"}
+{"task_id": "zpinch-2022", "response": "分析过程若干……Final answer: 5.6779 MJ/cm"}
+{"task_id": "zpinch-2031", "response": "分析过程若干……Final answer: 3.77 1"}
+{"task_id": "zpinch-2032", "response": "分析过程若干……Final answer: 3.86 1"}
+{"task_id": "zpinch-2033", "response": "分析过程若干……Final answer: 5.21 1"}
+{"task_id": "zpinch-2034", "response": "分析过程若干……Final answer: 3.65 1"}
+{"task_id": "zpinch-2035", "response": "分析过程若干……Final answer: 3.98 1"}
 {"task_id": "zpinch-0001", "response": "分析过程若干……Final answer: 1.7894e+07 cm/s"}
 {"task_id": "zpinch-0002", "response": "分析过程若干……Final answer: 0.6 MJ/cm"}
 {"task_id": "zpinch-0003", "response": "分析过程若干……Final answer: 179010 A"}
@@ -103,4 +685,4 @@
 {"task_id": "zpinch-0010", "response": "经过分析,正确选项是 A, B, C"}
 {"task_id": "zpinch-0011", "response": "分析过程若干……Final answer: 4.869 1"}
 {"task_id": "zpinch-0012", "response": "经过分析,正确选项是 A, B, D"}
-{"task_id": "zpinch-0013", "response": "(推导题,judge 模块 v1.1 前跳过)"}
+{"task_id": "zpinch-0013", "response": "(derivation: judge module deferred to v1.1)"}

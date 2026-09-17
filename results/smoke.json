@@ -2,71 +2,75 @@
   "summary": {
     "overall": {
       "all": {
-        "n": 106,
-        "mean": 0.8773584905660378
+        "n": 688,
+        "mean": 0.9694767441860465
       }
     },
     "by_topic": {
+      "icf/eos-opacity": {
+        "n": 156,
+        "mean": 0.967948717948718
+      },
+      "simulation": {
+        "n": 94,
+        "mean": 0.9787234042553191
+      },
+      "icf/rt-rm-instability": {
+        "n": 44,
+        "mean": 0.9545454545454546
+      },
+      "plasma-basic": {
+        "n": 114,
+        "mean": 0.9824561403508771
+      },
+      "zpinch": {
+        "n": 68,
+        "mean": 0.9705882352941176
+      },
+      "mcf": {
+        "n": 55,
+        "mean": 0.9454545454545454
+      },
       "fusion-engineering": {
-        "n": 6,
+        "n": 7,
         "mean": 1.0
       },
       "icf/diagnostics": {
-        "n": 5,
+        "n": 23,
         "mean": 1.0
-      },
-      "icf/eos-opacity": {
-        "n": 8,
-        "mean": 0.75
-      },
-      "icf/ignition-gain": {
-        "n": 8,
-        "mean": 1.0
-      },
-      "icf/implosion": {
-        "n": 7,
-        "mean": 0.8571428571428571
       },
       "icf/lpi": {
-        "n": 7,
-        "mean": 0.7142857142857143
+        "n": 20,
+        "mean": 0.9
       },
       "icf/rad-hydro": {
-        "n": 8,
-        "mean": 0.75
+        "n": 31,
+        "mean": 0.9354838709677419
       },
-      "icf/rt-rm-instability": {
-        "n": 7,
-        "mean": 0.8571428571428571
+      "icf/implosion": {
+        "n": 24,
+        "mean": 0.9583333333333334
       },
-      "icf/target-design": {
-        "n": 5,
+      "icf/ignition-gain": {
+        "n": 25,
         "mean": 1.0
       },
-      "mcf": {
-        "n": 13,
-        "mean": 0.8461538461538461
-      },
-      "plasma-basic": {
-        "n": 12,
-        "mean": 0.9166666666666666
-      },
-      "simulation": {
-        "n": 7,
-        "mean": 0.8571428571428571
-      },
-      "zpinch": {
-        "n": 13,
-        "mean": 0.9230769230769231
+      "icf/target-design": {
+        "n": 27,
+        "mean": 1.0
       }
     },
     "by_type": {
-      "concept": {
-        "n": 30,
-        "mean": 1.0
+      "code": {
+        "n": 8,
+        "mean": 0.0
       },
       "numeric": {
-        "n": 62,
+        "n": 531,
+        "mean": 1.0
+      },
+      "concept": {
+        "n": 135,
         "mean": 1.0
       },
       "figure": {
@@ -79,26 +83,1034 @@
       }
     },
     "by_difficulty": {
-      "undergrad": {
-        "n": 27,
-        "mean": 1.0
-      },
       "grad": {
-        "n": 48,
-        "mean": 0.875
+        "n": 368,
+        "mean": 0.9755434782608695
+      },
+      "undergrad": {
+        "n": 113,
+        "mean": 0.9646017699115044
       },
       "expert": {
-        "n": 31,
-        "mean": 0.7741935483870968
+        "n": 207,
+        "mean": 0.961352657004831
       }
     },
     "counts": {
-      "total": 106,
-      "graded": 106,
+      "total": 688,
+      "graded": 688,
       "ungraded": 0
     }
   },
   "per_task": [
+    {
+      "task_id": "code-rosseland-0001",
+      "topic": "icf/eos-opacity",
+      "type": "code",
+      "difficulty": "grad",
+      "score": 0.0,
+      "status": "graded",
+      "detail": "no function definition found in response"
+    },
+    {
+      "task_id": "code-saha-0001",
+      "topic": "icf/eos-opacity",
+      "type": "code",
+      "difficulty": "grad",
+      "score": 0.0,
+      "status": "graded",
+      "detail": "no function definition found in response"
+    },
+    {
+      "task_id": "code-sedov-0001",
+      "topic": "simulation",
+      "type": "code",
+      "difficulty": "undergrad",
+      "score": 0.0,
+      "status": "graded",
+      "detail": "no function definition found in response"
+    },
+    {
+      "task_id": "code-rt-scan-0001",
+      "topic": "icf/rt-rm-instability",
+      "type": "code",
+      "difficulty": "expert",
+      "score": 0.0,
+      "status": "graded",
+      "detail": "no function definition found in response"
+    },
+    {
+      "task_id": "code-nrl-calc-0001",
+      "topic": "plasma-basic",
+      "type": "code",
+      "difficulty": "undergrad",
+      "score": 0.0,
+      "status": "graded",
+      "detail": "no function definition found in response"
+    },
+    {
+      "task_id": "code-evbatch-0001",
+      "topic": "zpinch",
+      "type": "code",
+      "difficulty": "undergrad",
+      "score": 0.0,
+      "status": "graded",
+      "detail": "no function definition found in response"
+    },
+    {
+      "task_id": "code-freepath-0001",
+      "topic": "icf/eos-opacity",
+      "type": "code",
+      "difficulty": "undergrad",
+      "score": 0.0,
+      "status": "graded",
+      "detail": "no function definition found in response"
+    },
+    {
+      "task_id": "code-limits-0001",
+      "topic": "mcf",
+      "type": "code",
+      "difficulty": "grad",
+      "score": 0.0,
+      "status": "graded",
+      "detail": "no function definition found in response"
+    },
+    {
+      "task_id": "icf-eos-opacity-3001",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.18004 got=0.18004 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3002",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.5848 got=4.5848 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3003",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=37.566 got=37.566 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3004",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.17853 got=0.17853 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3005",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.5014 got=1.5014 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3006",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.17757 got=0.17757 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3007",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.7943 got=0.7943 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3008",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=11.175 got=11.175 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3009",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.6473 got=7.6473 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3010",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.20079 got=0.20079 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3011",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=23.021 got=23.021 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3012",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.3164 got=5.3164 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3013",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.31791 got=0.31791 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3014",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=52.953 got=52.953 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3015",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.7357 got=1.7357 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3016",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1192 got=1192 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3017",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=57.535 got=57.535 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3018",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=74.219 got=74.219 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3019",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.87728 got=0.87728 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3020",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.080686 got=0.080686 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3021",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=188.49 got=188.49 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3022",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=365.99 got=365.99 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3023",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=299.81 got=299.81 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3024",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=440.09 got=440.09 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3025",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.012165 got=0.012165 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3026",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1975.5 got=1975.5 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3027",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.354e-05 got=3.354e-05 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3028",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.0032708 got=0.0032708 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3029",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=13.423 got=13.423 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3030",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.8608 got=4.8608 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3031",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.095656 got=0.095656 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3032",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.97897 got=0.97897 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3033",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.4795 got=3.4795 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3034",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.516 got=5.516 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3035",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.1867 got=1.1867 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3036",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.25957 got=0.25957 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3037",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.17855 got=0.17855 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3038",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.17855 got=0.17855 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3039",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.39406 got=0.39406 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3040",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.34341 got=0.34341 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3041",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.70695 got=0.70695 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3042",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.21634 got=0.21634 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3043",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.39698 got=0.39698 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3044",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.76947 got=0.76947 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3045",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=30.703 got=30.703 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3046",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.68708 got=0.68708 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3047",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.2248 got=2.2248 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3048",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.37136 got=0.37136 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3049",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.2109 got=1.2109 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3050",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=9.5377 got=9.5377 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3051",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=462.38 got=462.38 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3052",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=9.0778 got=9.0778 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3053",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=995.05 got=995.05 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3054",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1519.5 got=1519.5 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3055",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5010.3 got=5010.3 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3056",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=32253 got=32253 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3057",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1379.7 got=1379.7 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3058",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=646 got=646 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3059",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=387.24 got=387.24 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3060",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.29706 got=0.29706 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3061",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.00844 got=0.00844 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3062",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.17179 got=0.17179 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3063",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=140.19 got=140.19 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3064",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.012774 got=0.012774 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3065",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.8681 got=4.8681 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3066",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=15.093 got=15.093 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3067",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.1478 got=4.1478 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3068",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.45948 got=0.45948 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3069",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.2258 got=0.2258 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3070",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.059342 got=0.059342 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-3071",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.29721 got=0.29721 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4001",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.1815 got=0.1815 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4002",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.17909 got=0.17909 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4003",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.18184 got=0.18184 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4004",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=30.45 got=30.45 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4005",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.17779 got=0.17779 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4006",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.1793 got=0.1793 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4007",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.25757 got=0.25757 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4008",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1109.7 got=1109.7 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4009",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.2377 got=4.2377 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4010",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.87852 got=0.87852 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4011",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=19.701 got=19.701 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4012",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.52358 got=0.52358 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4013",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=322.77 got=322.77 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4014",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.20213 got=0.20213 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4015",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.16747 got=0.16747 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4016",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.2925 got=8.2925 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4017",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=83.774 got=83.774 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4018",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=172.51 got=172.51 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4019",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.48312 got=0.48312 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4021",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=710.61 got=710.61 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4022",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=14072 got=14072 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4023",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2043.1 got=2043.1 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4024",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=500.15 got=500.15 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4025",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.004242 got=0.004242 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4026",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=19.415 got=19.415 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4027",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.2598 got=1.2598 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4028",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2598.8 got=2598.8 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4029",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=354.04 got=354.04 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4030",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.0013649 got=0.0013649 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4031",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.35557 got=0.35557 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4032",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.635 got=2.635 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4033",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=31.988 got=31.988 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-4034",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.18635 got=0.18635 rel_dev=0.00e+00 tol=2.0e-02"
+    },
     {
       "task_id": "fusion-engineering-0001",
       "topic": "fusion-engineering",
@@ -199,6 +1211,204 @@
       "detail": "key=['A'] got=['A']"
     },
     {
+      "task_id": "icf-eos-opacity-2001",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.0005087 got=0.0005087 rel_dev=0.00e+00 tol=1.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2002",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.004848 got=0.004848 rel_dev=0.00e+00 tol=1.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2003",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.0001587 got=0.0001587 rel_dev=0.00e+00 tol=1.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2004",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.003043 got=0.003043 rel_dev=0.00e+00 tol=1.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2005",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=9.706e-05 got=9.706e-05 rel_dev=0.00e+00 tol=1.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2006",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.0001785 got=0.0001785 rel_dev=0.00e+00 tol=1.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2007",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.618e-07 got=1.618e-07 rel_dev=0.00e+00 tol=1.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2008",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.785e-06 got=2.785e-06 rel_dev=0.00e+00 tol=1.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2009",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.932e+142 got=4.932e+142 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2010",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.05996 got=0.05996 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2011",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.01 got=0.01 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2012",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.01108 got=0.01108 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2013",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.03908 got=0.03908 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2014",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.256e+58 got=6.256e+58 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2015",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.055e-82 got=3.055e-82 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2016",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.8057 got=0.8057 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2017",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.9979 got=0.9979 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2018",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.8987 got=0.8987 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2019",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.185 got=1.185 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2020",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=110.2 got=110.2 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2021",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.106e-06 got=4.106e-06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-2022",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.047e-05 got=2.047e-05 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
       "task_id": "icf-eos-opacity-0001",
       "topic": "icf/eos-opacity",
       "type": "numeric",
@@ -269,6 +1479,1203 @@
       "score": 0.0,
       "status": "graded",
       "detail": "grading mode 'rubric_judge' requires the optional LLM-judge module (v1.1); skipped"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0001",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.795e+07 got=7.795e+07 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0002",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-1.605e+09 got=-1.605e+09 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0003",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.432e+08 got=1.432e+08 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0004",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-1.348e+09 got=-1.348e+09 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0005",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-3.801e+08 got=-3.801e+08 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0006",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-4.881e+08 got=-4.881e+08 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0007",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.431e+06 got=3.431e+06 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0008",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-1.609e+09 got=-1.609e+09 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0009",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-1.494e+09 got=-1.494e+09 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0010",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-5.328e+07 got=-5.328e+07 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0011",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-2.014e+08 got=-2.014e+08 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0012",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.757e+08 got=1.757e+08 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-lpi-gen-0001",
+      "topic": "icf/lpi",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.425e+15 got=1.425e+15 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-lpi-gen-0002",
+      "topic": "icf/lpi",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=9.488e+14 got=9.488e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-lpi-gen-0003",
+      "topic": "icf/lpi",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.717e+14 got=4.717e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-lpi-gen-0005",
+      "topic": "icf/lpi",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.744e+14 got=4.744e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-lpi-gen-0007",
+      "topic": "icf/lpi",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.075e+14 got=7.075e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-lpi-gen-0008",
+      "topic": "icf/lpi",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.358e+14 got=2.358e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-lpi-gen-0010",
+      "topic": "icf/lpi",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.137e+15 got=2.137e+15 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0001",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.1731 got=0.1731 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0002",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.3161 got=0.3161 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0003",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.09997 got=0.09997 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0004",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.1731 got=0.1731 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0005",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.09997 got=0.09997 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0006",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.1731 got=0.1731 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0010",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.09997 got=0.09997 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0012",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.3161 got=0.3161 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-implosion-gen-0001",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.197e+07 got=2.197e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-implosion-gen-0003",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.609e+07 got=1.609e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-implosion-gen-0004",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.908e+07 got=6.908e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-implosion-gen-0007",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.303e+07 got=2.303e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-implosion-gen-0008",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.931e+06 got=6.931e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-implosion-gen-0009",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.099e+07 got=1.099e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-implosion-gen-0010",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.296e+07 got=3.296e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-implosion-gen-0012",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.079e+07 got=2.079e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-gen-0001",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4 got=4 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-gen-0002",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.4 got=6.4 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-gen-0003",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4 got=4 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-gen-0004",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.6 got=1.6 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-gen-0007",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2 got=2 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-gen-0008",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.5 got=2.5 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-gen-0009",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.5 got=1.5 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-gen-0012",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.4 got=2.4 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-gen-0001",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.039e+06 got=1.039e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-gen-0002",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=994000 got=994000 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-gen-0003",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=406600 got=406600 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-gen-0004",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=768100 got=768100 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-gen-0005",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=722900 got=722900 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-gen-0006",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=271100 got=271100 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-gen-0007",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=881000 got=881000 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-gen-0008",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=655100 got=655100 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-gen-0009",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=903600 got=903600 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-gen-0011",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=113000 got=113000 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-gen-0012",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=451800 got=451800 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-target-design-gen-0001",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=117.8 got=117.8 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-target-design-gen-0002",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=207.6 got=207.6 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-target-design-gen-0004",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=196.3 got=196.3 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-target-design-gen-0006",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=234.3 got=234.3 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-target-design-gen-0010",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=150.8 got=150.8 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-target-design-gen-0011",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=217.4 got=217.4 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0001",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.502e-09 got=5.502e-09 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0002",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.349e-08 got=1.349e-08 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0003",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.005474 got=0.005474 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0004",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.96 got=1.96 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0005",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.533e-05 got=3.533e-05 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0006",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.901e-08 got=1.901e-08 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0007",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.171e-13 got=4.171e-13 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0008",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.003704 got=0.003704 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0009",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.08718 got=0.08718 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0010",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.594e-05 got=2.594e-05 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0011",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.448e-09 got=4.448e-09 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-gen-0012",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.6282 got=0.6282 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0013",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.2519 got=0.2519 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0014",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.28 got=0.28 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0015",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.4375 got=0.4375 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-gen-0018",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.2575 got=0.2575 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0013",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.404e+06 got=5.404e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0014",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=185400 got=185400 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0015",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=364400 got=364400 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0016",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=87960 got=87960 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0017",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=49640 got=49640 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0018",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=57810 got=57810 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0019",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.131e+06 got=1.131e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0020",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=895400 got=895400 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0021",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.226e+06 got=7.226e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0022",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.545e+06 got=2.545e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0023",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.152e+06 got=5.152e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-gen-0024",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=942500 got=942500 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-genb-0001",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-8.611e+08 got=-8.611e+08 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-genb-0002",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-4.297e+08 got=-4.297e+08 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-genb-0003",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-1.951e+08 got=-1.951e+08 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-lpi-genb-0003",
+      "topic": "icf/lpi",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.123e+14 got=7.123e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-genb-0003",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.3161 got=0.3161 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-implosion-genb-0002",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.219e+07 got=3.219e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-genb-0001",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.2 got=3.2 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-genb-0003",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.8 got=0.8 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-genb-0001",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.062e+06 got=1.062e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-genb-0002",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=971400 got=971400 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-target-design-genb-0003",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=245 got=245 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-genb-0001",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.0002264 got=0.0002264 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-genb-0002",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.009205 got=0.009205 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-genb-0003",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.009296 got=0.009296 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-genb-0004",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.398e+06 got=1.398e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-genb-0005",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.644e+06 got=3.644e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-genb-0006",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=502700 got=502700 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-genc-0001",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-1.185e+08 got=-1.185e+08 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-eos-opacity-genc-0001",
+      "topic": "icf/eos-opacity",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.02021 got=0.02021 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-genc-0002",
+      "topic": "icf/rt-rm-instability",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=552900 got=552900 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-hard-0001",
+      "topic": "icf/rt-rm-instability",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-hard-0002",
+      "topic": "icf/rt-rm-instability",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-hard-0003",
+      "topic": "icf/rt-rm-instability",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "icf-lpi-hard-0001",
+      "topic": "icf/lpi",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "icf-lpi-hard-0002",
+      "topic": "icf/lpi",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "icf-lpi-hard-0003",
+      "topic": "icf/lpi",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'C'] got=['A', 'C']"
+    },
+    {
+      "task_id": "icf-diagnostics-hard-0001",
+      "topic": "icf/diagnostics",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "icf-diagnostics-hard-0002",
+      "topic": "icf/diagnostics",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "icf-diagnostics-hard-0003",
+      "topic": "icf/diagnostics",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "icf-target-design-hard-0001",
+      "topic": "icf/target-design",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "icf-target-design-hard-0002",
+      "topic": "icf/target-design",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "icf-implosion-hard-0001",
+      "topic": "icf/implosion",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'D'] got=['A', 'B', 'D']"
+    },
+    {
+      "task_id": "icf-ignition-gain-hard-0001",
+      "topic": "icf/ignition-gain",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'D'] got=['A', 'B', 'D']"
+    },
+    {
+      "task_id": "icf-eos-opacity-hard-0001",
+      "topic": "icf/eos-opacity",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'D'] got=['A', 'B', 'D']"
+    },
+    {
+      "task_id": "icf-eos-opacity-hard-0002",
+      "topic": "icf/eos-opacity",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "icf-rad-hydro-hard-0001",
+      "topic": "icf/rad-hydro",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'D'] got=['A', 'B', 'D']"
+    },
+    {
+      "task_id": "icf-rad-hydro-hard-0002",
+      "topic": "icf/rad-hydro",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'D'] got=['A', 'B', 'D']"
+    },
+    {
+      "task_id": "icf-implosion-hard-0002",
+      "topic": "icf/implosion",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "icf-lpi-hard-0004",
+      "topic": "icf/lpi",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "icf-ignition-gain-hard-0002",
+      "topic": "icf/ignition-gain",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "icf-target-design-hard-0003",
+      "topic": "icf/target-design",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B'] got=['A', 'B']"
+    },
+    {
+      "task_id": "icf-eos-opacity-hard-0003",
+      "topic": "icf/eos-opacity",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "icf-diagnostics-hard-0004",
+      "topic": "icf/diagnostics",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B'] got=['A', 'B']"
+    },
+    {
+      "task_id": "icf-rt-rm-instability-hard-0004",
+      "topic": "icf/rt-rm-instability",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'D'] got=['A', 'B', 'D']"
+    },
+    {
+      "task_id": "icf-lpi-hard-0005",
+      "topic": "icf/lpi",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
     },
     {
       "task_id": "icf-ignition-gain-0001",
@@ -604,6 +3011,456 @@
       "detail": "grading mode 'rubric_judge' requires the optional LLM-judge module (v1.1); skipped"
     },
     {
+      "task_id": "icf-sim-gen-0001",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.01785 got=0.01785 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0002",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.004351 got=0.004351 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0003",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.01126 got=0.01126 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0005",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.002889 got=0.002889 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0006",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=65.25 got=65.25 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0007",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=21.75 got=21.75 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0008",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=32.62 got=32.62 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0009",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=522 got=522 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0010",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=43.5 got=43.5 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0011",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=14640 got=14640 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0012",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=16070 got=16070 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0013",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7650 got=7650 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0014",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=14850 got=14850 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0015",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=9350 got=9350 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0016",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.538e-13 got=1.538e-13 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0017",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5e-14 got=5e-14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0018",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.03e-13 got=3.03e-13 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0019",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.667e-12 got=1.667e-12 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0020",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.25e-12 got=1.25e-12 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0021",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=900 got=900 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0022",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1600 got=1600 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0023",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=625 got=625 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-gen-0025",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=400 got=400 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0002",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.007256 got=0.007256 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0003",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.007105 got=0.007105 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0004",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.00426 got=0.00426 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0005",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.0115 got=0.0115 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0006",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=10.87 got=10.87 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0009",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=130.5 got=130.5 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0011",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=12850 got=12850 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0012",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=17010 got=17010 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0014",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8100 got=8100 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0016",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.692e-14 got=7.692e-14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0017",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.061e-14 got=6.061e-14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0018",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.452e-14 got=6.452e-14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0019",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.667e-13 got=6.667e-13 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genb-0020",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1e-13 got=1e-13 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0001",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.01126 got=0.01126 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0002",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.0115 got=0.0115 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0003",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.004483 got=0.004483 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0004",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.01093 got=0.01093 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0005",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.001823 got=0.001823 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0011",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=11220 got=11220 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0012",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=10460 got=10460 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0013",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=19640 got=19640 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0014",
+      "topic": "icf/target-design",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=13860 got=13860 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0017",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=9.091e-13 got=9.091e-13 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0019",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5e-14 got=5e-14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0020",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5e-13 got=5e-13 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-sim-genc-0021",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=225 got=225 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
       "task_id": "icf-target-design-0001",
       "topic": "icf/target-design",
       "type": "concept",
@@ -647,6 +3504,429 @@
       "score": 1.0,
       "status": "graded",
       "detail": "gold=0.2471 got=0.2471 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-topup-0001",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.439 got=2.439 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-topup-0002",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.695 got=1.695 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-topup-0003",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.55e+09 got=8.55e+09 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-topup-0004",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.05 got=0.05 rel_dev=0.00e+00 tol=1.0e-02"
+    },
+    {
+      "task_id": "icf-ignition-gain-topup2-0001",
+      "topic": "icf/ignition-gain",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.44e+22 got=1.44e+22 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-implosion-topup2-0001",
+      "topic": "icf/implosion",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=30 got=30 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-rad-hydro-topup2-0001",
+      "topic": "icf/rad-hydro",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.3594e+10 got=5.3594e+10 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "icf-diagnostics-topup2-0001",
+      "topic": "icf/diagnostics",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3 got=3 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0001",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.2235 got=0.2235 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0002",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.06931 got=0.06931 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0003",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.203 got=3.203 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0004",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.587 got=2.587 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0005",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.474 got=0.474 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0006",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.654 got=6.654 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0007",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=11.78 got=11.78 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0008",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=20.78 got=20.78 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0009",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.157 got=4.157 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0010",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.425 got=1.425 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0011",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.02688 got=0.02688 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0012",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.333 got=3.333 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0013",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.006096 got=0.006096 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0014",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.004039 got=0.004039 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0015",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.009031 got=0.009031 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0016",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.005109 got=0.005109 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0017",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.001524 got=0.001524 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0018",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.01616 got=0.01616 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0019",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.692e+07 got=1.692e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0020",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=528700 got=528700 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0021",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.057e+06 got=1.057e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0022",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.82e+06 got=2.82e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0023",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.459e+06 got=8.459e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-gen-0025",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=176200 got=176200 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0001",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.4458 got=0.4458 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0002",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.7776 got=0.7776 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0003",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.3128 got=0.3128 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0004",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.866 got=1.866 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0005",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.979 got=0.979 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0006",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.323 got=1.323 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0008",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.2849 got=0.2849 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0010",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.699 got=5.699 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0012",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=17.1 got=17.1 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0013",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.003408 got=0.003408 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0014",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.004311 got=0.004311 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0018",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.01142 got=0.01142 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0019",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=705000 got=705000 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0021",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.23e+06 got=4.23e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "mcf-sim-genb-0024",
+      "topic": "mcf",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.115e+06 got=2.115e+06 rel_dev=0.00e+00 tol=2.0e-02"
     },
     {
       "task_id": "mcf-0001",
@@ -766,6 +4046,357 @@
       "detail": "grading mode 'rubric_judge' requires the optional LLM-judge module (v1.1); skipped"
     },
     {
+      "task_id": "plasma-basic-gen-0001",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.372 got=6.372 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0002",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.434e-10 got=7.434e-10 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0005",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.057 got=6.057 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0006",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.0002351 got=0.0002351 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0007",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.351e-09 got=2.351e-09 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0008",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.956 got=8.956 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0011",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.295e+06 got=7.295e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0012",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.485e+14 got=1.485e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0014",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.376e+06 got=1.376e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0015",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.22 got=2.22 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0016",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.997e+12 got=5.997e+12 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0017",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.623 got=4.623 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0018",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=956400 got=956400 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0019",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=15.59 got=15.59 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0020",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.33e+11 got=8.33e+11 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0021",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=13.3 got=13.3 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0022",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.434e-09 got=7.434e-09 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0023",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=139300 got=139300 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0024",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.593 got=7.593 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-gen-0025",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=330200 got=330200 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0002",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.872 got=7.872 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0005",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-1.962 got=-1.962 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0006",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.887 got=7.887 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0008",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.821e+06 got=1.821e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0009",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.947e+06 got=1.947e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0010",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.629e+06 got=1.629e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0012",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=15.7 got=15.7 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0013",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.356e+12 got=7.356e+12 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0014",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.776e+06 got=5.776e+06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0015",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.351e-10 got=2.351e-10 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0016",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.168 got=7.168 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0017",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=13.67 got=13.67 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0019",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.351e-05 got=2.351e-05 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0020",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=126200 got=126200 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0021",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.795 got=2.795 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0022",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.434e-06 got=7.434e-06 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0023",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=13.93 got=13.93 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0024",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.351e-08 got=2.351e-08 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-basic-genb-0025",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.515e+14 got=1.515e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
       "task_id": "plasma-basic-0001",
       "topic": "plasma-basic",
       "type": "numeric",
@@ -874,6 +4505,744 @@
       "detail": "gold=1.049e-09 got=1.049e-09 rel_dev=0.00e+00 tol=5.0e-02"
     },
     {
+      "task_id": "plasma-instabilities-gen-0001",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.071e+09 got=4.071e+09 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0002",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.419e+09 got=4.419e+09 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0003",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.277e+09 got=8.277e+09 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0004",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.966e+09 got=3.966e+09 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0005",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.92e+14 got=8.92e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0006",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.92e+14 got=8.92e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0007",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.92e+14 got=8.92e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0008",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.92e+14 got=8.92e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0009",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.258e+07 got=2.258e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0010",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.027e+07 got=1.027e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0011",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.619e+07 got=2.619e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0013",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=374800 got=374800 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0015",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=113000 got=113000 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0016",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=218800 got=218800 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0021",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=22760 got=22760 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0022",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=52150 got=52150 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0023",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=71110 got=71110 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0024",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=52000 got=52000 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-gen-0025",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=30230 got=30230 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0001",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.64e+09 got=7.64e+09 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0002",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.856e+09 got=6.856e+09 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0003",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.96e+09 got=3.96e+09 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0004",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.579e+09 got=6.579e+09 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0005",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.92e+14 got=8.92e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0006",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.92e+14 got=8.92e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0007",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.92e+14 got=8.92e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0008",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=8.92e+14 got=8.92e+14 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0009",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.481e+07 got=2.481e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0010",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.138e+07 got=2.138e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0012",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.186e+07 got=1.186e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0013",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=319600 got=319600 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0015",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=428900 got=428900 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0016",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=321600 got=321600 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0017",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.638e+11 got=2.638e+11 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0018",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.284e+12 got=1.284e+12 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0019",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.849e+12 got=2.849e+12 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0020",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "undergrad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.342e+11 got=3.342e+11 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0021",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=64250 got=64250 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0022",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=44500 got=44500 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0023",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=43950 got=43950 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0024",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=16580 got=16580 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "plasma-instabilities-genb-0025",
+      "topic": "plasma-basic",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=19630 got=19630 rel_dev=0.00e+00 tol=5.0e-02"
+    },
+    {
+      "task_id": "plasma-inst-hard-0001",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'C'] got=['A', 'C']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0002",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0003",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0004",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0005",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0006",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0007",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0008",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0009",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0010",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0011",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0012",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0013",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0014",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0015",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0016",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0017",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0018",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'C'] got=['A', 'C']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0019",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'D'] got=['A', 'B', 'D']"
+    },
+    {
+      "task_id": "plasma-inst-hard-0020",
+      "topic": "plasma-basic",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0001",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0002",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0003",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0004",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0005",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0006",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0007",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
+      "task_id": "sim-hard-0008",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0009",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0010",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0011",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0012",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0013",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0014",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0015",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0016",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0017",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B'] got=['A', 'B']"
+    },
+    {
+      "task_id": "sim-hard-0018",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0019",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "sim-hard-0020",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A', 'B', 'C'] got=['A', 'B', 'C']"
+    },
+    {
       "task_id": "simulation-0001",
       "topic": "simulation",
       "type": "numeric",
@@ -935,6 +5304,879 @@
       "score": 1.0,
       "status": "graded",
       "detail": "gold=0.0019922 got=0.0019922 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "swe-real-desc1940-0001",
+      "topic": "mcf",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-desc1940-0002",
+      "topic": "mcf",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-desc1879-0001",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-openmc1472-0001",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-openmc1472-0002",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-warpx4038-0001",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-openmc2418-0001",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-openmc2418-0002",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-bout3442-0001",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-bout3442-0002",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-bout3462-0001",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-bout2624-0001",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-torax689-0001",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-torax689-0002",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-desc1879-0002",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-warpx4038-0002",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-openmc1472-0003",
+      "topic": "fusion-engineering",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-bout3442-0003",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-issue-0001",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.7071 got=0.7071 rel_dev=0.00e+00 tol=1.0e-02"
+    },
+    {
+      "task_id": "swe-issue-0002",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-issue-0003",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-issue-0004",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-issue-0006",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-issue-0007",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-issue-0008",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-issue-0009",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.05 got=0.05 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "swe-issue-0010",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-issue-0011",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-issue-0012",
+      "topic": "simulation",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=131.9 got=131.9 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "swe-real-0001",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0002",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0003",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0004",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0005",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0006",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0007",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0008",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0009",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0010",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0011",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0012",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0013",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "swe-real-0014",
+      "topic": "simulation",
+      "type": "concept",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "key=['A'] got=['A']"
+    },
+    {
+      "task_id": "zpinch-3001",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.53118e+07 got=5.53118e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3002",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.22178e+07 got=5.22178e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3003",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.40591e+08 got=1.40591e+08 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3004",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.63004e+07 got=5.63004e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3005",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=9.46686e+07 got=9.46686e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3006",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.30079e+07 got=6.30079e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3007",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.98625e+07 got=6.98625e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3008",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.10961e+08 got=1.10961e+08 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3009",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.00067e+07 got=3.00067e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3010",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.41995e+07 got=4.41995e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3011",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.15716e+07 got=7.15716e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3012",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.88653e+07 got=1.88653e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3013",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.1826 got=5.1826 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3014",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.9176 got=2.9176 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3015",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.88464 got=0.88464 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3016",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.57 got=6.57 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3017",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.2446 got=3.2446 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3018",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.044 got=5.044 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3019",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.6918 got=3.6918 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3020",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.382 got=3.382 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3021",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.9278 got=2.9278 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3022",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.6758 got=4.6758 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-3031",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.92 got=4.92 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "zpinch-3032",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.38 got=1.38 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "zpinch-3033",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.1 got=5.1 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "zpinch-3034",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=-1.8 got=-1.8 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "zpinch-3035",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.07 got=5.07 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "zpinch-2001",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=6.10977e+07 got=6.10977e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2002",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.41299e+07 got=5.41299e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2003",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.09358e+08 got=1.09358e+08 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2004",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.06471e+07 got=5.06471e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2005",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.82307e+07 got=4.82307e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2006",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.44881e+07 got=2.44881e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2007",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=9.02621e+07 got=9.02621e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2008",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.63894e+08 got=1.63894e+08 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2009",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.68365e+07 got=2.68365e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2010",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=1.56432e+08 got=1.56432e+08 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2011",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.32605e+07 got=7.32605e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2012",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.77321e+07 got=2.77321e+07 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2013",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=0.6081 got=0.6081 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2014",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.3464 got=5.3464 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2015",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.3432 got=5.3432 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2016",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=7.7618 got=7.7618 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2017",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.5043 got=3.5043 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2018",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=2.6366 got=2.6366 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2019",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=4.7267 got=4.7267 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2020",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.6347 got=5.6347 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2021",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.6812 got=3.6812 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2022",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "grad",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.6779 got=5.6779 rel_dev=0.00e+00 tol=2.0e-02"
+    },
+    {
+      "task_id": "zpinch-2031",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.77 got=3.77 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "zpinch-2032",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.86 got=3.86 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "zpinch-2033",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=5.21 got=5.21 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "zpinch-2034",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.65 got=3.65 rel_dev=0.00e+00 tol=3.0e-02"
+    },
+    {
+      "task_id": "zpinch-2035",
+      "topic": "zpinch",
+      "type": "numeric",
+      "difficulty": "expert",
+      "score": 1.0,
+      "status": "graded",
+      "detail": "gold=3.98 got=3.98 rel_dev=0.00e+00 tol=3.0e-02"
     },
     {
       "task_id": "zpinch-0001",
