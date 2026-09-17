@@ -29,16 +29,33 @@ Total & 531 & 135 & 13 & 1 & 8 \\
 \end{tabular}
 \end{table}
 
+\section{Datasheet: Construction Protocol}
+\label{app:datasheet}
+
+\paragraph{Authoring pipeline.} Tasks were composed in three ways, all subject to the same verification gate: (i) \emph{hand-authored} problems around public formulas, data, and textbook-standard derivations (constructor computes the answer; the independent \texttt{recompute\_expr} path must agree); (ii) \emph{verified generators} (\texttt{scripts/gen\_*.py}, seeded and deterministic) that instantiate parameterized problem families with script-computed answers---each generated item still must pass schema validation and independent recomputation, and the generator output is deduplicated against the full corpus (exact-question dedup, \texttt{scripts/dedup\_staging.py}); (iii) \emph{real-issue mining}: 26 problems derive from public GitHub issues of fusion simulation codes (DESC \#1940/\#1879, OpenMC \#1472/\#2418, WarpX \#4038, TORAX \#2284/\#2145/\#2016/\#2070/\#2146/\#1938/\#1864, BOUT++ \#3442), where the issue text plus its linked fix provides the cross-source verification. Generated items carry \texttt{verified\_by: <generator>+verify\_numeric.py} provenance.
+
+\paragraph{Difficulty rubric.} undergrad: single-formula application with given constants; grad: formula selection plus unit discipline or a two-step chain; expert: multi-step chains, cross-formula synthesis, semi-empirical model evaluation, or interpretation of simulation/experiment artifacts. Difficulty labels were assigned at authoring and spot-checked against baseline model performance.
+
+\paragraph{Distractor design.} Concept distractors encode observed or anticipated failure modes (cgs/SI slips, coefficient slips, regime misidentification, neighboring-mechanism confusion such as TEM vs.\ ITG propagation direction, and ``all-of-the-above'' traps in multi-select items). Distractors were authored alongside the key, not post-hoc.
+
+\paragraph{Contamination control.} All problems are original compositions around public formulas and public data; no text is scraped from existing benchmark corpora. Parameters in generated families are non-round, seeded values, making memorized-answer leakage ineffective. The PKU FusionBench snapshot used for the related-work audit is not redistributed and no item derives from it. The verified split is versioned to support canary-string policies.
+
+\paragraph{Maintenance.} Maintainers are listed in the repository; \texttt{docs/verification-log.md} is the living audit record; issues are triaged on GitHub; releases are tagged with schema versions (v1.0); a Zenodo DOI is planned for v1.0 alongside the English track (below).
+
+\paragraph{Ethics and dual use.} ICF knowledge has dual-use sensitivities. Every problem derives from public sources (textbook formulas, NRL Plasma Formulary, US-government public releases, open-source code issues) or from the authors' own simulation assets released for this purpose; no classified, export-controlled, or facility-proprietary data is included, and no item reveals weapon-relevant design detail beyond published textbooks. Local-asset licenses are recorded per task (\texttt{metadata.license}, e.g.\ \texttt{local-verified}).
+
+\paragraph{Language track.} v0.2 tasks are authored in Chinese with standard formulas/units. An English parallel track is in preparation (translation with terminology glossary, then re-verification of every numeric item; tracked as v0.3 in the repository).
+
 \section{Data Sources and Licenses}
 \label{app:sources}
 All task content derives from public sources with per-task \texttt{metadata.source/source\_type/license}: NRL Plasma Formulary (public domain, US Government work); standard textbook formulas (fair-use quotation of formulas only; Atzeni; Lindl; Drake; Kruer; Zel'dovich \& Raizer; Freidberg); LLNL/NIF public releases (US Government work); ITER official Facts \& Figures; local simulation assets released by their owner for this benchmark after the governance checks of Section~\ref{sec:verification}. No classified or export-controlled content is included. The PKU FusionBench dataset snapshot used for the related-work audit is MIT-licensed and is not redistributed.
 
 \section{Verification Log (excerpt)}
 \label{app:vlog}
-The full log lives at \texttt{docs/verification-log.md}. Excerpt:
+The full log lives at \texttt{docs/verification-log.md}. Excerpt (latest batch, 2026-09-17):
 \begin{itemize}
-    \item Promotion batch (2026-09-02): 106/106 promoted, 0 rejected; numeric recomputation 63 PASS / 0 FAIL; method statistics: independent-recompute 63, cross-source 43, expert-review 25, second-solver 12, local-sim-baseline 3.
-    \item Interceptions: Saha prefactor slip (corrected to $3.37\times10^{26}\,\mathrm{m^{-3}}$); Debye exponent slip (corrected to $1.66\times10^{-9}$\,m); capacitor-prognostics dataset rejected (owner audit WARN).
+    \item Promotion batch: 688/688 promoted, 0 rejected; numeric recomputation 532 PASS / 0 FAIL (531 numeric + 1 figure); method statistics: independent-recompute 532, cross-source 226, expert-review 152, second-solver 51, local-sim-baseline 14.
+    \item Interceptions (task IDs in the log): Saha prefactor slip (icf-eos-opacity-0001, corrected to $3.37\times10^{26}\,\mathrm{m^{-3}}$); Debye exponent slip (icf-eos-opacity-0006, corrected to $1.66\times10^{-9}$\,m); radiation-energy-density slip (icf-rad-hydro-topup2-0001, corrected to $5.36\times10^{10}$\,J/m$^3$); capacitor-prognostics dataset rejected wholesale (owner audit WARN).
 \end{itemize}
 
 \section{Harness Manual}

@@ -3,33 +3,33 @@
     "overall": {
       "all": {
         "n": 688,
-        "mean": 0.9694767441860465
+        "mean": 0.9811046511627907
       }
     },
     "by_topic": {
       "icf/eos-opacity": {
         "n": 156,
-        "mean": 0.967948717948718
+        "mean": 0.9871794871794872
       },
       "simulation": {
         "n": 94,
-        "mean": 0.9787234042553191
+        "mean": 0.9893617021276596
       },
       "icf/rt-rm-instability": {
         "n": 44,
-        "mean": 0.9545454545454546
+        "mean": 0.9772727272727273
       },
       "plasma-basic": {
         "n": 114,
-        "mean": 0.9824561403508771
+        "mean": 0.9912280701754386
       },
       "zpinch": {
         "n": 68,
-        "mean": 0.9705882352941176
+        "mean": 0.9852941176470589
       },
       "mcf": {
         "n": 55,
-        "mean": 0.9454545454545454
+        "mean": 0.9636363636363636
       },
       "fusion-engineering": {
         "n": 7,
@@ -63,7 +63,7 @@
     "by_type": {
       "code": {
         "n": 8,
-        "mean": 0.0
+        "mean": 1.0
       },
       "numeric": {
         "n": 531,
@@ -85,15 +85,15 @@
     "by_difficulty": {
       "grad": {
         "n": 368,
-        "mean": 0.9755434782608695
+        "mean": 0.9836956521739131
       },
       "undergrad": {
         "n": 113,
-        "mean": 0.9646017699115044
+        "mean": 1.0
       },
       "expert": {
         "n": 207,
-        "mean": 0.961352657004831
+        "mean": 0.966183574879227
       }
     },
     "counts": {
@@ -108,72 +108,72 @@
       "topic": "icf/eos-opacity",
       "type": "code",
       "difficulty": "grad",
-      "score": 0.0,
+      "score": 1.0,
       "status": "graded",
-      "detail": "no function definition found in response"
+      "detail": "exit=0 ALL PASS"
     },
     {
       "task_id": "code-saha-0001",
       "topic": "icf/eos-opacity",
       "type": "code",
       "difficulty": "grad",
-      "score": 0.0,
+      "score": 1.0,
       "status": "graded",
-      "detail": "no function definition found in response"
+      "detail": "exit=0 ALL PASS"
     },
     {
       "task_id": "code-sedov-0001",
       "topic": "simulation",
       "type": "code",
       "difficulty": "undergrad",
-      "score": 0.0,
+      "score": 1.0,
       "status": "graded",
-      "detail": "no function definition found in response"
+      "detail": "exit=0 ALL PASS"
     },
     {
       "task_id": "code-rt-scan-0001",
       "topic": "icf/rt-rm-instability",
       "type": "code",
       "difficulty": "expert",
-      "score": 0.0,
+      "score": 1.0,
       "status": "graded",
-      "detail": "no function definition found in response"
+      "detail": "exit=0 ALL PASS"
     },
     {
       "task_id": "code-nrl-calc-0001",
       "topic": "plasma-basic",
       "type": "code",
       "difficulty": "undergrad",
-      "score": 0.0,
+      "score": 1.0,
       "status": "graded",
-      "detail": "no function definition found in response"
+      "detail": "exit=0 ALL PASS"
     },
     {
       "task_id": "code-evbatch-0001",
       "topic": "zpinch",
       "type": "code",
       "difficulty": "undergrad",
-      "score": 0.0,
+      "score": 1.0,
       "status": "graded",
-      "detail": "no function definition found in response"
+      "detail": "exit=0 ALL PASS"
     },
     {
       "task_id": "code-freepath-0001",
       "topic": "icf/eos-opacity",
       "type": "code",
       "difficulty": "undergrad",
-      "score": 0.0,
+      "score": 1.0,
       "status": "graded",
-      "detail": "no function definition found in response"
+      "detail": "exit=0 ALL PASS"
     },
     {
       "task_id": "code-limits-0001",
       "topic": "mcf",
       "type": "code",
       "difficulty": "grad",
-      "score": 0.0,
+      "score": 1.0,
       "status": "graded",
-      "detail": "no function definition found in response"
+      "detail": "exit=0 ALL PASS"
     },
     {
       "task_id": "icf-eos-opacity-3001",

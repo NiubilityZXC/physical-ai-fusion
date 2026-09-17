@@ -1,0 +1,12 @@
+{
+  "rubric_judge": {
+    "model": "deepseek-v4-pro@ark-plan",
+    "prompt_version": "rubric-v1",
+    "temperature": 0.2,
+    "endpoint": "https://ark.cn-beijing.volces.com/api/plan (Anthropic /v1/messages)",
+    "rubric_schema": {"points": ">=3", "weights_sum_to": 1.0, "pass_threshold": 0.8},
+    "grading": "weighted point hits / total weight; pass iff score >= pass_threshold",
+    "results": "results/rubric-judge-<model>.json (published after judge run)",
+    "note": "derivation tasks are excluded from the deterministic headline score by design"
+  }
+}

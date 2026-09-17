@@ -45,10 +45,10 @@ def load_auth() -> tuple[str, str]:
     raise SystemExit("no auth found (~/.claude/settings.json env / ARK_API_KEY)")
 
 
-def chat(model: str, messages: list[dict], key: str, base: str, timeout: float = 180.0) -> str:
+def chat(model: str, messages: list[dict], key: str, base: str, timeout: float = 90.0) -> str:
     """Anthropic /v1/messages(x-api-key)优先,失败后回退 OpenAI /chat/completions。"""
     flat = "\n\n".join(m["content"] for m in messages if m["role"] == "user")
-    body = json.dumps({"model": model, "max_tokens": 2048,
+    body = json.dumps({"model": model, "max_tokens": 1024,
                        "messages": [{"role": "user", "content": flat}]}).encode()
     try:
         req = urllib.request.Request(
@@ -63,7 +63,7 @@ def chat(model: str, messages: list[dict], key: str, base: str, timeout: float =
             raise
     # fallback: OpenAI style on <base>/v3
     body = json.dumps({"model": model, "messages": [{"role": "user", "content": flat}],
-                       "max_tokens": 2048, "temperature": 0.2}).encode()
+                       "max_tokens": 1024, "temperature": 0.2}).encode()
     req = urllib.request.Request(
         base.rstrip("/") + "/v3/chat/completions", data=body,
         headers={"Content-Type": "application/json", "Authorization": f"Bearer {key}"})
@@ -104,14 +104,14 @@ def main() -> int:
                 opts = "\n".join(f"{k}. {v}" for k, v in t["answer"]["options"].items())
                 qtext = qtext + "\n\n选项:\n" + opts
             prompt = PROMPT.format(question=qtext)
-            for attempt in range(3):
+            for attempt in range(2):
                 try:
                     resp = chat(args.model, [{"role": "user", "content": prompt}], key, base)
                     fh.write(json.dumps({"task_id": t["task_id"], "response": resp}, ensure_ascii=False) + "\n")
                     fh.flush()
                     break
                 except Exception as e:
-                    wait = 10 * (attempt + 1)
+                    wait = 5 * (attempt + 1)
                     print(f"  [{i+1}/{len(todo)}] {t['task_id']} attempt {attempt+1} failed: {type(e).__name__} {e} — retry in {wait}s",
                           flush=True)
                     time.sleep(wait)
