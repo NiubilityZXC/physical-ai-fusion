@@ -6,6 +6,16 @@
 {"task_id": "code-evbatch-0001", "response": "```python\n\"\"\"Reference solutions for the 8 code tasks (self-test: all must pass their tests).\"\"\"\n\n# code-rosseland-0001\ndef rosseland_mean(kappa, weight, nu1, nu2, n=20000):\n    h = (nu2 - nu1) / n\n    num = den = 0.0\n    for i in range(n + 1):\n        x = nu1 + i * h\n        w = weight(x) / kappa(x)\n        d = weight(x)\n        f = 0.5 if i in (0, n) else 1.0\n        num += f * w\n        den += f * d\n    num *= h\n    den *= h\n    return den / num\n\n\n# code-saha-0001\ndef saha_ionized_fraction(T_eV, n_total, chi):\n    import math\n    H = 6.62607015e-34\n    ME = 9.1093837015e-31\n    KB = 1.380649e-23\n    T = T_eV * 11604.525\n    lam = H / math.sqrt(2 * math.pi * ME * KB * T)\n    K = (2.0 / lam**3) * math.exp(-chi / T_eV)\n    return (-K + math.sqrt(K * K + 4 * K * n_total)) / (2 * n_total)\n\n\n# code-sedov-0001\ndef sedov_radius(E, ts, rho, beta=1.15):\n    return [beta * (E * t * t / rho) ** 0.2 for t in ts]\n\n\n# code-rt-scan-0001\ndef rt_growth(k, A, g, L, Va, alpha=0.9, beta=3.1):\n    import math\n    return alpha * math.sqrt(A * k * g / (1 + A * k * L)) - beta * k * Va\n\n\ndef stabilization_wavenumber(A, g, L, Va, alpha=0.9, beta=3.1):\n    import math\n    # 解析求根: alpha*sqrt(A*k*g/(1+A*k*L)) = beta*k*Va\n    # => alpha^2 A k g / (1 + A k L) = beta^2 k^2 Va^2\n    # => alpha^2 A g = beta^2 Va^2 k (1 + A k L)\n    # => A L k^2 + k - alpha^2 A g / (beta^2 Va^2) = 0\n    a = A * L\n    b = 1.0\n    c = -(alpha * alpha * A * g) / (beta * beta * Va * Va)\n    disc = math.sqrt(b * b - 4 * a * c)\n    return (-b + disc) / (2 * a)\n\n\n# code-nrl-calc-0001\ndef nrl_bundle(n, T_eV, B, species=\"e\"):\n    import math\n    E = 1.602176634e-19\n    KB = 1.380649e-23\n    ME = 9.1093837015e-31\n    MP = 1.67262192369e-27\n    EPS0 = 8.8541878128e-12\n    T = T_eV * 11604.525\n    wpe = math.sqrt(n * E * E / (EPS0 * ME))\n    ld = math.sqrt(EPS0 * KB * T / (n * E * E))\n    m = ME if species == \"e\" else MP\n    rl = math.sqrt(m * KB * T) / (E * B)\n    return wpe, ld, rl\n\n\n# code-evbatch-0001\ndef kinetic_energies(pairs):\n    return [0.5e-3 * m * v * v / 1e13 for m, v in pairs]\n\n\ndef velocity_from_energy(m, E):\n    import math\n    return math.sqrt(2e16 * E / m)\n\n\n# code-freepath-0001\ndef log_interp(x1, y1, x2, y2, x):\n    return y1 + (y2 - y1) * (x - x1) / (x2 - x1)\n\n\n# code-limits-0001\ndef troyon_beta_max(params, beta_N=2.8):\n    return beta_N * params[\"I\"] / (params[\"a\"] * params[\"B\"])\n\n\ndef greenwald_density(params):\n    import math\n    return params[\"I\"] / (math.pi * params[\"a\"] ** 2)\n\n```"}
 {"task_id": "code-freepath-0001", "response": "```python\n\"\"\"Reference solutions for the 8 code tasks (self-test: all must pass their tests).\"\"\"\n\n# code-rosseland-0001\ndef rosseland_mean(kappa, weight, nu1, nu2, n=20000):\n    h = (nu2 - nu1) / n\n    num = den = 0.0\n    for i in range(n + 1):\n        x = nu1 + i * h\n        w = weight(x) / kappa(x)\n        d = weight(x)\n        f = 0.5 if i in (0, n) else 1.0\n        num += f * w\n        den += f * d\n    num *= h\n    den *= h\n    return den / num\n\n\n# code-saha-0001\ndef saha_ionized_fraction(T_eV, n_total, chi):\n    import math\n    H = 6.62607015e-34\n    ME = 9.1093837015e-31\n    KB = 1.380649e-23\n    T = T_eV * 11604.525\n    lam = H / math.sqrt(2 * math.pi * ME * KB * T)\n    K = (2.0 / lam**3) * math.exp(-chi / T_eV)\n    return (-K + math.sqrt(K * K + 4 * K * n_total)) / (2 * n_total)\n\n\n# code-sedov-0001\ndef sedov_radius(E, ts, rho, beta=1.15):\n    return [beta * (E * t * t / rho) ** 0.2 for t in ts]\n\n\n# code-rt-scan-0001\ndef rt_growth(k, A, g, L, Va, alpha=0.9, beta=3.1):\n    import math\n    return alpha * math.sqrt(A * k * g / (1 + A * k * L)) - beta * k * Va\n\n\ndef stabilization_wavenumber(A, g, L, Va, alpha=0.9, beta=3.1):\n    import math\n    # 解析求根: alpha*sqrt(A*k*g/(1+A*k*L)) = beta*k*Va\n    # => alpha^2 A k g / (1 + A k L) = beta^2 k^2 Va^2\n    # => alpha^2 A g = beta^2 Va^2 k (1 + A k L)\n    # => A L k^2 + k - alpha^2 A g / (beta^2 Va^2) = 0\n    a = A * L\n    b = 1.0\n    c = -(alpha * alpha * A * g) / (beta * beta * Va * Va)\n    disc = math.sqrt(b * b - 4 * a * c)\n    return (-b + disc) / (2 * a)\n\n\n# code-nrl-calc-0001\ndef nrl_bundle(n, T_eV, B, species=\"e\"):\n    import math\n    E = 1.602176634e-19\n    KB = 1.380649e-23\n    ME = 9.1093837015e-31\n    MP = 1.67262192369e-27\n    EPS0 = 8.8541878128e-12\n    T = T_eV * 11604.525\n    wpe = math.sqrt(n * E * E / (EPS0 * ME))\n    ld = math.sqrt(EPS0 * KB * T / (n * E * E))\n    m = ME if species == \"e\" else MP\n    rl = math.sqrt(m * KB * T) / (E * B)\n    return wpe, ld, rl\n\n\n# code-evbatch-0001\ndef kinetic_energies(pairs):\n    return [0.5e-3 * m * v * v / 1e13 for m, v in pairs]\n\n\ndef velocity_from_energy(m, E):\n    import math\n    return math.sqrt(2e16 * E / m)\n\n\n# code-freepath-0001\ndef log_interp(x1, y1, x2, y2, x):\n    return y1 + (y2 - y1) * (x - x1) / (x2 - x1)\n\n\n# code-limits-0001\ndef troyon_beta_max(params, beta_N=2.8):\n    return beta_N * params[\"I\"] / (params[\"a\"] * params[\"B\"])\n\n\ndef greenwald_density(params):\n    import math\n    return params[\"I\"] / (math.pi * params[\"a\"] ** 2)\n\n```"}
 {"task_id": "code-limits-0001", "response": "```python\n\"\"\"Reference solutions for the 8 code tasks (self-test: all must pass their tests).\"\"\"\n\n# code-rosseland-0001\ndef rosseland_mean(kappa, weight, nu1, nu2, n=20000):\n    h = (nu2 - nu1) / n\n    num = den = 0.0\n    for i in range(n + 1):\n        x = nu1 + i * h\n        w = weight(x) / kappa(x)\n        d = weight(x)\n        f = 0.5 if i in (0, n) else 1.0\n        num += f * w\n        den += f * d\n    num *= h\n    den *= h\n    return den / num\n\n\n# code-saha-0001\ndef saha_ionized_fraction(T_eV, n_total, chi):\n    import math\n    H = 6.62607015e-34\n    ME = 9.1093837015e-31\n    KB = 1.380649e-23\n    T = T_eV * 11604.525\n    lam = H / math.sqrt(2 * math.pi * ME * KB * T)\n    K = (2.0 / lam**3) * math.exp(-chi / T_eV)\n    return (-K + math.sqrt(K * K + 4 * K * n_total)) / (2 * n_total)\n\n\n# code-sedov-0001\ndef sedov_radius(E, ts, rho, beta=1.15):\n    return [beta * (E * t * t / rho) ** 0.2 for t in ts]\n\n\n# code-rt-scan-0001\ndef rt_growth(k, A, g, L, Va, alpha=0.9, beta=3.1):\n    import math\n    return alpha * math.sqrt(A * k * g / (1 + A * k * L)) - beta * k * Va\n\n\ndef stabilization_wavenumber(A, g, L, Va, alpha=0.9, beta=3.1):\n    import math\n    # 解析求根: alpha*sqrt(A*k*g/(1+A*k*L)) = beta*k*Va\n    # => alpha^2 A k g / (1 + A k L) = beta^2 k^2 Va^2\n    # => alpha^2 A g = beta^2 Va^2 k (1 + A k L)\n    # => A L k^2 + k - alpha^2 A g / (beta^2 Va^2) = 0\n    a = A * L\n    b = 1.0\n    c = -(alpha * alpha * A * g) / (beta * beta * Va * Va)\n    disc = math.sqrt(b * b - 4 * a * c)\n    return (-b + disc) / (2 * a)\n\n\n# code-nrl-calc-0001\ndef nrl_bundle(n, T_eV, B, species=\"e\"):\n    import math\n    E = 1.602176634e-19\n    KB = 1.380649e-23\n    ME = 9.1093837015e-31\n    MP = 1.67262192369e-27\n    EPS0 = 8.8541878128e-12\n    T = T_eV * 11604.525\n    wpe = math.sqrt(n * E * E / (EPS0 * ME))\n    ld = math.sqrt(EPS0 * KB * T / (n * E * E))\n    m = ME if species == \"e\" else MP\n    rl = math.sqrt(m * KB * T) / (E * B)\n    return wpe, ld, rl\n\n\n# code-evbatch-0001\ndef kinetic_energies(pairs):\n    return [0.5e-3 * m * v * v / 1e13 for m, v in pairs]\n\n\ndef velocity_from_energy(m, E):\n    import math\n    return math.sqrt(2e16 * E / m)\n\n\n# code-freepath-0001\ndef log_interp(x1, y1, x2, y2, x):\n    return y1 + (y2 - y1) * (x - x1) / (x2 - x1)\n\n\n# code-limits-0001\ndef troyon_beta_max(params, beta_N=2.8):\n    return beta_N * params[\"I\"] / (params[\"a\"] * params[\"B\"])\n\n\ndef greenwald_density(params):\n    import math\n    return params[\"I\"] / (math.pi * params[\"a\"] ** 2)\n\n```"}
+{"task_id": "icf-implosion-alg-0001", "response": "推导过程若干……Final answer: R**(-3*gamma)"}
+{"task_id": "icf-lpi-alg-0002", "response": "推导过程若干……Final answer: pi**2*c**2*eps0*me/(e**2*lam**2)"}
+{"task_id": "icf-rad-hydro-alg-0003", "response": "推导过程若干……Final answer: sqrt(gamma*p/rho)"}
+{"task_id": "icf-rad-hydro-alg-0004", "response": "推导过程若干……Final answer: 2*(gamma-1)/(gamma+1)**2*m*v_s**2/kB"}
+{"task_id": "icf-diagnostics-alg-0005", "response": "推导过程若干……Final answer: b/T"}
+{"task_id": "icf-implosion-alg-0006", "response": "推导过程若干……Final answer: sqrt(2*eps)"}
+{"task_id": "mcf-alg-0001", "response": "推导过程若干……Final answer: beta_N*pi*a*n_G/B"}
+{"task_id": "plasma-basic-alg-0001", "response": "推导过程若干……Final answer: m*v/(abs(q)*B)"}
+{"task_id": "simulation-alg-0001", "response": "推导过程若干……Final answer: CFL*dx/(abs(v)+cs)"}
+{"task_id": "simulation-alg-0002", "response": "推导过程若干……Final answer: mu0*sigma*L**2"}
 {"task_id": "icf-eos-opacity-3001", "response": "分析过程若干……Final answer: 0.18004 cm^2/g"}
 {"task_id": "icf-eos-opacity-3002", "response": "分析过程若干……Final answer: 4.5848 cm^2/g"}
 {"task_id": "icf-eos-opacity-3003", "response": "分析过程若干……Final answer: 37.566 cm^2/g"}
@@ -146,11 +156,11 @@
 {"task_id": "icf-eos-opacity-0001", "response": "分析过程若干……Final answer: 0.0337 1"}
 {"task_id": "icf-eos-opacity-0002", "response": "分析过程若干……Final answer: 10.1716 1"}
 {"task_id": "icf-eos-opacity-0003", "response": "经过分析,正确选项是 A"}
-{"task_id": "icf-eos-opacity-0004", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "icf-eos-opacity-0004", "response": "推导过程若干……Final answer: (w1+w2)/(w1/k1+w2/k2)"}
 {"task_id": "icf-eos-opacity-0005", "response": "分析过程若干……Final answer: 5.7277 1"}
 {"task_id": "icf-eos-opacity-0006", "response": "分析过程若干……Final answer: 1.6623e-09 m"}
 {"task_id": "icf-eos-opacity-0007", "response": "经过分析,正确选项是 A"}
-{"task_id": "icf-eos-opacity-0008", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "icf-eos-opacity-0008", "response": "推导过程若干……Final answer: 2/lam**3*(g1/g0)*exp(-chi/(kB*T))"}
 {"task_id": "icf-rt-rm-instability-gen-0001", "response": "分析过程若干……Final answer: 7.795e+07 s^-1"}
 {"task_id": "icf-rt-rm-instability-gen-0002", "response": "分析过程若干……Final answer: -1.605e+09 s^-1"}
 {"task_id": "icf-rt-rm-instability-gen-0003", "response": "分析过程若干……Final answer: 1.432e+08 s^-1"}
@@ -298,29 +308,29 @@
 {"task_id": "icf-implosion-0004", "response": "分析过程若干……Final answer: 0.06125 MJ/cm"}
 {"task_id": "icf-implosion-0005", "response": "经过分析,正确选项是 A, B, D"}
 {"task_id": "icf-implosion-0006", "response": "经过分析,正确选项是 A"}
-{"task_id": "icf-implosion-0007", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "icf-implosion-0007", "response": "推导过程若干……Final answer: u*log(m0/mf)"}
 {"task_id": "icf-lpi-0001", "response": "分析过程若干……Final answer: 8.9283e+21 cm^-3"}
 {"task_id": "icf-lpi-0002", "response": "分析过程若干……Final answer: 9.9018e+20 cm^-3"}
 {"task_id": "icf-lpi-0003", "response": "经过分析,正确选项是 A, B, C"}
 {"task_id": "icf-lpi-0004", "response": "经过分析,正确选项是 A"}
 {"task_id": "icf-lpi-0005", "response": "分析过程若干……Final answer: 1.7841e+15 rad/s"}
-{"task_id": "icf-lpi-0006", "response": "(derivation: judge module deferred to v1.1)"}
-{"task_id": "icf-lpi-0007", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "icf-lpi-0006", "response": "推导过程若干……Final answer: 4*pi**2*c**2*eps0*me/(e**2*lam**2)"}
+{"task_id": "icf-lpi-0007", "response": "推导过程若干……Final answer: n_c/4"}
 {"task_id": "icf-rad-hydro-0001", "response": "分析过程若干……Final answer: 8.331e+18 W/m^2"}
 {"task_id": "icf-rad-hydro-0002", "response": "分析过程若干……Final answer: 3.7058e+10 Pa"}
 {"task_id": "icf-rad-hydro-0003", "response": "分析过程若干……Final answer: 115470 m/s"}
 {"task_id": "icf-rad-hydro-0004", "response": "分析过程若干……Final answer: 567890 K"}
 {"task_id": "icf-rad-hydro-0005", "response": "经过分析,正确选项是 A, B, D"}
 {"task_id": "icf-rad-hydro-0006", "response": "经过分析,正确选项是 A"}
-{"task_id": "icf-rad-hydro-0007", "response": "(derivation: judge module deferred to v1.1)"}
-{"task_id": "icf-rad-hydro-0008", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "icf-rad-hydro-0007", "response": "推导过程若干……Final answer: (gamma+1)/(gamma-1)"}
+{"task_id": "icf-rad-hydro-0008", "response": "推导过程若干……Final answer: sqrt(D_R*t)"}
 {"task_id": "icf-rt-rm-instability-0001", "response": "分析过程若干……Final answer: 1.014e+09 s^-1"}
 {"task_id": "icf-rt-rm-instability-0002", "response": "分析过程若干……Final answer: 0.6 1"}
 {"task_id": "icf-rt-rm-instability-0003", "response": "分析过程若干……Final answer: 2.64e+08 s^-1"}
 {"task_id": "icf-rt-rm-instability-0004", "response": "分析过程若干……Final answer: 1.029e+07 cm/s"}
 {"task_id": "icf-rt-rm-instability-0005", "response": "分析过程若干……Final answer: 10.2 μm"}
 {"task_id": "icf-rt-rm-instability-0006", "response": "经过分析,正确选项是 A, B, C"}
-{"task_id": "icf-rt-rm-instability-0007", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "icf-rt-rm-instability-0007", "response": "推导过程若干……Final answer: sqrt(A*k*g)"}
 {"task_id": "icf-sim-gen-0001", "response": "分析过程若干……Final answer: 0.01785 m"}
 {"task_id": "icf-sim-gen-0002", "response": "分析过程若干……Final answer: 0.004351 m"}
 {"task_id": "icf-sim-gen-0003", "response": "分析过程若干……Final answer: 0.01126 m"}
@@ -434,8 +444,8 @@
 {"task_id": "mcf-0009", "response": "经过分析,正确选项是 A, B, C"}
 {"task_id": "mcf-0010", "response": "分析过程若干……Final answer: 0.0003553 kg"}
 {"task_id": "mcf-0011", "response": "经过分析,正确选项是 A, B, C"}
-{"task_id": "mcf-0012", "response": "(derivation: judge module deferred to v1.1)"}
-{"task_id": "mcf-0013", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "mcf-0012", "response": "推导过程若干……Final answer: I/(a*B)"}
+{"task_id": "mcf-0013", "response": "推导过程若干……Final answer: I/(pi*a**2)"}
 {"task_id": "plasma-basic-gen-0001", "response": "分析过程若干……Final answer: 6.372 1"}
 {"task_id": "plasma-basic-gen-0002", "response": "分析过程若干……Final answer: 7.434e-10 m"}
 {"task_id": "plasma-basic-gen-0005", "response": "分析过程若干……Final answer: 6.057 1"}
@@ -484,7 +494,7 @@
 {"task_id": "plasma-basic-0007", "response": "分析过程若干……Final answer: 218900 m/s"}
 {"task_id": "plasma-basic-0008", "response": "分析过程若干……Final answer: 0.0477 mm"}
 {"task_id": "plasma-basic-0009", "response": "经过分析,正确选项是 A, C"}
-{"task_id": "plasma-basic-0010", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "plasma-basic-0010", "response": "推导过程若干……Final answer: sqrt(n*e**2/(eps0*me))"}
 {"task_id": "plasma-basic-0011", "response": "分析过程若干……Final answer: 2.87 %"}
 {"task_id": "plasma-basic-0012", "response": "分析过程若干……Final answer: 1.049e-09 Ω·m"}
 {"task_id": "plasma-instabilities-gen-0001", "response": "分析过程若干……Final answer: 4.071e+09 s^-1"}
@@ -574,7 +584,7 @@
 {"task_id": "simulation-0003", "response": "分析过程若干……Final answer: 1.0179e-10 s"}
 {"task_id": "simulation-0004", "response": "经过分析,正确选项是 A, B, C, D"}
 {"task_id": "simulation-0005", "response": "经过分析,正确选项是 A"}
-{"task_id": "simulation-0006", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "simulation-0006", "response": "推导过程若干……Final answer: (E*t**2/rho)**(1/5)"}
 {"task_id": "simulation-0007", "response": "分析过程若干……Final answer: 0.0019922 m"}
 {"task_id": "swe-real-desc1940-0001", "response": "经过分析,正确选项是 A"}
 {"task_id": "swe-real-desc1940-0002", "response": "经过分析,正确选项是 A"}
@@ -605,6 +615,7 @@
 {"task_id": "swe-issue-0010", "response": "经过分析,正确选项是 A"}
 {"task_id": "swe-issue-0011", "response": "经过分析,正确选项是 A"}
 {"task_id": "swe-issue-0012", "response": "分析过程若干……Final answer: 131.9 1"}
+{"task_id": "swe-patch-freegs-0001", "response": "```diff\ndiff --git a/freegs/equilibrium.py b/freegs/equilibrium.py\n--- a/freegs/equilibrium.py\n+++ b/freegs/equilibrium.py\n@@ -932,7 +932,7 @@ class Equilibrium:\n         Rlcfs = np.array([i[0] for i in separatrix])\n         Zlcfs = np.array([i[1] for i in separatrix])\n \n-        ind_P4 = np.argmax(Zlcfs)  # BUG (issue #128): should be argmin (bottom point)\n+        ind_P4 = np.argmin(Zlcfs)\n \n         R_P4 = Rlcfs[ind_P4]\n```"}
 {"task_id": "swe-real-0001", "response": "经过分析,正确选项是 A"}
 {"task_id": "swe-real-0002", "response": "经过分析,正确选项是 A"}
 {"task_id": "swe-real-0003", "response": "经过分析,正确选项是 A"}
@@ -685,4 +696,4 @@
 {"task_id": "zpinch-0010", "response": "经过分析,正确选项是 A, B, C"}
 {"task_id": "zpinch-0011", "response": "分析过程若干……Final answer: 4.869 1"}
 {"task_id": "zpinch-0012", "response": "经过分析,正确选项是 A, B, D"}
-{"task_id": "zpinch-0013", "response": "(derivation: judge module deferred to v1.1)"}
+{"task_id": "zpinch-0013", "response": "推导过程若干……Final answer: sqrt(8*pi*N*kB*T/mu0)"}

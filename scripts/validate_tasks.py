@@ -24,7 +24,7 @@ TOPICS = {
 TYPES = {"numeric", "concept", "derivation", "code", "figure"}
 DIFFICULTIES = {"undergrad", "grad", "expert"}
 ANSWER_KINDS = {"numeric", "choice", "expression", "rubric", "code"}
-GRADING_MODES = {"numeric_tolerance", "exact_match", "rubric_judge", "unit_test"}
+GRADING_MODES = {"numeric_tolerance", "exact_match", "rubric_judge", "unit_test", "symbolic_equiv", "swe_patch"}
 SOURCE_TYPES = {"textbook", "paper", "report", "public-data", "local_sim", "local_experiment"}
 TASK_ID_RE = re.compile(r"^[a-z][a-z0-9-]*-\d{4}$")
 
@@ -32,9 +32,9 @@ TASK_ID_RE = re.compile(r"^[a-z][a-z0-9-]*-\d{4}$")
 KIND_MODE = {
     "numeric": {"numeric_tolerance"},
     "choice": {"exact_match"},
-    "expression": {"exact_match", "rubric_judge"},
+    "expression": {"exact_match", "rubric_judge", "symbolic_equiv"},
     "rubric": {"rubric_judge"},
-    "code": {"unit_test"},
+    "code": {"unit_test", "swe_patch"},
 }
 # type <-> answer kind compatibility
 TYPE_KIND = {

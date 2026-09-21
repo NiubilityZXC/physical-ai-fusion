@@ -108,4 +108,10 @@ def grade(response: str, task: dict) -> tuple[float, str]:
         from .code_grader import grade_code
         root = Path(__file__).resolve().parents[2]
         return grade_code(response, task, root)
+    if mode == "symbolic_equiv":
+        from .sympy_grader import grade_expression
+        return grade_expression(response, task["answer"])
+    if mode == "swe_patch":
+        from .swe_grader import grade_swe_patch
+        return grade_swe_patch(response, task)
     return 0.0, f"grading mode {mode!r} requires the optional LLM-judge module (v1.1); skipped"

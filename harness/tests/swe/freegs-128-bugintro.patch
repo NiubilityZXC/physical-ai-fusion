@@ -1,0 +1,13 @@
+diff --git a/freegs/equilibrium.py b/freegs/equilibrium.py
+index efca0cd..d580cbc 100644
+--- a/freegs/equilibrium.py
++++ b/freegs/equilibrium.py
+@@ -932,7 +932,7 @@ class Equilibrium:
+         Rlcfs = np.array([i[0] for i in separatrix])
+         Zlcfs = np.array([i[1] for i in separatrix])
+ 
+-        ind_P4 = np.argmin(Zlcfs)
++        ind_P4 = np.argmax(Zlcfs)  # BUG (issue #128): should be argmin (bottom point)
+ 
+         R_P4 = Rlcfs[ind_P4]
+ 

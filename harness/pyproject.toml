@@ -9,6 +9,7 @@ description = "SWE-bench-style evaluation harness for the Physical-AI-Fusion ben
 readme = "../README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
+dependencies = ["sympy>=1.12"]
 keywords = ["benchmark", "fusion", "ICF", "physics", "LLM", "evaluation"]
 classifiers = [
     "Programming Language :: Python :: 3",
