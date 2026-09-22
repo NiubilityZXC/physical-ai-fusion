@@ -3,28 +3,28 @@
 
 \begin{table}[h]
 \centering
-\caption{Verified split composition (v0.2, 688 tasks).}
+\caption{Verified split composition (v0.3, 699 tasks).}
 \label{tab:topics}
 \small
 \begin{tabular}{@{}lccccc@{}}
 \toprule
-Topic & numeric & concept & derivation & figure & code \\
+Topic & numeric & concept & derivation & figure & code \\\\
 \midrule
 fusion-engineering & 3 & 4 & 0 & 0 & 0 \\
-icf/diagnostics & 16 & 7 & 0 & 0 & 0 \\
+icf/diagnostics & 16 & 7 & 1 & 0 & 0 \\
 icf/eos-opacity & 145 & 5 & 2 & 1 & 3 \\
 icf/ignition-gain & 22 & 3 & 0 & 0 & 0 \\
-icf/implosion & 19 & 4 & 1 & 0 & 0 \\
-icf/lpi & 11 & 7 & 2 & 0 & 0 \\
-icf/rad-hydro & 25 & 4 & 2 & 0 & 0 \\
+icf/implosion & 19 & 4 & 3 & 0 & 0 \\
+icf/lpi & 11 & 7 & 3 & 0 & 0 \\
+icf/rad-hydro & 25 & 4 & 4 & 0 & 0 \\
 icf/rt-rm-instability & 37 & 5 & 1 & 0 & 1 \\
 icf/target-design & 21 & 6 & 0 & 0 & 0 \\
-mcf & 46 & 6 & 2 & 0 & 1 \\
-plasma-basic & 91 & 21 & 1 & 0 & 1 \\
-simulation & 33 & 59 & 1 & 0 & 1 \\
+mcf & 46 & 6 & 3 & 0 & 1 \\
+plasma-basic & 91 & 21 & 2 & 0 & 1 \\
+simulation & 33 & 59 & 3 & 0 & 2 \\
 zpinch & 62 & 4 & 1 & 0 & 1 \\
 \midrule
-Total & 531 & 135 & 13 & 1 & 8 \\
+Total & 531 & 135 & 23 & 1 & 9 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -32,7 +32,7 @@ Total & 531 & 135 & 13 & 1 & 8 \\
 \section{Datasheet: Construction Protocol}
 \label{app:datasheet}
 
-\paragraph{Authoring pipeline.} Tasks were composed in three ways, all subject to the same verification gate: (i) \emph{hand-authored} problems around public formulas, data, and textbook-standard derivations (constructor computes the answer; the independent \texttt{recompute\_expr} path must agree); (ii) \emph{verified generators} (\texttt{scripts/gen\_*.py}, seeded and deterministic) that instantiate parameterized problem families with script-computed answers---each generated item still must pass schema validation and independent recomputation, and the generator output is deduplicated against the full corpus (exact-question dedup, \texttt{scripts/dedup\_staging.py}); (iii) \emph{real-issue mining}: 26 problems derive from public GitHub issues of fusion simulation codes (DESC \#1940/\#1879, OpenMC \#1472/\#2418, WarpX \#4038, TORAX \#2284/\#2145/\#2016/\#2070/\#2146/\#1938/\#1864, BOUT++ \#3442), where the issue text plus its linked fix provides the cross-source verification. Generated items carry \texttt{verified\_by: <generator>+verify\_numeric.py} provenance.
+\paragraph{Authoring pipeline.} Tasks were composed in three ways, all subject to the same verification gate: (i) \emph{hand-authored} problems around public formulas, data, and textbook-standard derivations (constructor computes the answer; the independent \texttt{recompute\_expr} path must agree); (ii) \emph{verified generators} (\texttt{scripts/gen\_*.py}, seeded and deterministic) that instantiate parameterized problem families with script-computed answers---each generated item still must pass schema validation and independent recomputation, and the generator output is deduplicated against the full corpus (exact-question dedup, \texttt{scripts/dedup\_staging.py}); (iii) \emph{real-issue mining}: 27 problems derive from public GitHub issues of fusion simulation codes (DESC \#1940/\#1879, OpenMC \#1472/\#2418, WarpX \#4038, TORAX \#2284/\#2145/\#2016/\#2070/\#2146/\#1938/\#1864, BOUT++ \#3442, FreeGS \#128), where the issue text plus its linked fix provides the cross-source verification. Generated items carry \texttt{verified\_by: <generator>+verify\_numeric.py} provenance.
 
 \paragraph{Difficulty rubric.} undergrad: single-formula application with given constants; grad: formula selection plus unit discipline or a two-step chain; expert: multi-step chains, cross-formula synthesis, semi-empirical model evaluation, or interpretation of simulation/experiment artifacts. Difficulty labels were assigned at authoring and spot-checked against baseline model performance.
 
@@ -44,7 +44,7 @@ Total & 531 & 135 & 13 & 1 & 8 \\
 
 \paragraph{Ethics and dual use.} ICF knowledge has dual-use sensitivities. Every problem derives from public sources (textbook formulas, NRL Plasma Formulary, US-government public releases, open-source code issues) or from the authors' own simulation assets released for this purpose; no classified, export-controlled, or facility-proprietary data is included, and no item reveals weapon-relevant design detail beyond published textbooks. Local-asset licenses are recorded per task (\texttt{metadata.license}, e.g.\ \texttt{local-verified}).
 
-\paragraph{Language track.} v0.2 tasks are authored in Chinese with standard formulas/units. An English parallel track is in preparation (translation with terminology glossary, then re-verification of every numeric item; tracked as v0.3 in the repository).
+\paragraph{Language track.} v0.3 ships a first-class English parallel track: \texttt{question\_en}/\texttt{options\_en} on every task; English-sourced items (real GitHub issues) keep their original English text; translated items pass an automated physics-number fidelity gate (0 mismatches at release); the harness evaluates either language (\texttt{--lang en|zh}).
 
 \section{Data Sources and Licenses}
 \label{app:sources}
@@ -54,7 +54,7 @@ All task content derives from public sources with per-task \texttt{metadata.sour
 \label{app:vlog}
 The full log lives at \texttt{docs/verification-log.md}. Excerpt (latest batch, 2026-09-17):
 \begin{itemize}
-    \item Promotion batch: 688/688 promoted, 0 rejected; numeric recomputation 532 PASS / 0 FAIL (531 numeric + 1 figure); method statistics: independent-recompute 532, cross-source 226, expert-review 152, second-solver 51, local-sim-baseline 14.
+    \item Promotion batch: 699/699 promoted, 0 rejected; numeric recomputation 532 PASS / 0 FAIL (531 numeric + 1 figure); method statistics: independent-recompute 532, cross-source 226, expert-review 152, second-solver 51, local-sim-baseline 14.
     \item Interceptions (task IDs in the log): Saha prefactor slip (icf-eos-opacity-0001, corrected to $3.37\times10^{26}\,\mathrm{m^{-3}}$); Debye exponent slip (icf-eos-opacity-0006, corrected to $1.66\times10^{-9}$\,m); radiation-energy-density slip (icf-rad-hydro-topup2-0001, corrected to $5.36\times10^{10}$\,J/m$^3$); capacitor-prognostics dataset rejected wholesale (owner audit WARN).
 \end{itemize}
 

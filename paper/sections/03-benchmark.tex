@@ -15,7 +15,7 @@ Each task is one JSONL record (schema v1.0) carrying \texttt{task\_id}, \texttt{
 \begin{examplebox}{Box 1: Two verified tasks (abridged)}
 \small
 \textbf{Numeric (icf-ignition-gain-0003).} \emph{DT fusion releases 17.6\,MeV per reaction. NIF's first ignition shot yielded 3.15\,MJ; how many DT reactions occurred?} Answer: $1.117\times10^{18}$; \texttt{recompute\_expr} evaluates $3.15\times10^{6}/(17.6\times10^{6}\cdot1.602176634\times10^{-19})$ in a sandboxed math namespace and must agree within half the grading tolerance.\\[3pt]
-\textbf{Derivation (icf-eos-opacity-0004).} \emph{Derive the Rosseland mean opacity from the radiation-diffusion approximation and explain why transparency windows dominate leakage.} Weighted rubric (4 points, weights summing to 1): diffusion flux form; LTE $E_\nu\propto B_\nu(T)$; coefficient comparison yielding the harmonic mean; window-dominance argument. Graded by a locked judge (model and prompt version pinned); reported separately.
+\textbf{Derivation (icf-eos-opacity-0004).} \emph{Derive the Rosseland mean opacity in the two-group approximation: group opacities $k_1, k_2$ with weights $w_1, w_2$ (proportional to $\partial B_\nu/\partial T$).} Standard symbolic answer $(w_1+w_2)/(w_1/k_1+w_2/k_2)$ in the declared alphabet $\{w_1,w_2,k_1,k_2\}$; graded deterministically by SymPy symbolic equivalence (simplify-to-zero, proportionality for scaling forms, or sampled numeric equivalence).
 \end{examplebox}
 
 \begin{figure}[t]

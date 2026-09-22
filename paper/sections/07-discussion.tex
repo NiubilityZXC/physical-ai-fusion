@@ -1,12 +1,12 @@
 \section{Discussion and Limitations}
 \label{sec:discussion}
 
-\paragraph{Scale.} v0.1 ships 106 verified tasks---small next to thousand-task suites. We prioritized the verification gate's integrity over volume: every task in the split is one we can defend mechanically. The schema, taxonomy, and pipeline are designed for the next order of magnitude, and the staging area is the growth path (public contributions enter staging and are promoted only through the same gate).
+\paragraph{Scale.} v0.3 ships 699 verified tasks---respectable for a young benchmark, small next to thousand-task suites. We prioritized the verification gate's integrity over volume: every task in the split is one we can defend mechanically. The schema, taxonomy, and pipeline are designed for the next order of magnitude, and the staging area is the growth path (public contributions enter staging and are promoted only through the same gate).
 
-\paragraph{Derivation grading.} Rubric-judged derivations depend on an LLM judge despite the pinned model/prompt; we therefore keep them out of the headline deterministic score and report them separately. A future direction is symbol-level checking (SymPy equivalence, PHYSICS-style) for the algebra-heavy subset.
+\paragraph{Derivation grading.} Derivations are algebraic with standard symbolic answers in declared alphabets, graded by SymPy equivalence---fully deterministic. The scope boundary is honest: only algebraically well-posed derivation targets qualify (closed-form or scaling-form results); open-ended reasoning tasks (e.g., physical-mechanism narratives) are out of scope for the benchmark rather than graded by a fallible LLM judge.
 
 \paragraph{Local sources.} Local simulation outputs that we cannot independently rerun are excluded from answer values by policy; they seed parameter/method questions only. This costs coverage (e.g., no FLASH output-value tasks in v0.1) but keeps the correctness story airtight.
 
 \paragraph{Language.} The canonical question text is Chinese (authoring team's working language); a first-class English parallel track ships in this release (\texttt{question\_en}/\texttt{options\_en}; English-sourced tasks keep their original English text, translations pass a physics-number fidelity gate at 0 mismatches; \texttt{--lang en} in the harness). The remaining gap is a human expert proofread pass of the translated subset, which we schedule for v1.0 rather than claiming native-speaker quality now.
 
-\paragraph{Roadmap.} (i) code tasks with containerized unit tests (Rosseland-mean integration, Sedov series, Saha solver---test scaffolding exists); (ii) MCF data tasks built on TokaMark/ConStellaration releases; (iii) rubric-judge inter-rater reliability study; (iv) figure tasks with generated plots; (v) the 1{,}000-task verified target.
+\paragraph{Roadmap.} (i) more SWE-bench-style patch tasks from real simulation-code issues (TORAX, BOUT++---the FreeGS task is the template); (ii) MCF data tasks built on TokaMark/ConStellaration releases; (iii) human-expert proofread of the English track; (iv) figure tasks with generated plots; (v) the 1{,}000-task verified target.
