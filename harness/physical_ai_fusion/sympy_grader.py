@@ -40,8 +40,22 @@ MARKER = re.compile(r"(?:final answer|answer|答案|答|结果|结论)\s*[:：=�
 ASSIGN = re.compile(r"[A-Za-z][A-Za-z0-9_{}\\]*\s*=\s*(.+)$")
 
 
+UNICODE_GREEK = {
+    "γ": "gamma", "α": "alpha", "β": "beta", "ρ": "rho", "τ": "tau",
+    "ε": "eps", "ω": "omega", "π": "pi", "μ": "mu", "ν": "nu",
+    "σ": "sigma", "χ": "chi", "λ": "lam", "Λ": "Lam", "Γ": "Gamma",
+}
+
+
 def _latex_to_plain(s: str) -> str:
     s = s.strip().strip("$").strip()
+    # 比例式: "P ∝ expr" / "P ~ expr" → 取右端(题面为标度关系时的主体)
+    for prop in ("∝", "\\propto", "~"):
+        if prop in s:
+            s = s.split(prop)[-1]
+            break
+    for uc, name in UNICODE_GREEK.items():
+        s = s.replace(uc, name)
     s = re.sub(r"\\left|\\right", "", s)
     s = re.sub(r"\\mathrm\{([^}]*)\}|\\text\{([^}]*)\}", r"\1\2", s)
     s = re.sub(r"\\frac\{([^{}]*)\}\{([^{}]*)\}", r"((\1)/(\2))", s)

@@ -23,6 +23,35 @@ NUM_RE = re.compile(
     r"(-?\d+(?:\.\d*)?(?:[eE][+-]?\d+)?)"       # plain / scientific
     r"(?![A-Za-z0-9_.])"                        # no trailing identifier chars
 )
+# a×10^n / a×10^{n} / a·10^n / a x10^n (含上标 ⁰¹²³⁴⁵⁶⁷⁸⁹⁻ 形式)
+SCI_RE = re.compile(
+    r"(?<![A-Za-z0-9_.])"
+    r"(-?\d+(?:\.\d*)?)\s*(?:×|x|\*|·)\s*10\s*(?:\^\{?|\*\*\{?)?(-?\d+)\}?")
+SUPERSCRIPTS = {"⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4",
+                "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁻": "-"}
+SCI_SUPER_RE = re.compile(
+    r"(?<![A-Za-z0-9_.])(-?\d+(?:\.\d*)?)\s*(?:×|x|\*|·)\s*10([⁰¹²³⁴⁵⁶⁷⁸⁹⁻]+)")
+
+
+def _to_float(s: str) -> float:
+    return float(s.replace("×10", "e").replace("E", "e"))
+
+
+def _sci_candidates(response: str):
+    """返回 [(值, 位置)],把 a×10^n(普通/上标)形式解析为浮点数。"""
+    out = []
+    for m in SCI_RE.finditer(response):
+        try:
+            out.append((float(m.group(1)) * 10 ** int(m.group(2)), m.start()))
+        except (ValueError, OverflowError):
+            pass
+    for m in SCI_SUPER_RE.finditer(response):
+        exp = int("".join(SUPERSCRIPTS[c] for c in m.group(2)))
+        try:
+            out.append((float(m.group(1)) * 10 ** exp, m.start()))
+        except (ValueError, OverflowError):
+            pass
+    return out
 MARKER_RE = re.compile(r"(?:final answer|answer|答案|答)\s*[:：=是]?\s*", re.I)
 LETTER_RE = re.compile(r"\b([A-D])\b")
 # 中文字符与选项字母紧邻的格式: "答案是A" / "选项AC" / "选A、C" / "A、C 正确"
@@ -35,16 +64,21 @@ def _to_float(s: str) -> float:
 
 
 def extract_number(response: str) -> float | None:
-    """Deterministic number extraction (marker-first, then last number)."""
+    """Deterministic number extraction (marker-first, then last number; ×10^n aware)."""
     if not response:
         return None
     matches = list(MARKER_RE.finditer(response))
     if matches:
-        last = matches[-1]
-        rest = response[last.end():]
+        rest = response[matches[-1].end():]
+        sci = _sci_candidates(rest)
+        if sci:
+            return sci[0][0]
         m = NUM_RE.search(rest)
         if m:
             return _to_float(m.group(1))
+    sci = _sci_candidates(response)
+    if sci:
+        return sci[-1][0]
     nums = NUM_RE.findall(response)
     return _to_float(nums[-1]) if nums else None
 
