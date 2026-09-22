@@ -63,10 +63,10 @@ lines = [r"\begin{table}[t]", r"\centering",
          r"\caption{Deterministic-task accuracy on the verified split (single attempt, temperature 0.2). $n$ = tasks answered (sweep status noted in text; read non-complete rows as preliminary).}",
          r"\label{tab:baseline}", r"\small",
          r"\begin{tabular}{@{}lccccc@{}}", r"\toprule",
-         r"Model & $n$ & Overall & undergrad & grad & expert \\", r"\midrule"]
+         r"Model & $n$ & Overall & undergrad & grad & expert \\\\", r"\midrule"]
 for m, r in sorted(rows.items(), key=lambda kv: -kv[1]["overall"]):
     lines.append(f"{m} & {r['n']} & {pct(r['overall'])}\% & "
-                 f"{pct(r['by_diff'].get('undergrad',0))}\% & {pct(r['by_diff'].get('grad',0))}\% & {pct(r['by_diff'].get('expert',0))}\% \\")
+                 f"{pct(r['by_diff'].get('undergrad',0))}\% & {pct(r['by_diff'].get('grad',0))}\% & {pct(r['by_diff'].get('expert',0))}\% \\\\")
 lines += [r"\bottomrule", r"\end{tabular}", r"\end{table}", ""]
 (ROOT / "paper/sections/baseline_table.tex").write_text("\n".join(lines))
 print("paper/sections/baseline_table.tex written")
