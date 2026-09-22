@@ -7,6 +7,6 @@
 
 \paragraph{Local sources.} Local simulation outputs that we cannot independently rerun are excluded from answer values by policy; they seed parameter/method questions only. This costs coverage (e.g., no FLASH output-value tasks in v0.1) but keeps the correctness story airtight.
 
-\paragraph{Single language.} Tasks are in Chinese (the authoring team's working language) with all formulas and constants standard; an English parallel track is planned. Contamination control is standard (problems are original compositions around public formulas and data, not scraped text), and the verified split is versioned to support canary-string policies if needed.
+\paragraph{Language.} The canonical question text is Chinese (authoring team's working language); a first-class English parallel track ships in this release (\texttt{question\_en}/\texttt{options\_en}; English-sourced tasks keep their original English text, translations pass a physics-number fidelity gate at 0 mismatches; \texttt{--lang en} in the harness). The remaining gap is a human expert proofread pass of the translated subset, which we schedule for v1.0 rather than claiming native-speaker quality now.
 
 \paragraph{Roadmap.} (i) code tasks with containerized unit tests (Rosseland-mean integration, Sedov series, Saha solver---test scaffolding exists); (ii) MCF data tasks built on TokaMark/ConStellaration releases; (iii) rubric-judge inter-rater reliability study; (iv) figure tasks with generated plots; (v) the 1{,}000-task verified target.

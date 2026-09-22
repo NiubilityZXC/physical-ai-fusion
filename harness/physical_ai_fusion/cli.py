@@ -51,9 +51,24 @@ def cmd_stats(args) -> int:
     return 0
 
 
+def _apply_lang(tasks: list[dict], lang: str | None) -> list[dict]:
+    """--lang en: 用 question_en/options_en 覆盖展示与 prompt 视图(缺失时回退中文)。"""
+    if lang != "en":
+        return tasks
+    out = []
+    for t in tasks:
+        t = dict(t)
+        if t.get("question_en"):
+            t["question"] = t["question_en"]
+        if t.get("options_en") and isinstance(t.get("answer"), dict) and t["answer"].get("kind") == "choice":
+            t["answer"] = dict(t["answer"], options=t["options_en"])
+        out.append(t)
+    return out
+
+
 def cmd_inspect(args) -> int:
     files = dataset_files(args.root, args.split)
-    tasks = {t["task_id"]: t for t in load_tasks(files)}
+    tasks = {t["task_id"]: t for t in _apply_lang(load_tasks(files), args.lang)}
     if args.task:
         t = tasks.get(args.task)
         if not t:
@@ -68,7 +83,7 @@ def cmd_inspect(args) -> int:
 
 def cmd_evaluate(args) -> int:
     files = dataset_files(args.root, args.split)
-    tasks = load_tasks(files)
+    tasks = _apply_lang(load_tasks(files), args.lang)
     preds = _load_predictions(args.predictions)
     per_task = []
     for t in tasks:
@@ -103,6 +118,8 @@ def main(argv=None) -> int:
     def _sp(name, help):
         p = sub.add_parser(name, help=help)
         p.add_argument("--split", default="verified", choices=["verified", "staging"])
+        p.add_argument("--lang", default=None, choices=[None, "en", "zh"],
+                       help="question language view (en uses question_en/options_en when present)")
         return p
 
     _sp("stats", "dataset statistics")
