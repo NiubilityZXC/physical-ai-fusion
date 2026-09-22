@@ -1,18 +1,17 @@
 \begin{table}[t]
 \centering
-\caption{Deterministic-task accuracy on the verified split (93 numeric+concept+figure tasks; derivation tasks judged separately).}
+\caption{Deterministic-task accuracy on the verified split (single attempt, temperature 0.2). $n$ = tasks answered (sweep status noted in text; read non-complete rows as preliminary).}
 \label{tab:baseline}
 \small
 \begin{tabular}{@{}lccccc@{}}
 \toprule
-Model & Overall & undergrad & grad & expert & numeric/concept \\
+Model & $n$ & Overall & undergrad & grad & expert \\
 \midrule
-doubao-seed-2-1-turbo & 90.6 & 83.3 & 91.9 & 90.0 & 90.6/0.0 \
-deepseek-v4.1-flash & 76.7 & 19.0 & 92.1 & 78.9 & 75.5/100.0 \
-deepseek-v4-flash & 55.6 & 100.0 & 20.0 & 100.0 & 55.6/0.0 \
-kimi-k3 & 44.4 & 50.0 & 50.0 & 33.3 & 50.0/0.0 \
-deepseek-v4-pro & 36.7 & 50.0 & 31.8 & 30.8 & 37.5/0.0 \
-glm-5.3 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0/0.0 \
+doubao-seed-2-1-turbo & 303 & 87.5\% & 87.5\% & 89.2\% & 81.8\% \
+deepseek-v4-flash & 11 & 72.7\% & 100.0\% & 57.1\% & 100.0\% \
+deepseek-v4.1-flash & 688 & 68.3\% & 55.8\% & 78.3\% & 57.5\% \
+kimi-k3 & 11 & 54.5\% & 100.0\% & 40.0\% & 50.0\% \
+deepseek-v4-pro & 59 & 39.0\% & 64.3\% & 32.0\% & 30.0\% \
 \bottomrule
 \end{tabular}
 \end{table}

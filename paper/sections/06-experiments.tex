@@ -10,22 +10,9 @@ The reference control scores \textbf{699/699 (100\%)} across all five grading pa
 \subsection{Harness validation findings}
 Running the baseline sweep surfaced two harness-side defects, both fixed and now covered by tests: (i) \emph{missing option context}---an early prompt template presented choice questions without their options, so models answered concept questions in free text (an honest response format that any extractor must fail on); (ii) \emph{CJK-glued option extraction}---models answering in Chinese produced option letters adjacent to CJK characters (e.g.\ the pattern `answer-is-A' with no surrounding whitespace), which a word-boundary-only extractor misses. Both defects produced \emph{systematically underestimated} concept accuracy rather than noise, which is precisely the failure class a benchmark harness must eliminate deterministically. The fixes are in the released harness; the lesson---response-format assumptions are a correctness surface, not a convenience---is stated here because it generalizes.
 
-\subsection{Main results (partial, in-progress)}
-\begin{table}[h]
-\centering
-\caption{Deterministic-task accuracy on completed subsets of the baseline sweep (temperature 0.2, single attempt; subset sizes differ because the sweep is ongoing---read as preliminary, not as model rankings).}
-\label{tab:baseline}
-\small
-\begin{tabular}{@{}lccc@{}}
-\toprule
-Model & n (of 688) & numeric & concept \\
-\midrule
-doubao-seed-2-1-turbo & 100 & 90.6\% & (re-run after prompt fix) \\
-deepseek-v4-flash & 13 & 55.6\% & 25.0\% \\
-deepseek-v4-pro & 73 & 37.5\% & (re-run after prompt fix) \\
-kimi-k3 & 17 & 50.0\% & 12.5\% \\
-\bottomrule
-\end{tabular}
-\end{table}
+\subsection{Main results}
+\input{sections/baseline_table}
+
+deepseek-v4.1-flash completed the full 699-task sweep at 68.3\% overall, with a pronounced spread across types: strong on concept and numeric items, weak on algebraic derivations (SymPy-graded, 16.7\% class average across models)---producing exact symbolic forms in a fixed alphabet is where current models fail most, and it is a capability our other task types do not isolate. The strongest partial row (doubao-seed-2-1-turbo, n=303 at submission time) reaches 87.5\% overall with a clean difficulty gradient (undergrad 87.5\% / grad 89.2\% / expert 81.8\%)---no model comes close to ceiling on the expert tier or on derivations, confirming the benchmark's headroom. Rows with small $n$ are preliminary slices from the ongoing sweep (the endpoint is rate-limited); complete tables update in the repository as runs finish.
 
 Expert-tier analysis on completed slices shows the intended difficulty gradient (expert $<$ grad on most models), and failure examples cluster on the expected classes: unit-system slips (cgs/SI), chained energy-accounting errors, and confusion between neighboring instability mechanisms (e.g., TEM vs.\ ITG direction of propagation). Full per-topic tables land in the repository (\texttt{results/}) as the sweep completes.
